@@ -1,0 +1,2245 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>紐西蘭南島自駕遊 · 家庭行程手冊</title>
+<meta name="description" content="2026/12/19–2027/1/3 紐西蘭南島家庭自駕遊行程手冊">
+
+<!-- PWA 準備（離線快取架構將於後續階段以 Service Worker 實作） -->
+<meta name="theme-color" content="#4A8B9C">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="NZ南島行程">
+<link rel="manifest" href='data:application/manifest+json,{"name":"紐西蘭南島家庭自駕遊","short_name":"NZ行程","start_url":".","display":"standalone","background_color":"%23F9F8F4","theme_color":"%234A8B9C","icons":[]}'>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%234A8B9C'/%3E%3Ctext x='50' y='64' font-size='54' text-anchor='middle' fill='%23F9F8F4'%3E%F0%9F%A5%9D%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+
+<style>
+/* ==================== 變數與基礎重置 ==================== */
+:root{
+  --bg:#F9F8F4;
+  --surface:#FFFFFF;
+  --surface-soft:#F2F0E8;
+  --primary:#4A8B9C;
+  --primary-dark:#376A78;
+  --primary-tint:#E4EEF0;
+  --accent-purple:#9D7CA6;
+  --accent-purple-tint:#F0E9F1;
+  --accent-orange:#E59572;
+  --accent-orange-tint:#FBEEE7;
+  --accent-green:#7FA66B;
+  --text:#3A3D35;
+  --text-soft:#8B8F82;
+  --border:#E8E4D8;
+  --shadow:0 4px 16px rgba(74,139,156,0.10);
+  --shadow-strong:0 8px 28px rgba(58,61,53,0.14);
+  --radius-lg:20px;
+  --radius-md:14px;
+  --radius-sm:8px;
+  --nav-h:72px;
+}
+
+*{ box-sizing:border-box; }
+html,body{ margin:0; padding:0; }
+body{
+  background:var(--bg);
+  color:var(--text);
+  font-family:"Noto Sans TC","PingFang TC","Hiragino Sans","Segoe UI",system-ui,-apple-system,sans-serif;
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+  padding-bottom:calc(var(--nav-h) + 16px);
+}
+h1,h2,h3,h4{ color:var(--primary-dark); margin:0 0 8px; font-weight:700; }
+a{ color:var(--primary); }
+ul{ list-style:none; margin:0; padding:0; }
+p{ margin:0 0 8px; }
+img{ max-width:100%; display:block; }
+button{ font-family:inherit; cursor:pointer; }
+input,button{ font-size:1rem; }
+
+.container{ max-width:640px; margin:0 auto; padding:0 16px; }
+
+/* ==================== 頂部標頭 ==================== */
+.app-header{
+  background:linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+  color:#fff;
+  padding:28px 16px 22px;
+  border-radius:0 0 28px 28px;
+  box-shadow:var(--shadow-strong);
+  position:relative;
+  overflow:hidden;
+}
+.app-header::after{
+  content:"";
+  position:absolute; inset:0;
+  background:radial-gradient(circle at 85% 20%, rgba(255,255,255,0.18), transparent 55%);
+  pointer-events:none;
+}
+.app-header .container{ position:relative; z-index:1; }
+.app-header .eyebrow{
+  font-size:0.78rem; letter-spacing:0.12em; text-transform:uppercase;
+  opacity:0.85; margin-bottom:6px;
+}
+.app-header h1{ color:#fff; font-size:1.4rem; margin-bottom:4px; }
+.app-header .sub{ font-size:0.86rem; opacity:0.92; }
+.app-header .trip-meta{
+  display:flex; gap:10px; flex-wrap:wrap; margin-top:14px;
+}
+.trip-meta .pill{
+  background:rgba(255,255,255,0.18);
+  border:1px solid rgba(255,255,255,0.35);
+  padding:5px 12px; border-radius:999px; font-size:0.78rem;
+}
+
+/* ==================== 分頁容器 ==================== */
+.page{ display:none; padding:20px 0 12px; animation:fadeIn 0.25s ease; }
+.page.active{ display:block; }
+@keyframes fadeIn{ from{opacity:0; transform:translateY(6px);} to{opacity:1; transform:translateY(0);} }
+
+.page-title{
+  display:flex; align-items:baseline; gap:8px; margin-bottom:18px;
+}
+.page-title h2{ font-size:1.25rem; margin:0; }
+.page-title .page-title-note{ font-size:0.78rem; color:var(--text-soft); }
+
+/* ==================== 頂部總覽地圖 ==================== */
+.map-card{
+  background:var(--surface); border-radius:var(--radius-lg);
+  box-shadow:var(--shadow); border:1px solid var(--border);
+  padding:14px; margin-bottom:20px;
+}
+.day-filter{
+  display:flex; gap:6px; overflow-x:auto; padding-bottom:8px; margin-bottom:4px;
+  -webkit-overflow-scrolling:touch;
+}
+.day-chip{
+  flex:none; border:1px solid var(--border); background:var(--surface-soft);
+  color:var(--text-soft); font-size:0.76rem; font-weight:700;
+  padding:6px 13px; border-radius:999px; white-space:nowrap;
+}
+.day-chip.active{ background:var(--primary); color:#fff; border-color:var(--primary); }
+#trip-map{
+  width:100%; height:300px; border-radius:var(--radius-md);
+  overflow:hidden; margin-bottom:10px; background:var(--surface-soft);
+}
+.map-legend{
+  display:flex; flex-wrap:wrap; gap:6px 14px; font-size:0.72rem;
+  color:var(--text-soft); margin-bottom:12px; padding:0 2px;
+}
+.map-legend .dot{
+  display:inline-block; width:9px; height:9px; border-radius:50%;
+  margin-right:4px; vertical-align:middle;
+}
+.dot-spot{ background:var(--primary); }
+.dot-food{ background:var(--accent-orange); }
+.dot-stay{ background:var(--accent-purple); }
+.dot-shop{ background:var(--accent-green); }
+.dot-transit{ background:var(--text-soft); }
+.btn-fullmap{
+  display:flex; align-items:center; justify-content:center; gap:6px;
+  background:var(--primary-tint); color:var(--primary-dark) !important;
+  text-decoration:none; font-weight:700; font-size:0.85rem;
+  padding:11px; border-radius:var(--radius-sm);
+}
+.btn-fullmap:hover{ background:var(--primary); color:#fff !important; }
+.leaflet-popup-content-wrapper{ border-radius:var(--radius-sm); }
+.leaflet-popup-content{ font-family:inherit; font-size:0.82rem; margin:10px 12px; }
+.map-popup b{ color:var(--primary-dark); }
+.map-popup .popup-note{ color:var(--text-soft); font-size:0.78rem; margin:4px 0; }
+.map-popup a{
+  display:inline-block; margin-top:4px; font-size:0.76rem; font-weight:700;
+  color:var(--accent-purple);
+}
+
+/* ==================== 狀態標籤 ==================== */
+.status-tag{
+  display:inline-flex; align-items:center; gap:4px;
+  font-size:0.72rem; font-weight:700; padding:3px 9px;
+  border-radius:999px; white-space:nowrap;
+}
+.status-booked{ background:#E1EFE4; color:#3E7A52; }
+.status-pending{ background:var(--accent-orange-tint); color:#B4633B; }
+.status-choice{ background:var(--accent-purple-tint); color:var(--accent-purple); }
+.status-confirm{ background:var(--primary-tint); color:var(--primary-dark); }
+
+.holiday-tag{
+  display:inline-flex; align-items:center; gap:4px;
+  background:var(--accent-orange); color:#fff;
+  font-size:0.72rem; font-weight:700;
+  padding:4px 10px; border-radius:999px;
+  box-shadow:0 2px 6px rgba(229,149,114,0.4);
+}
+
+/* ==================== 每日行程卡片 ==================== */
+.day-card{
+  background:var(--surface);
+  border-radius:var(--radius-lg);
+  box-shadow:var(--shadow);
+  margin-bottom:20px;
+  overflow:hidden;
+  border:1px solid var(--border);
+}
+.day-card__header{
+  display:flex; align-items:center; gap:12px;
+  padding:16px 18px;
+  background:var(--primary-tint);
+  border-bottom:1px solid var(--border);
+}
+.day-badge{
+  flex:none;
+  background:var(--primary);
+  color:#fff; font-weight:700; font-size:0.92rem;
+  padding:8px 12px; border-radius:var(--radius-sm);
+  line-height:1.1; text-align:center; min-width:56px;
+}
+.day-badge small{ display:block; font-weight:400; font-size:0.62rem; opacity:0.85; }
+.day-meta{ flex:1; min-width:0; }
+.day-meta h3{ font-size:1.02rem; margin-bottom:2px; }
+.day-region{ font-size:0.82rem; color:var(--text-soft); margin:0; }
+.day-card__header .holiday-tag{ flex:none; }
+
+.day-card__body{ padding:16px 18px 18px; }
+
+.timeline{ display:flex; flex-direction:column; gap:12px; margin-bottom:14px; }
+.timeline li{
+  display:flex; flex-wrap:wrap; align-items:baseline; gap:6px 10px;
+  font-size:0.9rem; padding-left:16px; position:relative;
+}
+.timeline li::before{
+  content:""; position:absolute; left:0; top:8px;
+  width:6px; height:6px; border-radius:50%;
+  background:var(--accent-purple);
+}
+.time-fixed{
+  font-weight:700; color:var(--primary-dark);
+  background:var(--primary-tint);
+  padding:1px 8px; border-radius:6px; font-size:0.85rem;
+}
+.time-flex{
+  color:var(--text-soft); font-weight:400; font-style:italic;
+  font-size:0.85rem;
+}
+.timeline .desc{ flex:1 1 auto; min-width:120px; }
+.timeline .desc b{ color:var(--text); }
+
+.btn-map{
+  display:inline-flex; align-items:center; gap:4px;
+  background:var(--accent-purple); color:#fff !important;
+  text-decoration:none; font-size:0.74rem; font-weight:700;
+  padding:4px 10px; border-radius:999px;
+  white-space:nowrap;
+}
+.btn-map:hover{ background:#87668f; }
+
+.btn-link{
+  display:inline-flex; align-items:center; gap:4px;
+  background:transparent; color:var(--primary) !important;
+  text-decoration:none; font-size:0.78rem; font-weight:700;
+  border:1px solid var(--primary); padding:3px 10px; border-radius:999px;
+  white-space:nowrap;
+}
+
+/* 攝影提示 */
+.photo-tip{
+  background:var(--accent-orange-tint);
+  border-left:3px solid var(--accent-orange);
+  border-radius:var(--radius-sm);
+  padding:10px 12px; font-size:0.82rem; color:#7A4A2C;
+  margin-bottom:12px;
+}
+.photo-tip b{ color:#B4633B; }
+
+/* 折疊備案 Accordion（原生 details/summary） */
+details.accordion{
+  background:var(--surface-soft);
+  border-radius:var(--radius-sm);
+  margin-bottom:12px;
+  border:1px solid var(--border);
+}
+details.accordion summary{
+  cursor:pointer; list-style:none;
+  padding:10px 14px; font-size:0.85rem; font-weight:700;
+  color:var(--primary-dark);
+  display:flex; align-items:center; justify-content:space-between;
+}
+details.accordion summary::-webkit-details-marker{ display:none; }
+details.accordion summary::after{
+  content:"▾"; margin-left:8px; transition:transform 0.2s ease; color:var(--accent-purple);
+}
+details.accordion[open] summary::after{ transform:rotate(180deg); }
+details.accordion .accordion-content{
+  display:block; box-sizing:border-box;
+  padding:0 14px 14px; font-size:0.82rem; color:var(--text-soft);
+  overflow:hidden; max-height:0; transition:max-height 0.28s ease;
+}
+details.accordion .accordion-content p{ margin:0 0 6px; }
+details.accordion .accordion-content table{ width:100%; border-collapse:collapse; font-size:0.78rem; }
+details.accordion .accordion-content th,
+details.accordion .accordion-content td{ border:1px solid var(--border); padding:6px; text-align:left; }
+
+.day-footer{
+  display:flex; flex-wrap:wrap; gap:8px;
+  padding-top:12px; border-top:1px dashed var(--border);
+}
+.meal-tag,.stay-tag{
+  font-size:0.78rem; background:var(--surface-soft);
+  padding:5px 10px; border-radius:var(--radius-sm); color:var(--text);
+}
+.stay-tag{ background:var(--primary-tint); color:var(--primary-dark); font-weight:700; }
+
+/* ==================== 攝影打卡（成就牆） ==================== */
+.photo-intro{
+  background:var(--surface); border-radius:var(--radius-md);
+  padding:14px 16px; margin-bottom:16px; box-shadow:var(--shadow);
+  font-size:0.85rem; color:var(--text-soft);
+}
+.photo-progress{
+  display:flex; align-items:center; gap:10px; margin-top:10px;
+}
+.photo-progress .bar{
+  flex:1; height:8px; border-radius:999px; background:var(--surface-soft); overflow:hidden;
+}
+.photo-progress .bar-fill{
+  height:100%; width:0%; background:linear-gradient(90deg, var(--accent-orange), var(--accent-purple));
+}
+.photo-progress .count{ font-size:0.78rem; font-weight:700; color:var(--primary-dark); white-space:nowrap; }
+
+.photo-grid{
+  display:grid; grid-template-columns:repeat(2, 1fr); gap:12px;
+}
+.photo-card{
+  position:relative;
+  background:var(--surface);
+  border-radius:var(--radius-md);
+  overflow:hidden;
+  box-shadow:var(--shadow);
+  border:1px solid var(--border);
+}
+.photo-card .photo-media{
+  aspect-ratio:4/3; width:100%; position:relative;
+  background:linear-gradient(135deg, var(--primary), var(--accent-purple));
+}
+.photo-card .photo-media img{
+  width:100%; height:100%; object-fit:cover;
+}
+.photo-card.img-fallback .photo-media{
+  background:linear-gradient(135deg, var(--primary) 0%, var(--accent-purple) 55%, var(--accent-orange) 100%);
+}
+.photo-card.img-fallback .photo-media img{ display:none; }
+.photo-card .photo-day{
+  position:absolute; top:8px; left:8px;
+  background:rgba(58,61,53,0.55); color:#fff; font-size:0.68rem; font-weight:700;
+  padding:2px 8px; border-radius:999px; backdrop-filter:blur(2px);
+}
+.photo-card .photo-caption{
+  padding:9px 10px 11px; font-size:0.8rem; font-weight:700; color:var(--text);
+}
+.photo-card .photo-check{
+  position:absolute; top:8px; right:8px;
+  width:26px; height:26px; border-radius:50%;
+  background:rgba(255,255,255,0.9);
+  display:flex; align-items:center; justify-content:center;
+  border:2px solid #fff;
+}
+.photo-card .photo-check input{ width:16px; height:16px; accent-color:var(--accent-purple); }
+
+/* ==================== 預訂與財務 ==================== */
+.summary-banner{
+  background:linear-gradient(120deg, var(--accent-orange-tint), var(--accent-purple-tint));
+  border-radius:var(--radius-md);
+  padding:14px 16px; margin-bottom:18px;
+  border:1px solid var(--border);
+}
+.summary-banner .num{ font-size:1.6rem; font-weight:700; color:var(--accent-orange); }
+.summary-banner .label{ font-size:0.8rem; color:var(--text-soft); }
+.unbooked-list{ display:flex; flex-wrap:wrap; gap:6px; margin-top:10px; }
+.unbooked-list li{
+  background:rgba(255,255,255,0.75); border:1px solid var(--border);
+  font-size:0.72rem; padding:4px 9px; border-radius:999px; color:var(--text);
+}
+.unbooked-list li b{ color:var(--accent-orange); margin-right:3px; font-weight:700; }
+.unbooked-list .all-done{ font-size:0.8rem; color:#3E7A52; font-weight:700; background:none; border:none; padding:0; }
+
+.section-sub{
+  font-size:0.98rem; color:var(--primary-dark); margin:22px 0 10px;
+  display:flex; align-items:center; gap:6px;
+}
+
+.booking-card{
+  display:flex; gap:12px; align-items:flex-start;
+  background:var(--surface); border-radius:var(--radius-md);
+  padding:13px 14px; margin-bottom:10px; box-shadow:var(--shadow);
+  border:1px solid var(--border);
+  position:relative;
+}
+.booking-card.is-pending{ border-left:4px solid var(--accent-orange); }
+.booking-card.is-booked{ border-left:4px solid #3E7A52; }
+.booking-card.is-choice{ border-left:4px solid var(--accent-purple); }
+.booking-card.card-checked{ opacity:0.55; }
+.booking-card.card-checked .booking-title{ text-decoration:line-through; text-decoration-color:var(--text-soft); }
+.booking-check{
+  flex:none; width:26px; height:26px; border-radius:50%;
+  border:2px solid var(--border); display:flex; align-items:center; justify-content:center;
+  margin-top:2px;
+}
+.booking-check input{ width:16px; height:16px; accent-color:#3E7A52; }
+.booking-body{ flex:1; min-width:0; }
+.booking-day{ font-size:0.7rem; color:var(--text-soft); font-weight:700; letter-spacing:0.03em; }
+.booking-title{ font-weight:700; font-size:0.92rem; margin:2px 0 6px; }
+.booking-meta{ display:flex; flex-wrap:wrap; gap:6px; align-items:center; margin-bottom:6px; }
+.booking-ref{
+  display:none; align-items:center; gap:6px; margin-top:6px;
+}
+.booking-card.card-checked .booking-ref{ display:flex; }
+.booking-ref label{ font-size:0.72rem; color:var(--text-soft); white-space:nowrap; }
+.booking-ref input{
+  flex:1; min-width:0;
+  border:1px solid var(--border); border-radius:var(--radius-sm);
+  padding:6px 9px; font-size:0.8rem; background:var(--surface-soft); color:var(--text);
+}
+.booking-ref input::placeholder{ color:#b7bab0; }
+
+.budget-table-wrap{ overflow-x:auto; background:var(--surface); border-radius:var(--radius-md); box-shadow:var(--shadow); border:1px solid var(--border); margin-bottom:14px; }
+table.budget-table{ width:100%; border-collapse:collapse; font-size:0.8rem; min-width:480px; }
+table.budget-table caption{ text-align:left; font-weight:700; padding:10px 14px; color:var(--primary-dark); font-size:0.85rem; background:var(--primary-tint); caption-side:top; }
+table.budget-table th, table.budget-table td{ padding:9px 12px; border-bottom:1px solid var(--border); text-align:left; }
+table.budget-table th{ background:var(--surface-soft); font-size:0.74rem; color:var(--text-soft); }
+table.budget-table td.num{ text-align:right; white-space:nowrap; }
+table.budget-table tr.total td{ font-weight:700; color:var(--primary-dark); background:var(--surface-soft); }
+.budget-note{ font-size:0.76rem; color:var(--text-soft); padding:0 2px 10px; }
+
+.calc-card{
+  background:var(--surface); border-radius:var(--radius-lg);
+  box-shadow:var(--shadow); border:1px solid var(--border);
+  padding:18px 16px; margin:16px 0 24px;
+}
+.calc-card h4{ display:flex; align-items:center; gap:6px; font-size:0.95rem; }
+.calc-row{
+  display:flex; align-items:center; gap:10px; margin:12px 0;
+}
+.calc-row input[type="number"]{
+  flex:1; padding:10px 12px; border-radius:var(--radius-sm);
+  border:1px solid var(--border); background:var(--surface-soft); font-size:1rem;
+}
+.calc-row .currency-label{
+  font-weight:700; color:var(--primary-dark); width:48px; text-align:center;
+}
+.calc-swap{
+  width:36px; height:36px; border-radius:50%; border:1px solid var(--border);
+  background:var(--primary-tint); color:var(--primary-dark); font-size:1rem;
+  display:flex; align-items:center; justify-content:center; margin:0 auto;
+}
+.calc-rate-row{
+  display:flex; align-items:center; gap:8px; font-size:0.8rem; color:var(--text-soft);
+  margin-top:10px; flex-wrap:wrap;
+}
+.calc-rate-row input{
+  width:80px; padding:6px 8px; border-radius:var(--radius-sm); border:1px solid var(--border);
+  background:var(--surface-soft); font-size:0.85rem;
+}
+.calc-hint{ font-size:0.72rem; color:var(--text-soft); margin-top:8px; }
+
+/* ==================== 租車與須知 ==================== */
+.info-card{
+  background:var(--surface); border-radius:var(--radius-lg);
+  box-shadow:var(--shadow); border:1px solid var(--border);
+  padding:16px 18px; margin-bottom:16px;
+}
+.info-card h3{ display:flex; align-items:center; gap:8px; font-size:1rem; margin-bottom:10px; }
+.info-card ul{ display:flex; flex-direction:column; gap:8px; }
+.info-card ul li{
+  font-size:0.86rem; padding-left:16px; position:relative;
+}
+.info-card ul li::before{
+  content:""; position:absolute; left:0; top:8px; width:6px; height:6px; border-radius:50%;
+  background:var(--primary);
+}
+.info-card ul li b{ color:var(--primary-dark); }
+.info-card ul li.warn::before{ background:var(--accent-orange); }
+.info-card a{ font-weight:700; }
+
+.food-table-wrap{ overflow-x:auto; }
+table.food-table{ width:100%; border-collapse:collapse; font-size:0.82rem; min-width:420px; }
+table.food-table th, table.food-table td{ padding:8px 10px; border-bottom:1px solid var(--border); text-align:left; }
+table.food-table th{ color:var(--text-soft); font-size:0.72rem; }
+
+/* ==================== 行李清單 ==================== */
+.tabs-nav{
+  display:flex; gap:6px; overflow-x:auto; padding-bottom:4px; margin-bottom:16px;
+  -webkit-overflow-scrolling:touch;
+}
+.tab-btn{
+  flex:none; border:1px solid var(--border); background:var(--surface);
+  color:var(--text-soft); font-weight:700; font-size:0.84rem;
+  padding:9px 16px; border-radius:999px; white-space:nowrap;
+}
+.tab-btn.active{
+  background:var(--primary); color:#fff; border-color:var(--primary);
+}
+.tab-panel{ display:none; }
+.tab-panel.active{ display:block; }
+
+.pack-list{
+  display:flex; flex-direction:column; gap:8px;
+  height:auto; margin-bottom:16px;
+}
+.pack-item{
+  display:flex; align-items:center; gap:10px;
+  background:var(--surface); border:1px solid var(--border);
+  border-radius:var(--radius-sm); padding:10px 12px; font-size:0.88rem;
+}
+.pack-item input[type="checkbox"]{ width:18px; height:18px; accent-color:var(--accent-purple); flex:none; }
+.pack-item span{ flex:1; }
+.pack-item .pack-remove{
+  flex:none; border:none; background:transparent; color:var(--text-soft);
+  font-size:0.9rem; padding:2px 6px;
+}
+
+.pack-add-row{
+  display:flex; gap:8px; margin-bottom:8px;
+}
+.pack-add-row input[type="text"]{
+  flex:1; padding:10px 12px; border-radius:var(--radius-sm);
+  border:1px solid var(--border); background:var(--surface-soft); font-size:0.88rem;
+}
+.pack-add-row button{
+  flex:none; border:none; background:var(--accent-purple); color:#fff;
+  font-weight:700; padding:0 18px; border-radius:var(--radius-sm); font-size:0.88rem;
+}
+
+/* ==================== 底部導覽列 ==================== */
+.bottom-nav{
+  position:fixed; left:0; right:0; bottom:0;
+  height:var(--nav-h);
+  background:rgba(255,255,255,0.96);
+  backdrop-filter:blur(10px);
+  border-top:1px solid var(--border);
+  display:flex;
+  box-shadow:0 -4px 16px rgba(58,61,53,0.08);
+  z-index:100;
+  padding-bottom:env(safe-area-inset-bottom);
+}
+.nav-btn{
+  flex:1; border:none; background:none;
+  display:flex; flex-direction:column; align-items:center; justify-content:center;
+  gap:3px; color:var(--text-soft); font-size:0.68rem; font-weight:700;
+  padding:8px 2px;
+}
+.nav-btn .nav-icon{ font-size:1.28rem; line-height:1; }
+.nav-btn.active{ color:var(--primary); }
+.nav-btn.active .nav-icon{ transform:translateY(-1px); }
+
+/* ==================== 版權/頁尾 ==================== */
+.data-footer{
+  text-align:center; font-size:0.72rem; color:var(--text-soft);
+  padding:18px 20px 4px;
+}
+
+@media (min-width:520px){
+  .photo-grid{ grid-template-columns:repeat(3, 1fr); }
+}
+</style>
+</head>
+<body>
+
+<header class="app-header">
+  <div class="container">
+    <div class="eyebrow">South Island Road Trip</div>
+    <h1>紐西蘭南島家庭自駕遊</h1>
+    <p class="sub">2026/12/19 抵達基督城 → 2027/1/3 基督城起飛　｜　順時針大環線．16 天</p>
+    <div class="trip-meta">
+      <span class="pill">👤 4 位成人</span>
+      <span class="pill">🚗 自駕 SUV</span>
+      <span class="pill">🕒 最後核對 2026-07-30</span>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+
+  <!-- ============================================================ -->
+  <!-- 分頁一：每日行程 -->
+  <!-- ============================================================ -->
+  <section id="page-itinerary" class="page active">
+    <div class="page-title">
+      <h2>📅 每日行程</h2>
+      <span class="page-title-note">共 16 天．順時針大環線</span>
+    </div>
+
+    <!-- 頂部總覽地圖 -->
+    <div class="map-card" id="trip-map-card">
+      <div class="day-filter" id="day-filter">
+        <button class="day-chip active" data-day="all">全部</button>
+        <button class="day-chip" data-day="1">Day1</button>
+        <button class="day-chip" data-day="2">Day2</button>
+        <button class="day-chip" data-day="3">Day3</button>
+        <button class="day-chip" data-day="4">Day4</button>
+        <button class="day-chip" data-day="5">Day5</button>
+        <button class="day-chip" data-day="6">Day6</button>
+        <button class="day-chip" data-day="7">Day7</button>
+        <button class="day-chip" data-day="8">Day8</button>
+        <button class="day-chip" data-day="9">Day9</button>
+        <button class="day-chip" data-day="10">Day10</button>
+        <button class="day-chip" data-day="11">Day11</button>
+        <button class="day-chip" data-day="12">Day12</button>
+        <button class="day-chip" data-day="13">Day13</button>
+        <button class="day-chip" data-day="14">Day14</button>
+        <button class="day-chip" data-day="15">Day15</button>
+        <button class="day-chip" data-day="16">Day16</button>
+      </div>
+      <div id="trip-map"></div>
+      <div class="map-legend">
+        <span><i class="dot dot-spot"></i>景點</span>
+        <span><i class="dot dot-food"></i>餐廳</span>
+        <span><i class="dot dot-stay"></i>住宿</span>
+        <span><i class="dot dot-shop"></i>採買</span>
+        <span><i class="dot dot-transit"></i>交通</span>
+      </div>
+      <a class="btn-fullmap" href="https://www.google.com/maps/d/viewer?mid=1q6UR9yL7A34qGw-1nc-GzSb84l8fX-0" target="_blank" rel="noopener">🗺️ 在 Google Maps 開啟完整地圖 ↗</a>
+    </div>
+
+    <!-- Day 1 -->
+    <article class="day-card" id="day-1">
+      <div class="day-card__header">
+        <div class="day-badge">Day<br><small>1</small></div>
+        <div class="day-meta">
+          <h3>12/19（六）｜抵達基督城</h3>
+          <p class="day-region">基督城．抵達、取車、超市採買</p>
+        </div>
+      </div>
+      <div class="day-card__body">
+        <ul class="timeline">
+          <li><span class="time-fixed">12:50</span><span class="desc">國泰航空 CX119 抵達基督城機場（去程經香港轉機，12/18 13:20 台北起飛）</span></li>
+          <li><span class="time-flex">13:30 前後</span><span class="desc">領行李 → 機場租車櫃檯取車 <span class="status-tag status-pending">📌待訂</span></span></li>
+          <li><span class="time-flex">下午</span><span class="desc">前往市區超市（Woolworths / New World）採買隔日早餐、車上零食</span></li>
+        </ul>
+        <div class="photo-tip">📸 <b>攝影提示：</b>長途飛行剛落地不必急著拍照，可留意機場往市區沿路的坎特伯里平原（Canterbury Plains）大片農田景觀，適合車窗隨手拍。</div>
+        <details class="accordion">
+          <summary>🚗 推薦租車公司與提醒</summary>
+          <div class="accordion-content">
+            <p><b>Apex Car Rentals</b> — 機場航廈內／接駁取車，車隊含 RAV4，價格較主流大廠親民</p>
+            <p><b>Ezi Car Rental</b> — 機場提供接駁取車服務，同樣有 RAV4 可選，全險 Zero Excess 方案完整</p>
+            <p>💡 建議取車前致電／線上確認：全險 Zero Excess 保費、跨區還車是否收費、是否需加購 GPS 或 Wi-Fi 分享器</p>
+            <p>💤 台紐時差僅 5 小時，中午抵達已有充分時間休息，隔天可正常出發</p>
+          </div>
+        </details>
+        <div class="day-footer">
+          <span class="meal-tag">🍽️ 晚餐：Christchurch 市區 🌟 Riverside Market</span>
+          <span class="stay-tag">🏨 Christchurch 市區 <span class="status-tag status-pending">📌待訂（高優先）</span></span>
+        </div>
+      </div>
+    </article>
+
+    <!-- Day 2 -->
+    <article class="day-card" id="day-2">
+      <div class="day-card__header">
+        <div class="day-badge">Day<br><small>2</small></div>
+        <div class="day-meta">
+          <h3>12/20（日）｜東海岸打卡日</h3>
+          <p class="day-region">Elephant Rocks · 摩洛奇龍珠石 · 奧瑪魯藍企鵝</p>
+        </div>
+      </div>
+      <div class="day-card__body">
+        <ul class="timeline">
+          <li><span class="time-flex">07:30</span><span class="desc">基督城 → Elephant Rocks（石灰岩奇石群，電影取景地） <a class="btn-map" href="https://www.google.com/maps/dir/?api=1&origin=Christchurch&destination=Elephant+Rocks+Duntroon&travelmode=driving">🚗 導航</a></span></li>
+          <li><span class="time-flex">約 11:30</span><span class="desc">抵達 Elephant Rocks，短停拍照</span></li>
+          <li><span class="time-flex">午後</span><span class="desc">Elephant Rocks → Moeraki Boulders <a class="btn-map" href="https://www.google.com/maps/dir/?api=1&origin=Elephant+Rocks+Duntroon&destination=Moeraki+Boulders&travelmode=driving">🚗 導航</a></span></li>
+          <li><span class="time-fixed">13:30</span><span class="desc">午餐：🌟 <b>Fleur's Place</b>（Moeraki 在地新鮮海鮮，已訂位時間） <a class="btn-link" href="https://fleursplace.com/">官網訂位</a></span></li>
+          <li><span class="time-flex">下午</span><span class="desc">奧瑪魯維多利亞古蹟街區散步；下午茶／起司品嚐：👍 Whitestone Cheese Factory Café</span></li>
+          <li><span class="time-flex">晚上依公告時段</span><span class="desc">藍企鵝棲息地觀賞 <span class="status-tag status-pending">📌待訂</span> <a class="btn-link" href="https://www.penguins.co.nz/">官方預訂</a></span></li>
+        </ul>
+        <div class="photo-tip">📸 <b>攝影提示：</b>Moeraki Boulders 建議日出前抵達（人潮少、光線柔和），巨石逆光剪影效果最佳；藍企鵝觀賞區<b>全程禁止閃光燈</b>，僅能肉眼欣賞或以夜視錄影功能拍攝。</div>
+        <details class="accordion">
+          <summary>⚠️ 注意事項</summary>
+          <div class="accordion-content">
+            <p>藍企鵝觀賞時間依當日官方公布或訂位時段調整，出發前再次確認。</p>
+            <p>全程禁止閃光燈、禁止手機手電筒、禁止觸摸企鵝。</p>
+          </div>
+        </details>
+        <div class="day-footer">
+          <span class="meal-tag">🍽️ 晚餐：奧瑪魯市區小酒館或餐廳</span>
+          <span class="stay-tag">🏨 Oamaru <span class="status-tag status-pending">📌待訂（高優先）</span></span>
+        </div>
+      </div>
+    </article>
+
+    <!-- Day 3 -->
+    <article class="day-card" id="day-3">
+      <div class="day-card__header">
+        <div class="day-badge">Day<br><small>3</small></div>
+        <div class="day-meta">
+          <h3>12/21（一）｜長途轉場前往蒂阿瑙</h3>
+          <p class="day-region">Dunedin · Mataura Falls 沿途打卡</p>
+        </div>
+      </div>
+      <div class="day-card__body">
+        <ul class="timeline">
+          <li><span class="time-flex">08:00</span><span class="desc">Oamaru → Dunedin（Baldwin Street 全球最陡街道） <a class="btn-map" href="https://www.google.com/maps/dir/?api=1&origin=Oamaru&destination=Baldwin+Street+Dunedin&travelmode=driving">🚗 導航</a>　約 1h20m</span></li>
+          <li><span class="time-flex">09:30-10:00</span><span class="desc">Baldwin Street 短停拍照</span></li>
+          <li><span class="time-flex">10:00</span><span class="desc">Dunedin → Mataura Falls <a class="btn-map" href="https://www.google.com/maps/dir/?api=1&origin=Baldwin+Street+Dunedin&destination=Mataura+Falls&travelmode=driving">🚗 導航</a>　約 1h40m</span></li>
+          <li><span class="time-flex">13:00</span><span class="desc">Gore → Te Anau（經 Lumsden） <a class="btn-map" href="https://www.google.com/maps/dir/?api=1&origin=Mataura+Falls&destination=Te+Anau&travelmode=driving">🚗 導航</a>　約 2h</span></li>
+          <li><span class="time-flex">預計 16:00–16:30</span><span class="desc">抵達 Te Anau，安頓入住，先至超市採買</span></li>
+          <li><span class="time-fixed">19:30</span><span class="desc">Te Anau Glowworm Caves 螢火蟲洞船遊 <a class="btn-link" href="https://www.realnz.com/en/experiences/glowworm-caves/te-anau-glowworm-caves/">官方預訂</a></span></li>
+        </ul>
+        <div class="photo-tip">📸 <b>攝影提示：</b>螢火蟲洞內全暗且禁止拍攝／錄影，請專心體驗；Baldwin Street 建議由下往上拍出誇張透視感，凸顯坡度。</div>
+        <details class="accordion">
+          <summary>⚠️ 本日車程最長，購票與駕駛提醒</summary>
+          <div class="accordion-content">
+            <p>本日為全程最長車程：純駕駛至少約 6 小時 15 分至 6 小時 30 分，另加休息、午餐與拍照時間，建議 08:00 前出發，中途多次休息換手駕駛。</p>
+            <p>💰 峽灣「經典套餐」——螢火蟲洞＋Day4 米爾福德峽灣特色遊船一起買，每人省 NZ$35 <span class="status-tag status-pending">📌待訂（高優先，旺季易額滿）</span> <a class="btn-link" href="https://www.realnz.com/zh-cn/specials/combo-deals/">套餐購買頁</a></p>
+          </div>
+        </details>
+        <div class="day-footer">
+          <span class="meal-tag">🍽️ 午餐：Gore 小鎮咖啡館</span>
+          <span class="meal-tag">🍽️ 晚餐：🛒 超市採買自煮</span>
+          <span class="stay-tag">🏨 Te Anau <span class="status-tag status-pending">📌待訂（高優先）</span></span>
+        </div>
+      </div>
+    </article>
+
+    <!-- Day 4 -->
+    <article class="day-card" id="day-4">
+      <div class="day-card__header">
+        <div class="day-badge">Day<br><small>4</small></div>
+        <div class="day-meta">
+          <h3>12/22（二）｜米佛峽灣一日遊</h3>
+          <p class="day-region">Mirror Lakes · Eglinton Valley · Homer Tunnel · 峽灣巡航</p>
+        </div>
+      </div>
+      <div class="day-card__body">
+        <ul class="timeline">
+          <li><span class="time-flex">07:30</span><span class="desc">Te Anau 出發前往 Milford Sound</span></li>
+          <li><span class="time-flex">途中</span><span class="desc"><b>Eglinton Valley</b> 短停約 5 分鐘 <a class="btn-map" href="https://www.google.com/maps/dir/?api=1&origin=Te+Anau&destination=Eglinton+Valley&travelmode=driving">🚗 導航</a></span></li>
+          <li><span class="time-flex">途中</span><span class="desc"><b>Homer Tunnel</b>：僅在等待單線通行號誌時短暫觀景 <a class="btn-map" href="https://www.google.com/maps/dir/?api=1&origin=Eglinton+Valley&destination=Homer+Tunnel&travelmode=driving">🚗 導航</a></span></li>
+          <li><span class="time-fixed">12:00-14:00</span><span class="desc">峽灣巡航遊船（船票含於 Day3 峽灣套餐內） <span class="status-tag status-pending">📌待訂（高優先）</span></span></li>
+          <li><span class="time-flex">回程</span><span class="desc">順道停靠 <b>Mirror Lakes</b>（鏡湖倒影拍照點） <a class="btn-map" href="https://www.google.com/maps/dir/?api=1&origin=Milford+Sound&destination=Mirror+Lakes+New+Zealand&travelmode=driving">🚗 導航</a></span></li>
+        </ul>
+        <div class="photo-tip">📸 <b>攝影提示：</b>Mirror Lakes 需無風無浪時倒影最清晰，建議清晨或傍晚風勢較小時經過；峽灣船上甲板兩側都值得走動，瀑布近距離時船長常會刻意靠近淋濕甲板，注意手機防水。</div>
+        <details class="accordion">
+          <summary>⏰ 停車與報到提醒</summary>
+          <div class="accordion-content">
+            <p>請預留 30 分鐘，供遠端停車場停車、步行至碼頭與遊船報到。</p>
+            <p>回程依道路、天候、停靠與交通狀況彈性調整。</p>
+          </div>
+        </details>
+        <div class="day-footer">
+          <span class="meal-tag">🍽️ 午餐：自備野餐 / 峽灣碼頭咖啡館</span>
+          <span class="meal-tag">🍽️ 晚餐：🛒 超市採買自煮</span>
+          <span class="stay-tag">🏨 Te Anau（同 Day3）</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- Day 5 -->
+    <article class="day-card" id="day-5">
+      <div class="day-card__header">
+        <div class="day-badge">Day<br><small>5</small></div>
+        <div class="day-meta">
+          <h3>12/23（三）｜蒂阿瑙 → 皇后鎮</h3>
+          <p class="day-region">Devil's Staircase 觀景點，皇后鎮連住第 1 晚</p>
+        </div>
+      </div>
+      <div class="day-card__body">
+        <ul class="timeline">
+          <li><span class="time-flex">10:00</span><span class="desc">Te Anau → Devil's Staircase 觀景點 <a class="btn-map" href="https://www.google.com/maps/dir/?api=1&origin=Te+Anau&destination=Devil%27s+Staircase+Lookout&travelmode=driving">🚗 導航</a></span></li>
+          <li><span class="time-flex">約 11:45</span><span class="desc">抵達 Devil's Staircase，短停拍照，欣賞 Lake Wakatipu 湖光山色</span></li>
+          <li><span class="time-flex">約 12:15-12:30</span><span class="desc">抵達 Queenstown <a class="btn-map" href="https://www.google.com/maps/dir/?api=1&origin=Devil%27s+Staircase+Lookout&destination=Queenstown&travelmode=driving">🚗 導航</a></span></li>
+          <li><span class="time-flex">下午</span><span class="desc">皇后鎮鎮中心、瓦卡蒂普湖濱散步，安頓入住（接下來連住 3 晚）</span></li>
+        </ul>
+        <div class="photo-tip">📸 <b>攝影提示：</b>Devil's Staircase 觀景台居高臨下，適合拍出湖岸蜿蜒公路與遠山層次，午後順光效果佳。</div>
+        <div class="day-footer">
+          <span class="meal-tag">🍽️ 午餐：途中小鎮簡餐</span>
+          <span class="meal-tag">🍽️ 晚餐：皇后鎮餐廳</span>
+          <span class="stay-tag">🏨 Queenstown（連住 3 晚） <span class="status-tag status-pending">📌待訂（高優先，旺季搶手）</span></span>
+        </div>
+      </div>
+    </article>
+
+    <!-- Day 6 -->
+    <article class="day-card" id="day-6">
+      <div class="day-card__header">
+        <div class="day-badge">Day<br><small>6</small></div>
+        <div class="day-meta">
+          <h3>12/24（四，平安夜）｜TSS Earnslaw＋Walter Peak</h3>
+          <p class="day-region">高地 BBQ 晚餐，皇后鎮第 2 晚</p>
+        </div>
+        <span class="holiday-tag">⚠️ 平安夜</span>
+      </div>
+      <div class="day-card__body">
+        <ul class="timeline">
+          <li><span class="time-flex">上午／下午</span><span class="desc">皇后鎮自由活動</span></li>
+          <li><span class="time-flex">傍晚至晚上</span><span class="desc">搭乘 <b>TSS Earnslaw 恩斯洛號百年蒸汽船</b>，橫渡瓦卡蒂普湖前往 Walter Peak 高地農場 <a class="btn-map" href="https://www.google.com/maps/search/?api=1&query=TSS+Earnslaw+Steamer+Wharf+Queenstown">🚗 導航</a></span></li>
+          <li><span class="time-fixed">以訂單確認信為準</span><span class="desc">TSS Earnslaw＋Walter Peak 高地 BBQ 晚餐，公開起價 NZ$189 起 <span class="status-tag status-booked">📌已訂</span> <a class="btn-link" href="https://www.realnz.com/zh-cn/experiences/dining/walter-peak-bbq-dining/">官方頁面</a></span></li>
+        </ul>
+        <div class="photo-tip">📸 <b>攝影提示：</b>蒸汽船甲板可拍到黑煙囪與湖景同框的經典畫面；Walter Peak 農場的剪羊毛秀／牧羊犬趕羊秀是絕佳的動態抓拍時機。</div>
+        <details class="accordion">
+          <summary>💡 行程內容與提醒</summary>
+          <div class="accordion-content">
+            <p>方案包含往返蒸汽船、Walter Peak 高地 BBQ 晚餐，以及晚餐後的牧羊犬趕羊秀 (farm dog show)。整段活動含往返船程約 3.5-4 小時。</p>
+            <p>實際報到與登船時間、實際價格與可訂時段，以訂票頁及訂單確認信為準。</p>
+            <p>💡 今日採買時，除本日晚餐外，也應一併準備 Day7 早餐與午餐備案（聖誕節當天部分店家可能縮短營業或公休）。</p>
+          </div>
+        </details>
+        <div class="day-footer">
+          <span class="meal-tag">🍽️ 午餐：Queenstown 自由午餐／輕食</span>
+          <span class="meal-tag">🍽️ 晚餐：Walter Peak 高地 BBQ（已含票價）</span>
+          <span class="stay-tag">🏨 Queenstown（同 Day5）</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- Day 7 -->
+    <article class="day-card" id="day-7">
+      <div class="day-card__header">
+        <div class="day-badge">Day<br><small>7</small></div>
+        <div class="day-meta">
+          <h3>12/25（五，聖誕節）｜皇后鎮經典體驗</h3>
+          <p class="day-region">Skyline+Luge · 高空彈跳，皇后鎮第 3 晚</p>
+        </div>
+        <span class="holiday-tag">⚠️ 聖誕節</span>
+      </div>
+      <div class="day-card__body">
+        <ul class="timeline">
+          <li><span class="time-flex">上午</span><span class="desc">Skyline Gondola 天際纜車 + Luge 溜溜車 <span class="status-tag status-pending">📌待訂</span> <a class="btn-link" href="https://www.skyline.co.nz/queenstown/">官方預訂</a></span></li>
+          <li><span class="time-flex">下午</span><span class="desc">Kawarau Bridge Bungy（自由參加） <span class="status-tag status-pending">📌待訂／自由參加</span> <a class="btn-link" href="https://www.bungy.co.nz/queenstown/kawarau-bungy-centre/kawarau-bridge-bungy/">官方預訂</a></span></li>
+        </ul>
+        <div class="photo-tip">📸 <b>攝影提示：</b>Skyline 纜車頂端俯瞰皇后鎮與瓦卡蒂普湖全景是必拍畫面，建議傍晚時段光線更柔和；高空彈跳現場通常有官方攝影／錄影加購服務。</div>
+        <details class="accordion">
+          <summary>⚠️ 聖誕節營業與晚餐備案</summary>
+          <div class="accordion-content">
+            <p>聖誕節當天部分商店/景點縮短營業，出發前先確認開放時間；Skyline、Bungy 之可選時段以各景點訂位頁為準。</p>
+            <p>午餐可選皇后鎮湖濱咖啡館，或 👍 Patagonia Chocolates（人氣冰淇淋/巧克力甜點），以聖誕節當日營業與預訂狀況為準。</p>
+            <p>晚餐強烈建議於 12/24 先至超市採買食材回住宿點自煮；或提前三個月直接預訂高級飯店的 Christmas Buffet。</p>
+          </div>
+        </details>
+        <div class="day-footer">
+          <span class="meal-tag">🍽️ 午餐：湖濱咖啡館 / Patagonia Chocolates</span>
+          <span class="meal-tag">🍽️ 晚餐：超市自煮／飯店 Christmas Buffet</span>
+          <span class="stay-tag">🏨 Queenstown（同 Day5/6）</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- Day 8 -->
+    <article class="day-card" id="day-8">
+      <div class="day-card__header">
+        <div class="day-badge">Day<br><small>8</small></div>
+        <div class="day-meta">
+          <h3>12/26（六，Boxing Day）｜箭鎮→克倫威爾→瓦納卡</h3>
+          <p class="day-region">淘金小鎮、水果小鎮</p>
+        </div>
+      </div>
+      <div class="day-card__body">
+        <ul class="timeline">
+          <li><span class="time-flex">09:30</span><span class="desc">Queenstown → Arrowtown <a class="btn-map" href="https://www.google.com/maps/dir/?api=1&origin=Queenstown&destination=Arrowtown&travelmode=driving">🚗 導航</a>　約 25 分鐘</span></li>
+          <li><span class="time-flex">上午</span><span class="desc">淘金小鎮歷史街區散步</span></li>
+          <li><span class="time-flex">12:00</span><span class="desc">Arrowtown → Cromwell <a class="btn-map" href="https://www.google.com/maps/dir/?api=1&origin=Arrowtown&destination=Cromwell&travelmode=driving">🚗 導航</a>　約 35 分鐘</span></li>
+          <li><span class="time-flex">下午</span><span class="desc">水果雕塑拍照、採買新鮮水果</span></li>
+          <li><span class="time-flex">14:00</span><span class="desc">Cromwell → Wanaka <a class="btn-map" href="https://www.google.com/maps/dir/?api=1&origin=Cromwell&destination=Wanaka&travelmode=driving">🚗 導航</a>　約 55 分鐘</span></li>
+        </ul>
+        <div class="photo-tip">📸 <b>攝影提示：</b>Cromwell 巨型水果雕塑適合親子合照；箭鎮秋色老街建議走進巷弄裡的石造老屋取景，比主街更有氛圍。</div>
+        <div class="day-footer">
+          <span class="meal-tag">🍽️ 午餐：👍 Arrowtown Bakery / Cromwell 水果攤</span>
+          <span class="meal-tag">🍽️ 晚餐：瓦納卡湖畔餐廳</span>
+          <span class="stay-tag">🏨 Wanaka <span class="status-tag status-pending">📌待訂（高優先）</span></span>
+        </div>
+      </div>
+    </article>
+
+    <!-- Day 9 -->
+    <article class="day-card" id="day-9">
+      <div class="day-card__header">
+        <div class="day-badge">Day<br><small>9</small></div>
+        <div class="day-meta">
+          <h3>12/27（日）｜瓦納卡悠閒日</h3>
+          <p class="day-region">That Wanaka Tree · 孤樹打卡</p>
+        </div>
+      </div>
+      <div class="day-card__body">
+        <ul class="timeline">
+          <li><span class="time-flex">上午</span><span class="desc">That Wanaka Tree 打卡、湖濱步道 <a class="btn-map" href="https://www.google.com/maps/search/?api=1&query=That+Wanaka+Tree">🚗 導航</a></span></li>
+          <li><span class="time-flex">下午</span><span class="desc">自由活動（可選 Puzzling World） <span class="status-tag status-pending">📌待訂／自由參加</span> <a class="btn-link" href="https://www.puzzlingworld.co.nz/">官方預訂</a></span></li>
+        </ul>
+        <div class="photo-tip">📸 <b>攝影提示：</b>That Wanaka Tree 日出時段（人潮最少）搭配晨霧與倒影效果最夢幻，是全南島社群媒體最常見的取景之一。</div>
+        <div class="day-footer">
+          <span class="meal-tag">🍽️ 午餐：瓦納卡湖濱咖啡館</span>
+          <span class="meal-tag">🍽️ 晚餐：👍 Kai Whakapai Cafe & Bar</span>
+          <span class="stay-tag">🏨 Wanaka（同 Day8）</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- Day 10 -->
+    <article class="day-card" id="day-10">
+      <div class="day-card__header">
+        <div class="day-badge">Day<br><small>10</small></div>
+        <div class="day-meta">
+          <h3>12/28（一）｜瓦納卡 → 庫克山</h3>
+          <p class="day-region">Lindis Pass 觀景台 · 胡克谷健行</p>
+        </div>
+      </div>
+      <div class="day-card__body">
+        <ul class="timeline">
+          <li><span class="time-fixed">09:00</span><span class="desc">從 Wanaka 出發，前往 Lindis Pass Summit 觀景台 <a class="btn-map" href="https://www.google.com/maps/dir/?api=1&origin=Wanaka&destination=Lindis+Pass+Summit&travelmode=driving">🚗 導航</a></span></li>
+          <li><span class="time-fixed">12:00–13:15</span><span class="desc">午餐：🌟 <b>High Country Salmon</b>（Twizel，新鮮鮭魚），並於 Twizel 超市採買晚餐食材</span></li>
+          <li><span class="time-flex">13:15</span><span class="desc">Twizel → Aoraki/Mount Cook Village <a class="btn-map" href="https://www.google.com/maps/dir/?api=1&origin=Twizel&destination=Aoraki+Mount+Cook+Village&travelmode=driving">🚗 導航</a></span></li>
+          <li><span class="time-flex">14:15 起</span><span class="desc">胡克谷步道 (Hooker Valley Track)，安排完整 3-3.5 小時</span></li>
+        </ul>
+        <div class="photo-tip">📸 <b>攝影提示：</b>Lindis Pass 金黃草丘在正午順光下顏色最飽和；胡克谷步道三座吊橋是經典打卡點，最後一座吊橋眺望庫克山峰頂與冰河湖浮冰效果最佳。</div>
+        <details class="accordion">
+          <summary>🏨 住宿資訊（已訂）</summary>
+          <div class="accordion-content">
+            <p><b>Haka House Hostel Aoraki Mt Cook</b> <span class="status-tag status-booked">📌已訂</span></p>
+            <p>評分 9.0（302則評價）、免費泊車、共用廚房，距庫克山國家公園入口僅 570m。</p>
+          </div>
+        </details>
+        <div class="day-footer">
+          <span class="meal-tag">🍽️ 晚餐：🛒 超市採買自煮</span>
+          <span class="stay-tag">🏨 Haka House Hostel Aoraki Mt Cook <span class="status-tag status-booked">📌已訂</span></span>
+        </div>
+      </div>
+    </article>
+
+    <!-- Day 11 -->
+    <article class="day-card" id="day-11">
+      <div class="day-card__header">
+        <div class="day-badge">Day<br><small>11</small></div>
+        <div class="day-meta">
+          <h3>12/29（二）｜庫克山 → 蒂卡波湖</h3>
+          <p class="day-region">塔斯曼冰河船</p>
+        </div>
+      </div>
+      <div class="day-card__body">
+        <ul class="timeline">
+          <li><span class="time-fixed">09:00</span><span class="desc">Tasman Glacier Explorer 冰河船 <span class="status-tag status-pending">📌待訂</span> <a class="btn-link" href="https://www.hermitage.co.nz/experience/glacier-explorers/">官方預訂</a></span></li>
+          <li><span class="time-flex">約 13:30</span><span class="desc">出發前往 Lake Tekapo（途經 Lake Pukaki 拍照，避免與冰河船行程時間重疊） <a class="btn-map" href="https://www.google.com/maps/dir/?api=1&origin=Aoraki+Mount+Cook+Village&destination=Lake+Tekapo&travelmode=driving">🚗 導航</a>　約 1h35m</span></li>
+          <li><span class="time-flex">下午</span><span class="desc">好牧羊人教堂、湖畔散步，抵達後先至超市採買晚餐</span></li>
+          <li><span class="time-fixed">21:30 起</span><span class="desc">Dark Sky Project 觀星團 <span class="status-tag status-pending">📌待訂</span> <a class="btn-link" href="https://www.darkskyproject.co.nz">官方預訂</a></span></li>
+        </ul>
+        <div class="photo-tip">📸 <b>攝影提示：</b>Lake Pukaki 牛奶藍湖水配庫克山最經典的角度是湖畔觀景台停車場，午後光線最能凸顯藍色；觀星團請攜帶三腳架，銀河拍攝建議手動對焦無限遠、長曝 10-15 秒。</div>
+        <details class="accordion">
+          <summary>💡 行程備註</summary>
+          <div class="accordion-content">
+            <p>冰河船行程含報到、步行至冰河湖與船程，總時長請以官網為準。</p>
+          </div>
+        </details>
+        <div class="day-footer">
+          <span class="meal-tag">🍽️ 午餐：Old Mountaineers' Café</span>
+          <span class="meal-tag">🍽️ 晚餐：🛒 超市採買自煮</span>
+          <span class="stay-tag">🏨 Lake Tekapo（連住 2 晚） <span class="status-tag status-pending">📌待訂（高優先）</span></span>
+        </div>
+      </div>
+    </article>
+
+    <!-- Day 12 -->
+    <article class="day-card" id="day-12">
+      <div class="day-card__header">
+        <div class="day-badge">Day<br><small>12</small></div>
+        <div class="day-meta">
+          <h3>12/30（三）｜蒂卡波湖悠閒緩衝日</h3>
+          <p class="day-region">Mt John 觀景公路 · 二訪觀星</p>
+        </div>
+      </div>
+      <div class="day-card__body">
+        <ul class="timeline">
+          <li><span class="time-flex">上午</span><span class="desc">睡到自然醒，湖畔散步、Church of the Good Shepherd 晨光拍照</span></li>
+          <li><span class="time-flex">10:30 起</span><span class="desc"><b>Mt John Summit Road</b> 觀景公路自駕上山（山頂咖啡館 Astro Café 可俯瞰蒂卡波湖） <a class="btn-map" href="https://www.google.com/maps/dir/?api=1&origin=Lake+Tekapo&destination=Mt+John+Observatory&travelmode=driving">🚗 導航</a></span></li>
+          <li><span class="time-fixed">21:30 起（備用）</span><span class="desc">Dark Sky Project 觀星團補訂 <span class="status-tag status-pending">📌待訂</span></span></li>
+        </ul>
+        <div class="photo-tip">📸 <b>攝影提示：</b>Church of the Good Shepherd 建議清晨人潮較少時拍攝，教堂窗景取景需遵守不進入祭壇拍攝的規範；Mt John 山頂可 360 度俯瞰蒂卡波湖與麥肯基盆地，日落時分尤其漂亮。</div>
+        <details class="accordion">
+          <summary>💰 Mt John 通行費與季節性開放提醒</summary>
+          <div class="accordion-content">
+            <p>上山道路需支付約 NZ$14／車通行費（可併入停車／雜費預算）。</p>
+            <p>道路與 Astro Café 開放時段可能季節性調整，出發前再確認：
+              <a href="https://www.canterbury.ac.nz/research/about-uc-research/enabling-infrastructure/field-stations/mt-john-observatory-field-station/visit-the-observatory">UC Mt John 資訊</a>｜
+              <a href="https://www.mackenzienz.com/visit/astro-cafe/">Astro Café 資訊</a>
+            </p>
+          </div>
+        </details>
+        <div class="day-footer">
+          <span class="meal-tag">🍽️ 午餐：湖畔咖啡館 / Astro Café</span>
+          <span class="meal-tag">🍽️ 晚餐：👍 Kohan Restaurant / 🛒 超市自煮</span>
+          <span class="stay-tag">🏨 Lake Tekapo（同 Day11）</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- Day 13 -->
+    <article class="day-card" id="day-13">
+      <div class="day-card__header">
+        <div class="day-badge">Day<br><small>13</small></div>
+        <div class="day-meta">
+          <h3>12/31（四，跨年夜）｜蒂卡波湖 → 基督城</h3>
+          <p class="day-region">沿途 Geraldine，市區溫馨跨年</p>
+        </div>
+        <span class="holiday-tag">⚠️ 跨年夜</span>
+      </div>
+      <div class="day-card__body">
+        <ul class="timeline">
+          <li><span class="time-flex">10:00</span><span class="desc">Tekapo → Fairlie <a class="btn-map" href="https://www.google.com/maps/dir/?api=1&origin=Lake+Tekapo&destination=Fairlie&travelmode=driving">🚗 導航</a>　約 40 分鐘</span></li>
+          <li><span class="time-fixed">午餐</span><span class="desc">🌟 <b>Fairlie Bakehouse</b>（招牌肉派）</span></li>
+          <li><span class="time-flex">12:00</span><span class="desc">Fairlie → Geraldine <a class="btn-map" href="https://www.google.com/maps/dir/?api=1&origin=Fairlie&destination=Geraldine&travelmode=driving">🚗 導航</a>　約 55 分鐘</span></li>
+          <li><span class="time-flex">短停</span><span class="desc">👍 Barker's of Geraldine（果醬品牌創始店）</span></li>
+          <li><span class="time-flex">14:00</span><span class="desc">Geraldine → Christchurch <a class="btn-map" href="https://www.google.com/maps/dir/?api=1&origin=Geraldine&destination=Christchurch&travelmode=driving">🚗 導航</a>　約 1h20m</span></li>
+        </ul>
+        <div class="photo-tip">📸 <b>攝影提示：</b>Geraldine 小鎮復古車輛博物館外的老爺車適合拍出公路旅行氛圍；跨年夜若基督城市區有燈飾，建議手持穩定或使用夜間模式拍攝。</div>
+        <details class="accordion">
+          <summary>🎉 跨年夜備註</summary>
+          <div class="accordion-content">
+            <p>晚間於市區住宿點溫馨跨年，預先備妥超市零食與酒水；若官方日後公告市區活動，再視情況參加（目前無既定官方活動可查）。</p>
+          </div>
+        </details>
+        <div class="day-footer">
+          <span class="meal-tag">🍽️ 晚餐：基督城跨年晚餐（建議提前訂位）</span>
+          <span class="stay-tag">🏨 Christchurch（連住 3 晚） <span class="status-tag status-pending">📌待訂（高優先，跨年期間搶手）</span></span>
+        </div>
+      </div>
+    </article>
+
+    <!-- Day 14 -->
+    <article class="day-card" id="day-14">
+      <div class="day-card__header">
+        <div class="day-badge">Day<br><small>14</small></div>
+        <div class="day-meta">
+          <h3>1/1（五，元旦）｜南極中心</h3>
+          <p class="day-region">International Antarctic Centre</p>
+        </div>
+        <span class="holiday-tag">⚠️ 元旦</span>
+      </div>
+      <div class="day-card__body">
+        <ul class="timeline">
+          <li><span class="time-flex">上午</span><span class="desc">睡到自然醒（跨年夜熬夜），Airbnb 悠閒自煮早餐</span></li>
+          <li><span class="time-fixed">11:00 起</span><span class="desc"><b>International Antarctic Centre 南極中心</b>（企鵝、雪地車體驗） <span class="status-tag status-pending">📌待訂</span> <a class="btn-link" href="https://www.iceberg.co.nz/">官方預訂</a></span></li>
+          <li><span class="time-flex">下午</span><span class="desc">市區散步、Hagley Park 野餐、休息</span></li>
+        </ul>
+        <div class="photo-tip">📸 <b>攝影提示：</b>南極中心的企鵝餵食秀時間需現場確認，隔著玻璃拍攝建議關閉閃光燈並將鏡頭貼近玻璃減少反光；雪地車體驗有專人協助拍照留念。</div>
+        <details class="accordion">
+          <summary>💰 票價與假日提醒</summary>
+          <div class="accordion-content">
+            <p>成人票 NZ$74／人；4 位成人合計 NZ$296（不使用家庭票）。</p>
+            <p>💡 早餐使用超市食材於 Airbnb/住宿處自理，避開元旦餐廳 15% 附加費。</p>
+            <p>出發前須確認 2027/1/1 元旦當日的開館時間與可預訂入場時段。</p>
+          </div>
+        </details>
+        <div class="day-footer">
+          <span class="meal-tag">🍽️ 午餐：Antarctic Centre 附設咖啡館 / 自備</span>
+          <span class="meal-tag">🍽️ 晚餐：🛒 超市採買自煮</span>
+          <span class="stay-tag">🏨 Christchurch（同 Day13）</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- Day 15 -->
+    <article class="day-card" id="day-15">
+      <div class="day-card__header">
+        <div class="day-badge">Day<br><small>15</small></div>
+        <div class="day-meta">
+          <h3>1/2（六）｜阿卡羅瓦 (Akaroa) 一日遊</h3>
+          <p class="day-region">法式小鎮＋賞豚遊船／海豚共游 <span class="status-tag status-choice">📌待選擇</span></p>
+        </div>
+      </div>
+      <div class="day-card__body">
+        <ul class="timeline">
+          <li><span class="time-flex">08:30</span><span class="desc">Christchurch → Akaroa <a class="btn-map" href="https://www.google.com/maps/dir/?api=1&origin=Christchurch&destination=Akaroa&travelmode=driving">🚗 導航</a>　約 1h40m</span></li>
+        </ul>
+        <div class="photo-tip">📸 <b>攝影提示：</b>Akaroa 港灣制高點（Akaroa Lighthouse 步道）可拍到火山口地形與法式小鎮全景；賞豚遊船建議站在船身兩側靠外，赫氏海豚常會貼近船身跳躍。</div>
+        <details class="accordion" open>
+          <summary>⚠️ 二選一方案尚未選定（出發前請全家討論）</summary>
+          <div class="accordion-content">
+            <table>
+              <thead><tr><th>選項</th><th>時間</th><th>4人預算</th><th>適合對象</th></tr></thead>
+              <tbody>
+                <tr><td>Nature Cruise 賞豚遊船</td><td>約 2h，原 10:30–12:30</td><td>NZ$520</td><td>不想弄濕身體、想輕鬆拍照</td></tr>
+                <tr><td>Swimming with Dolphins</td><td>約 3.5h，10:30 出發約 14:00 結束</td><td>NZ$1,000</td><td>體力好、不怕冷、會游泳</td></tr>
+              </tbody>
+            </table>
+            <p>若選 Nature Cruise：可沿用 12:30 後午餐／散步／15:30 回程時間軸。</p>
+            <p>若選 Swimming with Dolphins：約 14:00 結束，午餐、散步與回程須改為 14:00 後彈性安排。</p>
+            <p><a href="https://www.blackcat.co.nz/">Black Cat Cruises 官網</a></p>
+          </div>
+        </details>
+        <div class="day-footer">
+          <span class="meal-tag">🍽️ 午餐：👍 Akaroa 港邊咖啡館</span>
+          <span class="meal-tag">🍽️ 晚餐：基督城市區餐廳</span>
+          <span class="stay-tag">🏨 Christchurch（同 Day13/14）</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- Day 16 -->
+    <article class="day-card" id="day-16">
+      <div class="day-card__header">
+        <div class="day-badge">Day<br><small>16</small></div>
+        <div class="day-meta">
+          <h3>1/3（日）｜收拾行李 → 還車 → 搭機返台</h3>
+          <p class="day-region">基督城機場出境</p>
+        </div>
+      </div>
+      <div class="day-card__body">
+        <ul class="timeline">
+          <li><span class="time-flex">上午</span><span class="desc">早餐後退房、打包行李</span></li>
+          <li><span class="time-fixed">10:45–11:00 前</span><span class="desc">完成加油與還車（記得拍照存證油量與車況）</span></li>
+          <li><span class="time-fixed">最晚 11:20</span><span class="desc">抵達 Christchurch Airport</span></li>
+          <li><span class="time-fixed">14:20</span><span class="desc">國泰航空基督城起飛 → 經香港轉機 → 1/4（一）00:35 抵達台北桃園機場</span></li>
+        </ul>
+        <div class="photo-tip">📸 <b>攝影提示：</b>還車前不妨在租車處外拍張全家合照為這趟公路旅行收尾，也方便日後留存車況存證照片。</div>
+        <div class="day-footer">
+          <span class="meal-tag">🍽️ 機場用餐 / 自備簡便食物</span>
+        </div>
+      </div>
+    </article>
+
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- 分頁二：攝影打卡 -->
+  <!-- ============================================================ -->
+  <section id="page-photos" class="page">
+    <div class="page-title">
+      <h2>📸 攝影打卡</h2>
+      <span class="page-title-note">成就牆．收集你的南島回憶</span>
+    </div>
+
+    <div class="photo-intro">
+      勾選每個完成拍攝的經典畫面，集滿整面成就牆！
+      <div class="photo-progress">
+        <div class="bar"><div class="bar-fill" style="width:0%"></div></div>
+        <span class="count">0 / 24</span>
+      </div>
+    </div>
+
+    <div class="photo-grid">
+      <div class="photo-card">
+        <div class="photo-media">
+          <img src="images/Elephant Rocks.jpeg" alt="Elephant Rocks" onerror="this.parentElement.parentElement.classList.add('img-fallback')">
+          <span class="photo-day">Day2</span>
+          <span class="photo-check"><input type="checkbox" aria-label="Elephant Rocks 已拍攝"></span>
+        </div>
+        <div class="photo-caption">Elephant Rocks 石陣穿越</div>
+      </div>
+      <div class="photo-card">
+        <div class="photo-media">
+          <img src="images/Moeraki Boulders.jpeg" alt="Moeraki Boulders" onerror="this.parentElement.parentElement.classList.add('img-fallback')">
+          <span class="photo-day">Day2</span>
+          <span class="photo-check"><input type="checkbox" aria-label="Moeraki Boulders 已拍攝"></span>
+        </div>
+        <div class="photo-caption">Moeraki Boulders 日出巨石</div>
+      </div>
+      <div class="photo-card">
+        <div class="photo-media">
+          <img src="images/penguin.jpeg" alt="奧瑪魯藍企鵝" onerror="this.parentElement.parentElement.classList.add('img-fallback')">
+          <span class="photo-day">Day2</span>
+          <span class="photo-check"><input type="checkbox" aria-label="藍企鵝 已拍攝"></span>
+        </div>
+        <div class="photo-caption">奧瑪魯藍企鵝歸巢</div>
+      </div>
+      <div class="photo-card">
+        <div class="photo-media">
+          <img src="images/Baldwin Street .jpeg" alt="Baldwin Street" onerror="this.parentElement.parentElement.classList.add('img-fallback')">
+          <span class="photo-day">Day3</span>
+          <span class="photo-check"><input type="checkbox" aria-label="Baldwin Street 已拍攝"></span>
+        </div>
+        <div class="photo-caption">Baldwin Street 最陡街道</div>
+      </div>
+      <div class="photo-card">
+        <div class="photo-media">
+          <img src="images/Mirror Lake.jpeg" alt="Mirror Lakes" onerror="this.parentElement.parentElement.classList.add('img-fallback')">
+          <span class="photo-day">Day4</span>
+          <span class="photo-check"><input type="checkbox" aria-label="Mirror Lakes 已拍攝"></span>
+        </div>
+        <div class="photo-caption">Mirror Lakes 鏡湖倒影</div>
+      </div>
+      <div class="photo-card">
+        <div class="photo-media">
+          <img src="images/Milford Sound.jpeg" alt="Milford Sound" onerror="this.parentElement.parentElement.classList.add('img-fallback')">
+          <span class="photo-day">Day4</span>
+          <span class="photo-check"><input type="checkbox" aria-label="Milford Sound 已拍攝"></span>
+        </div>
+        <div class="photo-caption">Milford Sound 峽灣遊船</div>
+      </div>
+      <div class="photo-card">
+        <div class="photo-media">
+          <img src="images/Devil's Staircase.jpg" alt="Devil's Staircase" onerror="this.parentElement.parentElement.classList.add('img-fallback')">
+          <span class="photo-day">Day5</span>
+          <span class="photo-check"><input type="checkbox" aria-label="Devil's Staircase 已拍攝"></span>
+        </div>
+        <div class="photo-caption">Devil's Staircase 湖景</div>
+      </div>
+      <div class="photo-card">
+        <div class="photo-media">
+          <img src="images/TSS Earnslaw.jpeg" alt="TSS Earnslaw" onerror="this.parentElement.parentElement.classList.add('img-fallback')">
+          <span class="photo-day">Day6</span>
+          <span class="photo-check"><input type="checkbox" aria-label="TSS Earnslaw 已拍攝"></span>
+        </div>
+        <div class="photo-caption">TSS Earnslaw 蒸汽船甲板</div>
+      </div>
+      <div class="photo-card">
+        <div class="photo-media">
+          <img src="images/Walter Peak sheep.jpeg" alt="Walter Peak" onerror="this.parentElement.parentElement.classList.add('img-fallback')">
+          <span class="photo-day">Day6</span>
+          <span class="photo-check"><input type="checkbox" aria-label="Walter Peak 已拍攝"></span>
+        </div>
+        <div class="photo-caption">Walter Peak 高地牧羊秀</div>
+      </div>
+      <div class="photo-card">
+        <div class="photo-media">
+          <img src="images/Skyline queen.jpeg" alt="Skyline Queenstown" onerror="this.parentElement.parentElement.classList.add('img-fallback')">
+          <span class="photo-day">Day7</span>
+          <span class="photo-check"><input type="checkbox" aria-label="Skyline 已拍攝"></span>
+        </div>
+        <div class="photo-caption">Skyline 俯瞰皇后鎮</div>
+      </div>
+      <div class="photo-card">
+        <div class="photo-media">
+          <img src="images/Kawarau Bridge .jpeg" alt="Kawarau Bungy" onerror="this.parentElement.parentElement.classList.add('img-fallback')">
+          <span class="photo-day">Day7</span>
+          <span class="photo-check"><input type="checkbox" aria-label="Bungy 已拍攝"></span>
+        </div>
+        <div class="photo-caption">Kawarau Bridge 極限一跳</div>
+      </div>
+      <div class="photo-card">
+        <div class="photo-media">
+          <img src="images/Arrowtown.jpeg" alt="Arrowtown" onerror="this.parentElement.parentElement.classList.add('img-fallback')">
+          <span class="photo-day">Day8</span>
+          <span class="photo-check"><input type="checkbox" aria-label="Arrowtown 已拍攝"></span>
+        </div>
+        <div class="photo-caption">Arrowtown 淘金老街</div>
+      </div>
+      <div class="photo-card">
+        <div class="photo-media">
+          <img src="images/Cromwell fruit.jpeg" alt="Cromwell" onerror="this.parentElement.parentElement.classList.add('img-fallback')">
+          <span class="photo-day">Day8</span>
+          <span class="photo-check"><input type="checkbox" aria-label="Cromwell 已拍攝"></span>
+        </div>
+        <div class="photo-caption">Cromwell 水果雕塑</div>
+      </div>
+      <div class="photo-card">
+        <div class="photo-media">
+          <img src="images/That Wanaka Tree .jpeg" alt="That Wanaka Tree" onerror="this.parentElement.parentElement.classList.add('img-fallback')">
+          <span class="photo-day">Day9</span>
+          <span class="photo-check"><input type="checkbox" aria-label="Wanaka Tree 已拍攝"></span>
+        </div>
+        <div class="photo-caption">That Wanaka Tree 孤樹</div>
+      </div>
+      <div class="photo-card">
+        <div class="photo-media">
+          <img src="images/Lindis Pass.jpeg" alt="Lindis Pass" onerror="this.parentElement.parentElement.classList.add('img-fallback')">
+          <span class="photo-day">Day10</span>
+          <span class="photo-check"><input type="checkbox" aria-label="Lindis Pass 已拍攝"></span>
+        </div>
+        <div class="photo-caption">Lindis Pass 金色草丘</div>
+      </div>
+      <div class="photo-card">
+        <div class="photo-media">
+          <img src="images/Hooker Valley.jpeg" alt="Hooker Valley Track" onerror="this.parentElement.parentElement.classList.add('img-fallback')">
+          <span class="photo-day">Day10</span>
+          <span class="photo-check"><input type="checkbox" aria-label="Hooker Valley 已拍攝"></span>
+        </div>
+        <div class="photo-caption">Hooker Valley 吊橋庫克山</div>
+      </div>
+      <div class="photo-card">
+        <div class="photo-media">
+          <img src="images/Tasman Glacier.jpeg" alt="Tasman Glacier" onerror="this.parentElement.parentElement.classList.add('img-fallback')">
+          <span class="photo-day">Day11</span>
+          <span class="photo-check"><input type="checkbox" aria-label="Tasman Glacier 已拍攝"></span>
+        </div>
+        <div class="photo-caption">Tasman Glacier 冰河藍冰</div>
+      </div>
+      <div class="photo-card">
+        <div class="photo-media">
+          <img src="images/Lake Pukaki.jpeg" alt="Lake Pukaki" onerror="this.parentElement.parentElement.classList.add('img-fallback')">
+          <span class="photo-day">Day11</span>
+          <span class="photo-check"><input type="checkbox" aria-label="Lake Pukaki 已拍攝"></span>
+        </div>
+        <div class="photo-caption">Lake Pukaki 牛奶藍湖</div>
+      </div>
+      <div class="photo-card">
+        <div class="photo-media">
+          <img src="images/Church of the Good Shepherd.jpeg" alt="Church of the Good Shepherd" onerror="this.parentElement.parentElement.classList.add('img-fallback')">
+          <span class="photo-day">Day11-12</span>
+          <span class="photo-check"><input type="checkbox" aria-label="教堂 已拍攝"></span>
+        </div>
+        <div class="photo-caption">好牧羊人教堂</div>
+      </div>
+      <div class="photo-card">
+        <div class="photo-media">
+          <img src="images/Mt John.jpeg" alt="Mt John" onerror="this.parentElement.parentElement.classList.add('img-fallback')">
+          <span class="photo-day">Day12</span>
+          <span class="photo-check"><input type="checkbox" aria-label="Mt John 已拍攝"></span>
+        </div>
+        <div class="photo-caption">Mt John 俯瞰蒂卡波湖</div>
+      </div>
+      <div class="photo-card">
+        <div class="photo-media">
+          <img src="images/Dark Sky.jpeg" alt="銀河觀星" onerror="this.parentElement.parentElement.classList.add('img-fallback')">
+          <span class="photo-day">Day11-12</span>
+          <span class="photo-check"><input type="checkbox" aria-label="觀星 已拍攝"></span>
+        </div>
+        <div class="photo-caption">Dark Sky 銀河觀星</div>
+      </div>
+      <div class="photo-card">
+        <div class="photo-media">
+          <img src="images/Cathedral Square .jpeg" alt="Cathedral Square" onerror="this.parentElement.parentElement.classList.add('img-fallback')">
+          <span class="photo-day">Day13</span>
+          <span class="photo-check"><input type="checkbox" aria-label="Cathedral Square 已拍攝"></span>
+        </div>
+        <div class="photo-caption">Cathedral Square 基督城</div>
+      </div>
+      <div class="photo-card">
+        <div class="photo-media">
+          <img src="images/Antarctic Centre Penguin Snowmobile.jpeg" alt="Antarctic Centre" onerror="this.parentElement.parentElement.classList.add('img-fallback')">
+          <span class="photo-day">Day14</span>
+          <span class="photo-check"><input type="checkbox" aria-label="南極中心 已拍攝"></span>
+        </div>
+        <div class="photo-caption">南極中心企鵝雪地車</div>
+      </div>
+      <div class="photo-card">
+        <div class="photo-media">
+          <img src="images/Akaroa.jpeg" alt="Akaroa" onerror="this.parentElement.parentElement.classList.add('img-fallback')">
+          <span class="photo-day">Day15</span>
+          <span class="photo-check"><input type="checkbox" aria-label="Akaroa 已拍攝"></span>
+        </div>
+        <div class="photo-caption">Akaroa 法式港灣小鎮</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- 分頁三：預訂與財務 -->
+  <!-- ============================================================ -->
+  <section id="page-bookings" class="page">
+    <div class="page-title">
+      <h2>🎫 預訂與財務</h2>
+      <span class="page-title-note">電子憑證包．集中管理</span>
+    </div>
+
+    <div class="summary-banner" id="booking-summary">
+      <div class="num" id="booking-summary-count">— / —</div>
+      <div class="label">項目尚待訂購或選擇方案（勾選下方卡片即可即時更新）</div>
+      <ul class="unbooked-list" id="unbooked-list"></ul>
+    </div>
+
+    <h3 class="section-sub">📋 集中預訂總表</h3>
+
+    <div class="booking-card is-pending">
+      <span class="booking-check"><input type="checkbox"></span>
+      <div class="booking-body">
+        <div class="booking-day">Day1</div>
+        <div class="booking-title">租車（Apex / Ezi Car Rental）</div>
+        <div class="booking-meta"><span class="status-tag status-pending">📌待訂</span></div>
+        <div class="booking-ref"><label>確認編號</label><input type="text" placeholder="輸入租車確認編號"></div>
+      </div>
+    </div>
+
+    <div class="booking-card is-pending">
+      <span class="booking-check"><input type="checkbox"></span>
+      <div class="booking-body">
+        <div class="booking-day">Day1 / 13-15</div>
+        <div class="booking-title">Christchurch 住宿（Day1．Day13-15 連 3 晚）</div>
+        <div class="booking-meta"><span class="status-tag status-pending">📌待訂（高優先）</span></div>
+        <div class="booking-ref"><label>確認編號</label><input type="text" placeholder="輸入訂房確認編號"></div>
+      </div>
+    </div>
+
+    <div class="booking-card is-pending">
+      <span class="booking-check"><input type="checkbox"></span>
+      <div class="booking-body">
+        <div class="booking-day">Day2</div>
+        <div class="booking-title">奧瑪魯藍企鵝棲息地 (Oamaru Blue Penguin Colony)</div>
+        <div class="booking-meta"><span class="status-tag status-pending">📌待訂</span></div>
+        <div class="booking-ref"><label>確認編號</label><input type="text" placeholder="輸入訂票確認編號"></div>
+      </div>
+    </div>
+
+    <div class="booking-card is-pending">
+      <span class="booking-check"><input type="checkbox"></span>
+      <div class="booking-body">
+        <div class="booking-day">Day2</div>
+        <div class="booking-title">Oamaru 住宿</div>
+        <div class="booking-meta"><span class="status-tag status-pending">📌待訂（高優先）</span></div>
+        <div class="booking-ref"><label>確認編號</label><input type="text" placeholder="輸入訂房確認編號"></div>
+      </div>
+    </div>
+
+    <div class="booking-card is-pending">
+      <span class="booking-check"><input type="checkbox"></span>
+      <div class="booking-body">
+        <div class="booking-day">Day3-4</div>
+        <div class="booking-title">峽灣經典套餐（螢火蟲洞＋Milford Signature Cruise）</div>
+        <div class="booking-meta"><span class="status-tag status-pending">📌待訂（高優先，旺季易額滿）</span></div>
+        <div class="booking-ref"><label>確認編號</label><input type="text" placeholder="輸入訂票確認編號"></div>
+      </div>
+    </div>
+
+    <div class="booking-card is-pending">
+      <span class="booking-check"><input type="checkbox"></span>
+      <div class="booking-body">
+        <div class="booking-day">Day3-4</div>
+        <div class="booking-title">Te Anau 住宿（2 晚）</div>
+        <div class="booking-meta"><span class="status-tag status-pending">📌待訂（高優先）</span></div>
+        <div class="booking-ref"><label>確認編號</label><input type="text" placeholder="輸入訂房確認編號"></div>
+      </div>
+    </div>
+
+    <div class="booking-card is-pending">
+      <span class="booking-check"><input type="checkbox"></span>
+      <div class="booking-body">
+        <div class="booking-day">Day5-7</div>
+        <div class="booking-title">Queenstown 住宿（連住 3 晚）</div>
+        <div class="booking-meta"><span class="status-tag status-pending">📌待訂（高優先，旺季搶手）</span></div>
+        <div class="booking-ref"><label>確認編號</label><input type="text" placeholder="輸入訂房確認編號"></div>
+      </div>
+    </div>
+
+    <div class="booking-card is-booked">
+      <span class="booking-check"><input type="checkbox" checked></span>
+      <div class="booking-body">
+        <div class="booking-day">Day6</div>
+        <div class="booking-title">TSS Earnslaw＋Walter Peak 高地 BBQ 晚餐</div>
+        <div class="booking-meta"><span class="status-tag status-booked">📌已訂</span><span class="status-tag status-confirm">以訂單確認信為準</span></div>
+        <div class="booking-ref"><label>確認編號</label><input type="text" placeholder="輸入訂單確認編號"></div>
+      </div>
+    </div>
+
+    <div class="booking-card is-pending">
+      <span class="booking-check"><input type="checkbox"></span>
+      <div class="booking-body">
+        <div class="booking-day">Day7</div>
+        <div class="booking-title">Skyline Gondola＋Luge 溜溜車</div>
+        <div class="booking-meta"><span class="status-tag status-pending">📌待訂</span></div>
+        <div class="booking-ref"><label>確認編號</label><input type="text" placeholder="輸入訂票確認編號"></div>
+      </div>
+    </div>
+
+    <div class="booking-card is-pending">
+      <span class="booking-check"><input type="checkbox"></span>
+      <div class="booking-body">
+        <div class="booking-day">Day7</div>
+        <div class="booking-title">Kawarau Bridge Bungy（自由參加）</div>
+        <div class="booking-meta"><span class="status-tag status-pending">📌待訂／自由參加</span></div>
+        <div class="booking-ref"><label>確認編號</label><input type="text" placeholder="輸入訂票確認編號"></div>
+      </div>
+    </div>
+
+    <div class="booking-card is-pending">
+      <span class="booking-check"><input type="checkbox"></span>
+      <div class="booking-body">
+        <div class="booking-day">Day8-9</div>
+        <div class="booking-title">Wanaka 住宿（2 晚）</div>
+        <div class="booking-meta"><span class="status-tag status-pending">📌待訂（高優先）</span></div>
+        <div class="booking-ref"><label>確認編號</label><input type="text" placeholder="輸入訂房確認編號"></div>
+      </div>
+    </div>
+
+    <div class="booking-card is-pending">
+      <span class="booking-check"><input type="checkbox"></span>
+      <div class="booking-body">
+        <div class="booking-day">Day9</div>
+        <div class="booking-title">Puzzling World（自由參加）</div>
+        <div class="booking-meta"><span class="status-tag status-pending">📌待訂／自由參加</span></div>
+        <div class="booking-ref"><label>確認編號</label><input type="text" placeholder="輸入訂票確認編號"></div>
+      </div>
+    </div>
+
+    <div class="booking-card is-booked">
+      <span class="booking-check"><input type="checkbox" checked></span>
+      <div class="booking-body">
+        <div class="booking-day">Day10</div>
+        <div class="booking-title">Haka House Hostel Aoraki Mt Cook</div>
+        <div class="booking-meta"><span class="status-tag status-booked">📌已訂</span></div>
+        <div class="booking-ref"><label>確認編號</label><input type="text" placeholder="輸入訂房確認編號"></div>
+      </div>
+    </div>
+
+    <div class="booking-card is-pending">
+      <span class="booking-check"><input type="checkbox"></span>
+      <div class="booking-body">
+        <div class="booking-day">Day11</div>
+        <div class="booking-title">Tasman Glacier Explorers 冰河船</div>
+        <div class="booking-meta"><span class="status-tag status-pending">📌待訂</span></div>
+        <div class="booking-ref"><label>確認編號</label><input type="text" placeholder="輸入訂票確認編號"></div>
+      </div>
+    </div>
+
+    <div class="booking-card is-pending">
+      <span class="booking-check"><input type="checkbox"></span>
+      <div class="booking-body">
+        <div class="booking-day">Day11-12</div>
+        <div class="booking-title">Dark Sky Project 觀星團</div>
+        <div class="booking-meta"><span class="status-tag status-pending">📌待訂</span></div>
+        <div class="booking-ref"><label>確認編號</label><input type="text" placeholder="輸入訂票確認編號"></div>
+      </div>
+    </div>
+
+    <div class="booking-card is-pending">
+      <span class="booking-check"><input type="checkbox"></span>
+      <div class="booking-body">
+        <div class="booking-day">Day11-12</div>
+        <div class="booking-title">Lake Tekapo 住宿（2 晚）</div>
+        <div class="booking-meta"><span class="status-tag status-pending">📌待訂（高優先）</span></div>
+        <div class="booking-ref"><label>確認編號</label><input type="text" placeholder="輸入訂房確認編號"></div>
+      </div>
+    </div>
+
+    <div class="booking-card is-pending">
+      <span class="booking-check"><input type="checkbox"></span>
+      <div class="booking-body">
+        <div class="booking-day">Day14</div>
+        <div class="booking-title">International Antarctic Centre</div>
+        <div class="booking-meta"><span class="status-tag status-pending">📌待訂</span></div>
+        <div class="booking-ref"><label>確認編號</label><input type="text" placeholder="輸入訂票確認編號"></div>
+      </div>
+    </div>
+
+    <div class="booking-card is-choice">
+      <span class="booking-check"><input type="checkbox"></span>
+      <div class="booking-body">
+        <div class="booking-day">Day15</div>
+        <div class="booking-title">Akaroa 賞豚遊船／海豚共游（Black Cat Cruises）</div>
+        <div class="booking-meta"><span class="status-tag status-choice">📌待選擇／待訂</span></div>
+        <div class="booking-ref"><label>確認編號</label><input type="text" placeholder="輸入訂票確認編號"></div>
+      </div>
+    </div>
+
+    <div class="booking-card is-pending">
+      <span class="booking-check"><input type="checkbox"></span>
+      <div class="booking-body">
+        <div class="booking-day">行前必辦</div>
+        <div class="booking-title">NZeTA＋IVL 電子旅行授權（4 人）</div>
+        <div class="booking-meta"><span class="status-tag status-pending">📌待辦</span></div>
+        <div class="booking-ref"><label>確認編號</label><input type="text" placeholder="輸入 NZeTA 申請編號"></div>
+      </div>
+    </div>
+
+    <h3 class="section-sub">💰 預估花費一覽（NZD，4 位成人）</h3>
+
+    <div class="budget-table-wrap">
+      <table class="budget-table">
+        <caption>3.1 必要支出（核心活動＋租車，採 Akaroa Nature Cruise 方案）</caption>
+        <thead><tr><th>項目</th><th class="num">每人</th><th class="num">4人合計</th></tr></thead>
+        <tbody>
+          <tr><td>奧瑪魯藍企鵝 General Viewing</td><td class="num">47</td><td class="num">188</td></tr>
+          <tr><td>峽灣套票（螢火蟲洞＋Milford）</td><td class="num">約285</td><td class="num">約1,140</td></tr>
+          <tr><td>Walter Peak BBQ 晚餐</td><td class="num">189起</td><td class="num">756起</td></tr>
+          <tr><td>Skyline＋3 Luge Rides</td><td class="num">99</td><td class="num">396</td></tr>
+          <tr><td>Tasman Glacier Explorers</td><td class="num">209起</td><td class="num">836起</td></tr>
+          <tr><td>Dark Sky Summit Experience</td><td class="num">219</td><td class="num">876</td></tr>
+          <tr><td>International Antarctic Centre</td><td class="num">74</td><td class="num">296</td></tr>
+          <tr><td>Akaroa Nature Cruise</td><td class="num">130</td><td class="num">520</td></tr>
+          <tr><td>NZeTA＋IVL（4人）</td><td class="num">117</td><td class="num">468</td></tr>
+          <tr><td>租車 SUV＋Zero Excess</td><td class="num">—</td><td class="num">1,500–1,800</td></tr>
+          <tr class="total"><td>3.1 小計</td><td class="num">—</td><td class="num">約6,976–7,276</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="budget-note">⚠️ 2026-07-30 查核之公開價格，12 月實際售價以結帳頁或訂單確認信為準。</p>
+
+    <div class="budget-table-wrap">
+      <table class="budget-table">
+        <caption>3.2 加上燃油／停車／餐食後累計總額</caption>
+        <tbody>
+          <tr><td>燃油</td><td class="num">500–700</td></tr>
+          <tr><td>停車</td><td class="num">200–350</td></tr>
+          <tr><td>餐食與超市採買</td><td class="num">3,000–4,500</td></tr>
+          <tr class="total"><td>累計總額（3.1＋3.2）</td><td class="num">約10,676–12,826</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="budget-note">不含國際機票、15 晚住宿與旅遊保險（見下方 3.5）。</p>
+
+    <div class="budget-table-wrap">
+      <table class="budget-table">
+        <caption>3.3 Akaroa 二選一（擇一，不可同時計入總額）</caption>
+        <tbody>
+          <tr><td>Nature Cruise（已計入總額）</td><td class="num">520</td></tr>
+          <tr><td>Swimming with Dolphins（未計入，需 +NZ$480）</td><td class="num">1,000</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="budget-table-wrap">
+      <table class="budget-table">
+        <caption>3.4 自由參加活動（未計入總額）</caption>
+        <tbody>
+          <tr><td>Kawarau Bridge Bungy／位參加者</td><td class="num">320</td></tr>
+          <tr><td>Puzzling World 全套 Combo</td><td class="num">32.5</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="budget-table-wrap">
+      <table class="budget-table">
+        <caption>3.5 不含於以上總額（另計參考）</caption>
+        <tbody>
+          <tr><td>去程機票（4人，經濟艙）</td><td class="num">約6,600</td></tr>
+          <tr><td>回程機票（4人，經濟艙）</td><td class="num">約10,300</td></tr>
+          <tr><td>15 晚住宿</td><td class="num">待訂房確認</td></tr>
+          <tr><td>旅遊保險</td><td class="num">待自行投保</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="calc-card">
+      <h4>💱 NZD ↔ TWD 匯率試算</h4>
+      <div class="calc-row">
+        <span class="currency-label">NZD</span>
+        <input type="number" id="calc-nzd" placeholder="輸入 NZD 金額" inputmode="decimal">
+      </div>
+      <div class="calc-swap">⇅</div>
+      <div class="calc-row">
+        <span class="currency-label">TWD</span>
+        <input type="number" id="calc-twd" placeholder="輸入 TWD 金額" inputmode="decimal">
+      </div>
+      <div class="calc-rate-row">
+        匯率設定：1 NZD ＝ <input type="number" id="calc-rate" value="19.5" step="0.01"> TWD
+      </div>
+      <p class="calc-hint">預設匯率 1:19.5，可手動覆寫；換算功能將於下一階段（JavaScript）啟用，不使用外部匯率 API。</p>
+    </div>
+
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- 分頁四：租車與須知 -->
+  <!-- ============================================================ -->
+  <section id="page-info" class="page">
+    <div class="page-title">
+      <h2>🚗 租車與須知</h2>
+      <span class="page-title-note">自駕、入境與生態守則</span>
+    </div>
+
+    <div class="info-card">
+      <h3>🚗 租車須知</h3>
+      <ul>
+        <li><b>靠左行駛</b>：圓環 (roundabout) 需讓右方來車先行。</li>
+        <li><b>國際駕照</b>：台灣駕照正本 + 國際駕照 (IDP)，兩者缺一不可。</li>
+        <li><b>全險 Zero Excess</b>：南島山路、碎石路、野生動物夜間出沒意外率較高，強烈建議加保。</li>
+        <li><b>推薦租車公司</b>：Apex Car Rentals、Ezi Car Rental，基督城機場皆可直接取車，車隊含 Toyota RAV4。</li>
+        <li><b>4人輪替排班</b>：Day3（約6h）等中長途日，建議每 1.5-2 小時換手一次。</li>
+        <li><b>租車天數為 16 天</b>：記得跟租車公司確認總天數與總費用是否已依還車日期（1/3）更新報價。</li>
+        <li>加油站在偏遠地區（Te Anau、Tekapo 等）較少，油量剩 1/2 就找機會加滿。</li>
+      </ul>
+    </div>
+
+    <div class="info-card">
+      <h3>🛂 入境與行前文件</h3>
+      <ul>
+        <li class="warn"><b>NZeTA</b>：4 位持台灣護照旅客均須先取得 NZeTA，官方 App 申請 NZ$17／人，另加 IVL NZ$100／人，合計 NZ$117／人、4 人共 <b>NZ$468</b>。<br><a href="https://www.immigration.govt.nz/visas/new-zealand-electronic-travel-authority-nzeta/">官方說明頁</a></li>
+        <li>請至少預留 72 小時處理時間，建議越早申請越好。</li>
+        <li><b>New Zealand Traveller Declaration (NZTD)</b>：抵達前須完成線上申報。</li>
+        <li>台灣護照旅客適用免簽但需持 NZeTA；<b>護照效期須至少涵蓋離開紐西蘭後 3 個月</b>。</li>
+        <li><b>租車授權駕駛</b>：每位實際開車者都須被登記為授權駕駛，並攜帶台灣駕照正本與 IDP。</li>
+        <li>路況查詢：Day4 出發前查詢 SH94 Milford Road 路況；Day10–11 查詢 DOC Mount Cook 步道與天候警示。</li>
+      </ul>
+    </div>
+
+    <div class="info-card">
+      <h3>🏔️ 景點生態與行前準備</h3>
+      <ul>
+        <li class="warn"><b>藍企鵝觀賞規範</b>：嚴禁閃光燈、禁止手機手電筒、禁止觸摸企鵝。</li>
+        <li><b>山區洋蔥式穿搭</b>：南島夏季早晚溫差可達 10°C 以上，建議洋蔥式穿搭 + 防水外套。</li>
+        <li class="warn"><b>生物安全檢疫</b>：入境前務必申報所有食物、蜂蜜、種子；戶外裝備沾泥土需徹底清潔。</li>
+        <li><b>旺季預約提醒</b>：米佛峽灣、螢火蟲洞、Tasman Glacier 船、Bungy、TSS Earnslaw、Akaroa 賞豚建議提前 1-2 個月線上預約。</li>
+        <li><b>超市自煮提醒</b>：Mount Cook Village 內幾乎無超市，務必在 Twizel 出發前採買齊全。</li>
+      </ul>
+    </div>
+
+    <div class="info-card">
+      <h3>🍽️ 美食清單總覽</h3>
+      <div class="food-table-wrap">
+        <table class="food-table">
+          <thead><tr><th>分類</th><th>地點</th><th>名稱</th></tr></thead>
+          <tbody>
+            <tr><td>🌟必吃</td><td>Christchurch</td><td>Riverside Market</td></tr>
+            <tr><td>🌟必吃</td><td>Moeraki</td><td>Fleur's Place</td></tr>
+            <tr><td>🌟必吃</td><td>Queenstown</td><td>Fergburger</td></tr>
+            <tr><td>🌟必吃</td><td>Twizel</td><td>High Country Salmon</td></tr>
+            <tr><td>🌟必吃</td><td>Fairlie</td><td>Fairlie Bakehouse</td></tr>
+            <tr><td>👍推薦</td><td>Oamaru</td><td>Whitestone Cheese Factory Café</td></tr>
+            <tr><td>👍推薦</td><td>Queenstown</td><td>Patagonia Chocolates／The Cow</td></tr>
+            <tr><td>👍推薦</td><td>Arrowtown</td><td>Arrowtown Bakery</td></tr>
+            <tr><td>👍推薦</td><td>Wanaka</td><td>Kai Whakapai Cafe & Bar</td></tr>
+            <tr><td>👍推薦</td><td>Lake Tekapo</td><td>Kohan Restaurant</td></tr>
+            <tr><td>👍推薦</td><td>Geraldine</td><td>Barker's of Geraldine</td></tr>
+            <tr><td>👍推薦</td><td>Akaroa</td><td>港邊法式咖啡館（現場挑選）</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- 分頁五：行李清單 -->
+  <!-- ============================================================ -->
+  <section id="page-packing" class="page">
+    <div class="page-title">
+      <h2>🧳 行李清單</h2>
+      <span class="page-title-note">個人化清單．可自訂新增</span>
+    </div>
+
+    <div class="tabs-nav" role="tablist">
+      <button class="tab-btn active" data-tab="tab-shared">共用物品</button>
+      <button class="tab-btn" data-tab="tab-dad">爸爸</button>
+      <button class="tab-btn" data-tab="tab-mom">媽媽</button>
+      <button class="tab-btn" data-tab="tab-bro">哥哥</button>
+      <button class="tab-btn" data-tab="tab-sis">妹妹</button>
+    </div>
+
+    <div class="tab-panel active" id="tab-shared">
+      <div class="pack-list">
+        <label class="pack-item"><input type="checkbox"><span>防曬乳（家庭共用大罐）</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>醫藥箱（腸胃藥／繃帶／常備藥）</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>萬用轉接頭</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>洗髮精／沐浴乳</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>租車合約／預訂確認信</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>住宿訂單總表（16 晚訂房確認信彙整）</span><button class="pack-remove" type="button">✕</button></label>
+      </div>
+      <div class="pack-add-row">
+        <input type="text" placeholder="新增共用物品...">
+        <button type="button">＋ 新增</button>
+      </div>
+    </div>
+
+    <div class="tab-panel" id="tab-dad">
+      <div class="pack-list">
+        <label class="pack-item"><input type="checkbox"><span>保暖刷毛外套</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>攝影器材／備用記憶卡</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>健行鞋</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>護照正本＋影本</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>NZeTA / IVL / NZTD 電子憑證截圖</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>國際駕照 IDP＋台灣駕照正本（若為駕駛）</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>行動電源</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>防水外套（洋蔥式穿搭）</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>行動網卡／eSIM</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>現金（NZD 小鈔）＋信用卡</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>太陽眼鏡</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>行李內未夾帶食物／蜂蜜／種子（生物安全自我檢查）</span><button class="pack-remove" type="button">✕</button></label>
+      </div>
+      <div class="pack-add-row">
+        <input type="text" placeholder="新增爸爸的物品...">
+        <button type="button">＋ 新增</button>
+      </div>
+    </div>
+
+    <div class="tab-panel" id="tab-mom">
+      <div class="pack-list">
+        <label class="pack-item"><input type="checkbox"><span>保暖外套／圍巾</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>隱形眼鏡藥水／個人保養品</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>常備藥品</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>輕便雨傘</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>護照正本＋影本</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>NZeTA / IVL / NZTD 電子憑證截圖</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>國際駕照 IDP＋台灣駕照正本（若為駕駛）</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>行動電源</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>防水外套（洋蔥式穿搭）</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>行動網卡／eSIM</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>現金（NZD 小鈔）＋信用卡</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>太陽眼鏡</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>行李內未夾帶食物／蜂蜜／種子（生物安全自我檢查）</span><button class="pack-remove" type="button">✕</button></label>
+      </div>
+      <div class="pack-add-row">
+        <input type="text" placeholder="新增媽媽的物品...">
+        <button type="button">＋ 新增</button>
+      </div>
+    </div>
+
+    <div class="tab-panel" id="tab-bro">
+      <div class="pack-list">
+        <label class="pack-item"><input type="checkbox"><span>運動鞋（健行用）</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>耳機</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>Bungy／冒險活動輕便衣物</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>護照正本＋影本</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>NZeTA / IVL / NZTD 電子憑證截圖</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>國際駕照 IDP＋台灣駕照正本（若為駕駛）</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>行動電源</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>防水外套（洋蔥式穿搭）</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>行動網卡／eSIM</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>現金（NZD 小鈔）＋信用卡</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>太陽眼鏡</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>行李內未夾帶食物／蜂蜜／種子（生物安全自我檢查）</span><button class="pack-remove" type="button">✕</button></label>
+      </div>
+      <div class="pack-add-row">
+        <input type="text" placeholder="新增哥哥的物品...">
+        <button type="button">＋ 新增</button>
+      </div>
+    </div>
+
+    <div class="tab-panel" id="tab-sis">
+      <div class="pack-list">
+        <label class="pack-item"><input type="checkbox"><span>泳衣（海豚共游備用）</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>防寒毛帽</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>暈船藥</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>護照正本＋影本</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>NZeTA / IVL / NZTD 電子憑證截圖</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>國際駕照 IDP＋台灣駕照正本（若為駕駛）</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>行動電源</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>防水外套（洋蔥式穿搭）</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>行動網卡／eSIM</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>現金（NZD 小鈔）＋信用卡</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>太陽眼鏡</span><button class="pack-remove" type="button">✕</button></label>
+        <label class="pack-item"><input type="checkbox"><span>行李內未夾帶食物／蜂蜜／種子（生物安全自我檢查）</span><button class="pack-remove" type="button">✕</button></label>
+      </div>
+      <div class="pack-add-row">
+        <input type="text" placeholder="新增妹妹的物品...">
+        <button type="button">＋ 新增</button>
+      </div>
+    </div>
+
+  </section>
+
+  <p class="data-footer">資料來源：itinerary.md／nz_map_points.csv　｜　最後核對：2026-07-30　｜　⚠️ 價格可能變動</p>
+
+</main>
+
+<nav class="bottom-nav">
+  <button class="nav-btn active" data-page="page-itinerary"><span class="nav-icon">📅</span>每日行程</button>
+  <button class="nav-btn" data-page="page-photos"><span class="nav-icon">📸</span>攝影打卡</button>
+  <button class="nav-btn" data-page="page-bookings"><span class="nav-icon">🎫</span>預訂與財務</button>
+  <button class="nav-btn" data-page="page-info"><span class="nav-icon">🚗</span>租車與須知</button>
+  <button class="nav-btn" data-page="page-packing"><span class="nav-icon">🧳</span>行李清單</button>
+</nav>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script>
+(function(){
+  "use strict";
+
+  var tripMap = null; // 指派於「7. 頂部總覽地圖」區塊
+
+  /* ==================== 1. 底部導覽列切換 ==================== */
+  var navBtns = document.querySelectorAll(".nav-btn");
+  var pages = document.querySelectorAll(".page");
+  navBtns.forEach(function(btn){
+    btn.addEventListener("click", function(){
+      var target = btn.dataset.page;
+      pages.forEach(function(p){ p.classList.toggle("active", p.id === target); });
+      navBtns.forEach(function(b){ b.classList.toggle("active", b === btn); });
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      if (target === "page-itinerary" && tripMap) {
+        setTimeout(function(){ tripMap.invalidateSize(); }, 60);
+      }
+    });
+  });
+
+  /* ==================== 2. 折疊備案 Accordion ==================== */
+  document.querySelectorAll("details.accordion").forEach(function(details){
+    var summary = details.querySelector(":scope > summary");
+    var content = details.querySelector(":scope > .accordion-content");
+    if (!summary || !content) return;
+    content.style.maxHeight = details.hasAttribute("open") ? content.scrollHeight + "px" : "0px";
+    summary.addEventListener("click", function(e){
+      e.preventDefault();
+      if (details.hasAttribute("open")) {
+        content.style.maxHeight = "0px";
+        details.removeAttribute("open");
+      } else {
+        details.setAttribute("open", "");
+        content.style.maxHeight = content.scrollHeight + "px";
+      }
+    });
+  });
+  window.addEventListener("resize", function(){
+    document.querySelectorAll("details.accordion[open]").forEach(function(d){
+      var c = d.querySelector(":scope > .accordion-content");
+      if (c) c.style.maxHeight = c.scrollHeight + "px";
+    });
+  });
+
+  /* ==================== 3. 攝影打卡 Checklist（LocalStorage） ==================== */
+  var LS_PHOTOS = "nzTrip_photos_v1";
+  var photoState = {};
+  try { photoState = JSON.parse(localStorage.getItem(LS_PHOTOS) || "{}"); } catch(e){ photoState = {}; }
+
+  var photoChecks = document.querySelectorAll(".photo-card .photo-check input[type=checkbox]");
+
+  function savePhotoState(){ localStorage.setItem(LS_PHOTOS, JSON.stringify(photoState)); }
+
+  function updatePhotoProgress(){
+    var total = photoChecks.length;
+    var done = 0;
+    photoChecks.forEach(function(cb){ if (cb.checked) done++; });
+    var countEl = document.querySelector(".photo-progress .count");
+    var barEl = document.querySelector(".photo-progress .bar-fill");
+    if (countEl) countEl.textContent = done + " / " + total;
+    if (barEl) barEl.style.width = (total ? (done / total * 100) : 0) + "%";
+  }
+
+  photoChecks.forEach(function(cb, i){
+    var key = "photo-" + i;
+    cb.checked = !!photoState[key];
+    cb.addEventListener("change", function(){
+      photoState[key] = cb.checked;
+      savePhotoState();
+      updatePhotoProgress();
+    });
+  });
+  updatePhotoProgress();
+
+  /* ==================== 4. 行李清單（分頁切換 + LocalStorage + 自訂新增） ==================== */
+  var tabBtns = document.querySelectorAll(".tab-btn");
+  var tabPanels = document.querySelectorAll(".tab-panel");
+  tabBtns.forEach(function(btn){
+    btn.addEventListener("click", function(){
+      var target = btn.dataset.tab;
+      tabBtns.forEach(function(b){ b.classList.toggle("active", b === btn); });
+      tabPanels.forEach(function(p){ p.classList.toggle("active", p.id === target); });
+    });
+  });
+
+  var LS_PACK_CHECKS = "nzTrip_pack_checks_v2";
+  var LS_PACK_REMOVED = "nzTrip_pack_removed_v2";
+  var LS_PACK_CUSTOM = "nzTrip_pack_custom_v2";
+
+  function loadJSON(key){
+    try { return JSON.parse(localStorage.getItem(key) || "{}"); } catch(e){ return {}; }
+  }
+  var packChecks = loadJSON(LS_PACK_CHECKS);
+  var packRemoved = loadJSON(LS_PACK_REMOVED);
+  var packCustom = loadJSON(LS_PACK_CUSTOM);
+
+  function savePackChecks(){ localStorage.setItem(LS_PACK_CHECKS, JSON.stringify(packChecks)); }
+  function savePackRemoved(){ localStorage.setItem(LS_PACK_REMOVED, JSON.stringify(packRemoved)); }
+  function savePackCustom(){ localStorage.setItem(LS_PACK_CUSTOM, JSON.stringify(packCustom)); }
+
+  function createPackItemEl(text, checked, onCheck, onRemove){
+    var label = document.createElement("label");
+    label.className = "pack-item";
+    var cb = document.createElement("input");
+    cb.type = "checkbox";
+    cb.checked = !!checked;
+    var span = document.createElement("span");
+    span.textContent = text;
+    var rm = document.createElement("button");
+    rm.type = "button";
+    rm.className = "pack-remove";
+    rm.textContent = "✕";
+    label.appendChild(cb);
+    label.appendChild(span);
+    label.appendChild(rm);
+    cb.addEventListener("change", function(){ onCheck(cb.checked); });
+    rm.addEventListener("click", function(){ onRemove(); label.remove(); });
+    return label;
+  }
+
+  tabPanels.forEach(function(panel){
+    var tabId = panel.id;
+    var list = panel.querySelector(".pack-list");
+    if (!list) return;
+
+    // 預設清單項目：綁定勾選狀態與刪除功能
+    var presetItems = Array.prototype.slice.call(list.querySelectorAll(".pack-item"));
+    presetItems.forEach(function(item, idx){
+      var key = tabId + "-p" + idx;
+      if (packRemoved[key]) { item.remove(); return; }
+      var cb = item.querySelector("input[type=checkbox]");
+      cb.checked = !!packChecks[key];
+      cb.addEventListener("change", function(){
+        packChecks[key] = cb.checked;
+        savePackChecks();
+      });
+      var removeBtn = item.querySelector(".pack-remove");
+      if (removeBtn) {
+        removeBtn.addEventListener("click", function(){
+          packRemoved[key] = true;
+          savePackRemoved();
+          item.remove();
+        });
+      }
+    });
+
+    // 還原使用者自訂新增的項目
+    (packCustom[tabId] || []).forEach(function(entry){
+      var el = createPackItemEl(entry.text, entry.checked, function(checked){
+        entry.checked = checked;
+        savePackCustom();
+      }, function(){
+        packCustom[tabId] = (packCustom[tabId] || []).filter(function(e){ return e.id !== entry.id; });
+        savePackCustom();
+      });
+      list.appendChild(el);
+    });
+
+    // 新增物品輸入框與按鈕
+    var addRow = panel.querySelector(".pack-add-row");
+    if (!addRow) return;
+    var input = addRow.querySelector("input[type=text]");
+    var addBtn = addRow.querySelector("button");
+
+    function addItem(){
+      var text = input.value.trim();
+      if (!text) return;
+      var entry = { id: "c" + Date.now() + Math.random().toString(16).slice(2), text: text, checked: false };
+      if (!packCustom[tabId]) packCustom[tabId] = [];
+      packCustom[tabId].push(entry);
+      savePackCustom();
+      var el = createPackItemEl(entry.text, entry.checked, function(checked){
+        entry.checked = checked;
+        savePackCustom();
+      }, function(){
+        packCustom[tabId] = (packCustom[tabId] || []).filter(function(e){ return e.id !== entry.id; });
+        savePackCustom();
+      });
+      list.appendChild(el);
+      input.value = "";
+      input.focus();
+    }
+    addBtn.addEventListener("click", addItem);
+    input.addEventListener("keydown", function(e){
+      if (e.key === "Enter") { e.preventDefault(); addItem(); }
+    });
+  });
+
+  /* ==================== 5. 預訂追蹤與待訂清單連動 ==================== */
+  var LS_BOOKINGS = "nzTrip_bookings_v1";
+  var bookingState = loadJSON(LS_BOOKINGS);
+  function saveBookingState(){ localStorage.setItem(LS_BOOKINGS, JSON.stringify(bookingState)); }
+
+  var bookingCards = document.querySelectorAll(".booking-card");
+  var bookingEntries = [];
+
+  bookingCards.forEach(function(card, i){
+    var key = "booking-" + i;
+    var cb = card.querySelector(".booking-check input[type=checkbox]");
+    var refInput = card.querySelector(".booking-ref input[type=text]");
+    var titleEl = card.querySelector(".booking-title");
+    var dayEl = card.querySelector(".booking-day");
+    if (!cb) return;
+
+    var saved = bookingState[key];
+    if (saved) {
+      cb.checked = !!saved.checked;
+      if (refInput && typeof saved.ref === "string") refInput.value = saved.ref;
+    } else {
+      bookingState[key] = { checked: cb.checked, ref: refInput ? refInput.value : "" };
+    }
+    card.classList.toggle("card-checked", cb.checked);
+
+    var entry = { key: key, card: card, cb: cb, titleEl: titleEl, dayEl: dayEl };
+    bookingEntries.push(entry);
+
+    cb.addEventListener("change", function(){
+      bookingState[key].checked = cb.checked;
+      saveBookingState();
+      card.classList.toggle("card-checked", cb.checked);
+      updateUnbookedSummary();
+    });
+
+    if (refInput) {
+      refInput.addEventListener("input", function(){
+        bookingState[key].ref = refInput.value;
+        saveBookingState();
+      });
+    }
+  });
+  saveBookingState();
+
+  function updateUnbookedSummary(){
+    var countEl = document.getElementById("booking-summary-count");
+    var listEl = document.getElementById("unbooked-list");
+    var pending = bookingEntries.filter(function(e){ return !e.cb.checked; });
+    if (countEl) countEl.textContent = pending.length + " / " + bookingEntries.length;
+    if (listEl) {
+      listEl.innerHTML = "";
+      if (pending.length === 0) {
+        var li = document.createElement("li");
+        li.className = "all-done";
+        li.textContent = "🎉 所有項目皆已標記為已訂！";
+        listEl.appendChild(li);
+      } else {
+        pending.forEach(function(e){
+          var li = document.createElement("li");
+          var dayText = e.dayEl ? e.dayEl.textContent : "";
+          var titleText = e.titleEl ? e.titleEl.textContent : "";
+          li.innerHTML = "<b>" + dayText + "</b>" + titleText;
+          listEl.appendChild(li);
+        });
+      }
+    }
+  }
+  updateUnbookedSummary();
+
+  /* ==================== 6. NZD ↔ TWD 匯率計算機 ==================== */
+  var nzdInput = document.getElementById("calc-nzd");
+  var twdInput = document.getElementById("calc-twd");
+  var rateInput = document.getElementById("calc-rate");
+  var LS_RATE = "nzTrip_calc_rate_v1";
+
+  if (nzdInput && twdInput && rateInput) {
+    var savedRate = localStorage.getItem(LS_RATE);
+    if (savedRate) rateInput.value = savedRate;
+
+    function calcFromNzd(){
+      var rate = parseFloat(rateInput.value) || 19.5;
+      var nzd = parseFloat(nzdInput.value);
+      if (!isNaN(nzd)) twdInput.value = Math.round(nzd * rate * 100) / 100;
+    }
+    function calcFromTwd(){
+      var rate = parseFloat(rateInput.value) || 19.5;
+      var twd = parseFloat(twdInput.value);
+      if (!isNaN(twd) && rate) nzdInput.value = Math.round(twd / rate * 100) / 100;
+    }
+
+    nzdInput.addEventListener("input", calcFromNzd);
+    twdInput.addEventListener("input", calcFromTwd);
+    rateInput.addEventListener("input", function(){
+      localStorage.setItem(LS_RATE, rateInput.value);
+      if (document.activeElement === twdInput) { calcFromTwd(); } else { calcFromNzd(); }
+    });
+
+    var swapBtn = document.querySelector(".calc-swap");
+    if (swapBtn) {
+      swapBtn.addEventListener("click", function(){
+        var tmp = nzdInput.value;
+        nzdInput.value = twdInput.value;
+        twdInput.value = tmp;
+      });
+    }
+  }
+
+  /* ==================== 7. 頂部總覽地圖（資料來源：nz_map_points.csv） ==================== */
+  var tripMapPoints = [
+    { d:1, n:"Christchurch Airport", lat:-43.4864, lng:172.5469, cat:"交通", note:"抵達取車點", url:"" },
+    { d:1, n:"Riverside Market", lat:-43.5292, lng:172.6367, cat:"餐廳", note:"Day1 晚餐", url:"" },
+    { d:1, n:"Christchurch 住宿區", lat:-43.5321, lng:172.6362, cat:"住宿", note:"Day1、Day13–15 住宿城鎮", url:"https://www.booking.com/searchresults.html?ss=Christchurch%2C+New+Zealand" },
+    { d:2, n:"Elephant Rocks", lat:-44.8988, lng:170.9204, cat:"景點", note:"石灰岩奇石群 電影取景地", url:"" },
+    { d:2, n:"Moeraki Boulders", lat:-45.3548, lng:170.8225, cat:"景點", note:"海灘巨石奇景", url:"" },
+    { d:2, n:"Fleur's Place", lat:-45.3617, lng:170.8496, cat:"餐廳", note:"Day2 午餐 新鮮海鮮", url:"https://fleursplace.com/" },
+    { d:2, n:"Whitestone Cheese Factory Café", lat:-45.0958, lng:170.9738, cat:"餐廳", note:"Day2 下午茶 起司品嚐", url:"" },
+    { d:2, n:"Oamaru Blue Penguin Colony", lat:-45.1058, lng:170.9751, cat:"景點", note:"藍企鵝觀賞 嚴禁閃光燈", url:"https://www.penguins.co.nz/" },
+    { d:2, n:"Oamaru 住宿區", lat:-45.0968, lng:170.9714, cat:"住宿", note:"Day2 住宿城鎮", url:"https://www.booking.com/searchresults.html?ss=Oamaru%2C+New+Zealand" },
+    { d:3, n:"Baldwin Street Dunedin", lat:-45.8555, lng:170.5185, cat:"景點", note:"全球最陡街道打卡", url:"" },
+    { d:3, n:"Mataura Falls", lat:-46.1930, lng:168.8630, cat:"景點", note:"Gore附近瀑布景觀", url:"" },
+    { d:3, n:"Gore", lat:-46.0980, lng:168.9430, cat:"餐廳", note:"長途轉場中繼午餐點", url:"" },
+    { d:3, n:"Te Anau 超市採買點", lat:-45.4131, lng:167.7150, cat:"採買", note:"進入米佛峽灣前最後大型超市 非已訂活動", url:"" },
+    { d:3, n:"RealNZ Visitor Centre Te Anau（Glowworm Caves 出發碼頭）", lat:-45.4177, lng:167.7119, cat:"景點", note:"螢火蟲洞行程在RealNZ Visitor Centre 85 Lakefront Drive集合與搭船 非自行開車到洞穴", url:"https://www.realnz.com/en/experiences/glowworm-caves/te-anau-glowworm-caves/" },
+    { d:3, n:"Te Anau 住宿區", lat:-45.4131, lng:167.7150, cat:"住宿", note:"Day3/4 住宿城鎮", url:"https://www.booking.com/searchresults.html?ss=Te+Anau%2C+New+Zealand" },
+    { d:4, n:"Mirror Lakes", lat:-44.8912, lng:168.0148, cat:"景點", note:"回程短停 鏡湖倒影拍照點", url:"" },
+    { d:4, n:"Eglinton Valley", lat:-44.9930, lng:168.0570, cat:"景點", note:"去程短停約5分鐘 開闊谷地草原景觀", url:"" },
+    { d:4, n:"Homer Tunnel", lat:-44.7645, lng:168.0004, cat:"景點", note:"單線通行號誌等待時短暫觀景 不獨立停留", url:"" },
+    { d:4, n:"Milford Sound", lat:-44.6706, lng:167.9250, cat:"景點", note:"峽灣巡航遊船", url:"https://www.realnz.com/milford-sound/cruises/" },
+    { d:4, n:"Te Anau 住宿區", lat:-45.4131, lng:167.7150, cat:"住宿", note:"Day3/4 住宿城鎮（同 Day3）", url:"https://www.booking.com/searchresults.html?ss=Te+Anau%2C+New+Zealand" },
+    { d:5, n:"Devil's Staircase Lookout", lat:-45.24571, lng:168.74286, cat:"景點", note:"瓦卡蒂普湖畔觀景台 座標為暫定 請以Google Maps再次確認", url:"" },
+    { d:5, n:"Fergburger", lat:-45.0311, lng:168.6600, cat:"餐廳", note:"彈性必吃選項 非聖誕節固定餐食", url:"https://www.fergburger.com/" },
+    { d:5, n:"Queenstown 住宿區", lat:-45.0312, lng:168.6626, cat:"住宿", note:"Day5–7 住宿城鎮", url:"https://www.booking.com/searchresults.html?ss=Queenstown%2C+New+Zealand" },
+    { d:6, n:"TSS Earnslaw Steamer Wharf", lat:-45.0334, lng:168.6601, cat:"交通", note:"TSS恩斯洛號登船碼頭", url:"https://www.realnz.com/zh-cn/experiences/dining/walter-peak-bbq-dining/" },
+    { d:6, n:"Walter Peak High Country Farm", lat:-45.0770, lng:168.5880, cat:"景點", note:"TSS恩斯洛號登陸點 Walter Peak高地BBQ晚餐", url:"https://www.realnz.com/zh-cn/experiences/dining/walter-peak-bbq-dining/" },
+    { d:6, n:"Queenstown 聖誕食材採買點", lat:-45.0312, lng:168.6626, cat:"採買", note:"Day7早午晚餐備採 非已訂活動", url:"" },
+    { d:6, n:"Queenstown 住宿區", lat:-45.0312, lng:168.6626, cat:"住宿", note:"Day5–7 住宿城鎮（同 Day5）", url:"https://www.booking.com/searchresults.html?ss=Queenstown%2C+New+Zealand" },
+    { d:7, n:"Skyline Queenstown", lat:-45.0328, lng:168.6615, cat:"景點", note:"天際纜車與Luge溜溜車 聖誕節營業時段以官網為準", url:"https://www.skyline.co.nz/queenstown/" },
+    { d:7, n:"Kawarau Bridge Bungy", lat:-45.1275, lng:168.7508, cat:"景點", note:"高空彈跳 自由參加 聖誕節營業時段以官網為準", url:"https://www.bungy.co.nz/kawarau-bridge-bungy/" },
+    { d:7, n:"Patagonia Chocolates", lat:-45.0320, lng:168.6595, cat:"餐廳", note:"Day7 午餐選項 人氣冰淇淋巧克力", url:"" },
+    { d:7, n:"Queenstown 住宿區", lat:-45.0312, lng:168.6626, cat:"住宿", note:"Day5–7 住宿城鎮（同 Day5）", url:"https://www.booking.com/searchresults.html?ss=Queenstown%2C+New+Zealand" },
+    { d:8, n:"Arrowtown", lat:-44.9391, lng:168.8323, cat:"景點", note:"淘金小鎮歷史街區", url:"" },
+    { d:8, n:"Arrowtown Bakery", lat:-44.9388, lng:168.8320, cat:"餐廳", note:"Day8 午餐選項 在地人氣烘焙坊", url:"" },
+    { d:8, n:"Cromwell", lat:-45.0392, lng:169.1962, cat:"景點", note:"水果雕塑與水果攤", url:"" },
+    { d:8, n:"Wanaka 住宿區", lat:-44.6975, lng:169.1348, cat:"住宿", note:"Day8–9 住宿城鎮", url:"https://www.booking.com/searchresults.html?ss=Wanaka%2C+New+Zealand" },
+    { d:9, n:"That Wanaka Tree", lat:-44.6963, lng:169.1339, cat:"景點", note:"打卡湖中孤樹", url:"" },
+    { d:9, n:"Puzzling World", lat:-44.6852, lng:169.1699, cat:"景點", note:"自由活動選項", url:"https://www.puzzlingworld.co.nz/" },
+    { d:9, n:"Kai Whakapai Cafe & Bar", lat:-44.6975, lng:169.1345, cat:"餐廳", note:"Day9 晚餐選項 湖畔人氣老店", url:"" },
+    { d:9, n:"Wanaka 住宿區", lat:-44.6975, lng:169.1348, cat:"住宿", note:"Day8–9 住宿城鎮（同 Day8）", url:"https://www.booking.com/searchresults.html?ss=Wanaka%2C+New+Zealand" },
+    { d:10, n:"Lindis Pass Summit", lat:-44.5813, lng:169.6417, cat:"景觀／短停", note:"Wanaka前往Twizel途中短停拍照 座標為暫定請以Google Maps再次確認", url:"" },
+    { d:10, n:"High Country Salmon", lat:-44.29139, lng:170.08513, cat:"餐廳", note:"Day10 午餐 新鮮鮭魚 聖誕節通常休息 非本行程日期", url:"" },
+    { d:10, n:"Twizel 超市採買點", lat:-44.2603, lng:170.0986, cat:"採買", note:"晚餐食材採買 Mount Cook Village商店選擇少", url:"" },
+    { d:10, n:"Aoraki Mount Cook Village", lat:-43.7340, lng:170.0964, cat:"景點", note:"庫克山村", url:"" },
+    { d:10, n:"Hooker Valley Track", lat:-43.7275, lng:170.0999, cat:"景點", note:"輕健行步道起點", url:"" },
+    { d:11, n:"Tasman Glacier Explorers Hermitage Activities Centre", lat:-43.7346, lng:170.0972, cat:"景點", note:"冰河船報名處 含報到步行與船程", url:"https://www.hermitage.co.nz/experience/glacier-explorers/" },
+    { d:11, n:"Old Mountaineers' Café", lat:-43.7355, lng:170.0980, cat:"餐廳", note:"Mount Cook Village 午餐", url:"" },
+    { d:11, n:"Lake Pukaki Viewpoint", lat:-44.1667, lng:170.1500, cat:"景點", note:"牛奶藍湖泊拍照點", url:"" },
+    { d:11, n:"Church of the Good Shepherd", lat:-44.0086, lng:170.4779, cat:"景點", note:"好牧羊人教堂", url:"" },
+    { d:11, n:"Dark Sky Project Tekapo", lat:-44.0047, lng:170.4785, cat:"景點", note:"觀星團集合點", url:"https://www.darkskyproject.co.nz/" },
+    { d:11, n:"Lake Tekapo 住宿區", lat:-44.0047, lng:170.4785, cat:"住宿", note:"Day11–12 住宿城鎮", url:"https://www.booking.com/searchresults.html?ss=Lake+Tekapo%2C+New+Zealand" },
+    { d:12, n:"Mt John Observatory", lat:-43.986667, lng:170.465000, cat:"景點", note:"觀景公路 俯瞰蒂卡波湖 上山道路約NZ$14/車 開放時間依季節調整", url:"" },
+    { d:12, n:"Astro Café", lat:-43.985326, lng:170.464892, cat:"餐廳", note:"Mt John山頂咖啡館 營業時間季節性調整", url:"" },
+    { d:12, n:"Kohan Restaurant", lat:-44.0044, lng:170.4780, cat:"餐廳", note:"Day12 晚餐選項 湖畔人氣日式料理", url:"" },
+    { d:12, n:"Lake Tekapo 住宿區", lat:-44.0047, lng:170.4785, cat:"住宿", note:"Day11–12 住宿城鎮（同 Day11）", url:"https://www.booking.com/searchresults.html?ss=Lake+Tekapo%2C+New+Zealand" },
+    { d:13, n:"Fairlie Bakehouse", lat:-44.0967, lng:170.8305, cat:"餐廳", note:"Day13 午餐 招牌肉派", url:"" },
+    { d:13, n:"Geraldine", lat:-44.0958, lng:171.2419, cat:"景點", note:"復古車輛博物館 可愛小鎮", url:"" },
+    { d:13, n:"Barker's of Geraldine", lat:-44.0954, lng:171.2434, cat:"餐廳", note:"果醬果汁品牌創始店 附設咖啡館", url:"" },
+    { d:13, n:"Cathedral Square", lat:-43.5309, lng:172.6373, cat:"景點", note:"僅在官方日後公告跨年活動時才考慮 非固定行程", url:"" },
+    { d:13, n:"Christchurch 住宿區", lat:-43.5321, lng:172.6362, cat:"住宿", note:"Day1、Day13–15 住宿城鎮（同 Day1）", url:"https://www.booking.com/searchresults.html?ss=Christchurch%2C+New+Zealand" },
+    { d:14, n:"International Antarctic Centre", lat:-43.4894, lng:172.5372, cat:"景點", note:"Day14(1/1) 4位成人NZ$296 出發前確認元旦營業", url:"https://www.iceberg.co.nz/" },
+    { d:14, n:"Christchurch 住宿區", lat:-43.5321, lng:172.6362, cat:"住宿", note:"Day1、Day13–15 住宿城鎮（同 Day1）", url:"https://www.booking.com/searchresults.html?ss=Christchurch%2C+New+Zealand" },
+    { d:15, n:"Akaroa 法式小鎮中心", lat:-43.8037, lng:172.9483, cat:"景點", note:"法式殖民小鎮中心", url:"" },
+    { d:15, n:"Black Cat Cruises Akaroa Wharf", lat:-43.8041, lng:172.9505, cat:"交通", note:"賞豚遊船/海豚共游二選一 待確認", url:"https://www.blackcat.co.nz/" },
+    { d:15, n:"Christchurch 住宿區", lat:-43.5321, lng:172.6362, cat:"住宿", note:"Day1、Day13–15 住宿城鎮（同 Day1）", url:"https://www.booking.com/searchresults.html?ss=Christchurch%2C+New+Zealand" },
+    { d:16, n:"Christchurch Airport Rental Car Return", lat:-43.4864, lng:172.5469, cat:"交通", note:"還車地點 10:45-11:00還車", url:"" }
+  ];
+
+  (function initTripMap(){
+    var mapEl = document.getElementById("trip-map");
+    if (!mapEl || typeof L === "undefined") return;
+
+    var catColors = {
+      "景點": "#4A8B9C",
+      "景觀／短停": "#4A8B9C",
+      "餐廳": "#E59572",
+      "住宿": "#9D7CA6",
+      "採買": "#7FA66B",
+      "交通": "#8B8F82"
+    };
+
+    tripMap = L.map("trip-map", { scrollWheelZoom: false, minZoom: 5 });
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 18,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(tripMap);
+
+    var allLatLngs = [];
+    var markers = tripMapPoints.map(function(p){
+      var color = catColors[p.cat] || "#4A8B9C";
+      var marker = L.circleMarker([p.lat, p.lng], {
+        radius: 7,
+        color: "#fff",
+        weight: 2,
+        fillColor: color,
+        fillOpacity: 0.95
+      });
+      marker.day = p.d;
+
+      var popupHtml = '<div class="map-popup"><b>' + p.n + '</b>';
+      if (p.note) popupHtml += '<div class="popup-note">' + p.note + '</div>';
+      popupHtml += '<a href="https://www.google.com/maps/search/?api=1&query=' + p.lat + ',' + p.lng + '" target="_blank" rel="noopener">🚗 導航</a>';
+      if (p.url) popupHtml += '<br><a href="' + p.url + '" target="_blank" rel="noopener">🔗 預訂／官網</a>';
+      popupHtml += '</div>';
+      marker.bindPopup(popupHtml);
+
+      marker.addTo(tripMap);
+      allLatLngs.push([p.lat, p.lng]);
+      return marker;
+    });
+
+    var allBounds = L.latLngBounds(allLatLngs);
+    tripMap.fitBounds(allBounds, { padding: [20, 20] });
+
+    // 點擊地圖後才啟用滾輪縮放，避免在手機頁面上滑動時誤觸地圖縮放
+    tripMap.on("click", function(){ tripMap.scrollWheelZoom.enable(); });
+
+    var dayChips = document.querySelectorAll(".day-chip");
+    dayChips.forEach(function(chip){
+      chip.addEventListener("click", function(){
+        dayChips.forEach(function(c){ c.classList.toggle("active", c === chip); });
+        var day = chip.dataset.day;
+        var visibleLatLngs = [];
+        markers.forEach(function(marker){
+          var show = (day === "all") || (String(marker.day) === day);
+          if (show) {
+            if (!tripMap.hasLayer(marker)) marker.addTo(tripMap);
+            visibleLatLngs.push(marker.getLatLng());
+          } else if (tripMap.hasLayer(marker)) {
+            tripMap.removeLayer(marker);
+          }
+        });
+        if (visibleLatLngs.length) {
+          tripMap.fitBounds(L.latLngBounds(visibleLatLngs), { padding: [30, 30], maxZoom: 13 });
+        }
+      });
+    });
+  })();
+
+})();
+</script>
+
+</body>
+</html>
