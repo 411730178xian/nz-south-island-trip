@@ -22,7 +22,7 @@
 | Day | 日期 (週) | 區域 | 當日重點 | 午餐 | 晚餐 | 住宿地 |
 |---|---|---|---|---|---|---|
 | 1 | 12/19（六）| 基督城 | 抵達、取車、超市採買 | 機上/轉機 | 基督城市區餐廳 🌟 | Christchurch |
-| 2 | 12/20（日）| 東海岸 | Elephant Rocks、摩洛奇龍珠石、奧瑪魯藍企鵝 | Fleur's Place 🌟 | 奧瑪魯市區小酒館或餐廳 | Oamaru |
+| 2 | 12/20（日）| 東海岸 | Elephant Rocks、摩洛奇龍珠石、奧瑪魯藍企鵝 | Fishwife 🌟 | 奧瑪魯市區小酒館或餐廳 | Oamaru |
 | 3 | 12/21（一）| 南下大移動 | Dunedin、Mataura Falls 沿途打卡 | Gore 小鎮咖啡館 | 🛒 超市採買自煮 | Te Anau |
 | 4 | 12/22（二）| 米佛峽灣 | Mirror Lakes、Eglinton Valley、Homer Tunnel、峽灣巡航 | 自備野餐/峽灣咖啡館 | 🛒 超市採買自煮 | Te Anau |
 | 5 | 12/23（三）| 蒂阿瑙→皇后鎮 | Devil's Staircase 觀景點，皇后鎮連住第 1 晚 | 途中簡餐 | 皇后鎮餐廳 | Queenstown |
@@ -31,7 +31,7 @@
 | 8 | 12/26（六）| 箭鎮→克倫威爾→瓦納卡 | 淘金小鎮、Kawarau Bridge Bungy（途中）、水果小鎮 | 箭鎮 Bakery 👍 | 瓦納卡湖畔餐廳 | Wanaka |
 | 9 | 12/27（日）| 瓦納卡 | 悠閒日、孤樹 | 瓦納卡湖濱咖啡館 | Kai Whakapai 👍 | Wanaka |
 | 10 | 12/28（一）| 瓦納卡→庫克山 | Lindis Pass 觀景台、胡克谷健行 | High Country Salmon 🌟 | 🛒 超市採買自煮 | Haka House Hostel Aoraki Mt Cook |
-| 11 | 12/29（二）| 庫克山→蒂卡波湖 | 塔斯曼冰河船 | Old Mountaineers' Café | 🛒 超市採買自煮 | Lake Tekapo |
+| 11 | 12/29（二）| 庫克山→蒂卡波湖 | 塔斯曼冰河船 | Hermitage Hotel Alpine Restaurant | 🛒 超市採買自煮 | Lake Tekapo |
 | 12 | 12/30（三）| 蒂卡波湖 | 悠閒緩衝日：Mt John 觀景公路、二訪觀星 | Kohan Restaurant 👍 | 🛒 超市採買自煮 | Lake Tekapo |
 | 13 | 12/31（四）🎉| 蒂卡波湖→基督城 | 沿途 Geraldine，市區溫馨跨年 | Fairlie Bakehouse 🌟 | 基督城跨年晚餐（先訂位） | Christchurch |
 | 14 | 1/1（五）🎊| 基督城 | 🆕 南極中心 (International Antarctic Centre) | 🛒 自煮 | 🛒 自煮 | Christchurch |
@@ -64,8 +64,11 @@
 - 預計 11:30 抵達 Elephant Rocks，短停拍照
 - Elephant Rocks → Moeraki Boulders
   - 🚗 [Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Elephant+Rocks+Duntroon&destination=Moeraki+Boulders&travelmode=driving)
-- 🍽️ 午餐：🌟 **Fleur's Place**（Moeraki 在地新鮮海鮮，必吃推薦）— 訂位時間 13:30
-  - 🔗 [官網訂位](https://fleursplace.com/)
+- 🍽️ 午餐：🌟 **Fishwife**（Moeraki 海邊魚薯條店，主打新鮮藍鱈魚 blue cod，必吃推薦）
+  - ⚠️ **原指定的 Fleur's Place 已於 2021 年底永久停業**（非暫時公休，老闆已無意重開，房產一度掛牌出售），故改推薦 Fishwife 作為替代
+  - 📍 地址：145 Haven Street, Moeraki 9482
+  - ⏰ 僅**週五至週日**營業，12/20 剛好是週日，符合本行程日期
+  - 🔗 [Facebook 粉絲頁](https://www.facebook.com/MoerakiFishWife/)（無官方網站，建議可致電 +64 27 201 5171 詢問候位狀況）
 - 午餐後 Moeraki → Oamaru
   - 🚗 [Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Moeraki+Boulders&destination=Oamaru&travelmode=driving)
 - 下午：奧瑪魯維多利亞古蹟街區散步
@@ -219,7 +222,10 @@
   - 📍 **報到地點不是湖邊，是飯店內的活動櫃檯**：check-in 後會搭接駁巴士前往塔斯曼谷，再步行 1.5km／約25分鐘的高山步道才抵達冰河湖碼頭上船
   - ⏰ 務必於出發前 **30 分鐘**到 Activities Centre 報到
   - 💡 行程含報到、巴士、步行至冰河湖與船程，總時長請以官網為準
-- 🍽️ 午餐：Old Mountaineers' Café（Mount Cook Village）
+- 🍽️ 午餐：**Hermitage Hotel Alpine Restaurant**（飯店一樓自助餐廳，看山景）
+  - ⚠️ 原排的 Old Mountaineers' Café **週一、週二公休**，12/29 剛好是週二，故改到早上報到的同一棟 Hermitage Hotel 內用餐，不需額外移動
+  - 💡 飯店內也有 Sir Edmund Hillary Café & Bar 可選（較快速的簡餐/咖啡選項）
+  - 🔗 [Hermitage 餐飲介紹](https://www.hermitage.co.nz/dine/)
 - 約 13:30 出發前往 Lake Tekapo（途經 Lake Pukaki 拍照，避免與冰河船行程時間重疊）
   - 🚗 約 1h35m｜[Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Aoraki+Mount+Cook+Village&destination=Lake+Tekapo&travelmode=driving)
 - 下午：好牧羊人教堂、湖畔散步，抵達後先至超市採買晚餐
@@ -399,7 +405,7 @@
 | 分類 | 地點 | 名稱 |
 |---|---|---|
 | 🌟必吃 | Christchurch | Riverside Market |
-| 🌟必吃 | Moeraki | Fleur's Place |
+| 🌟必吃 | Moeraki | Fishwife（原 Fleur's Place 已永久停業） |
 | 🌟必吃 | Queenstown | Fergburger |
 | 🌟必吃 | Twizel | High Country Salmon |
 | 🌟必吃 | Fairlie | Fairlie Bakehouse |
@@ -428,7 +434,7 @@
 | 蒂卡波觀星團 (Dark Sky Project) | https://www.darkskyproject.co.nz |
 | Puzzling World Wanaka | https://www.puzzlingworld.co.nz/ |
 | International Antarctic Centre | https://www.iceberg.co.nz/ |
-| Fleur's Place（訂位參考）🌟必吃 | https://fleursplace.com/ |
+| Fishwife（Moeraki，取代已永久停業的 Fleur's Place）🌟必吃 | https://www.facebook.com/MoerakiFishWife/ |
 | Fergburger 🌟必吃 | https://www.fergburger.com/ |
 
 | Akaroa 賞豚／海豚共游 (Black Cat Cruises) `📌待選擇／待訂` | https://www.blackcat.co.nz/ |
@@ -461,3 +467,14 @@
 - 🔴 **Milford Sound 停車轉乘時間**由「30分鐘」修正為官方建議的「45分鐘至1小時」（Day4）。
 - 🟡 已為以下項目補上官方查證的報到地點、停車資訊與建議報到時段：Day2 藍企鵝、Day3 螢火蟲洞、Day6 TSS Earnslaw、Day7 Skyline、Day8 Kawarau Bungy、Day9 Puzzling World、Day11 塔斯曼冰河船（**確認需在 The Hermitage Hotel 一樓 Activities Centre 報到，非直接到湖邊**）、Day11/12 Dark Sky Project（報到於 1 Motuariki Lane，與 Day12 白天自駕上 Mt John 是兩件不同的事）、Day14 南極中心。
 - 其餘路線、日期、住宿城市、餐廳與已確認預訂皆維持不變。
+
+---
+
+**V10 全行程餐廳／景點公休日逐一查證**（依官網、Google Maps 逐一查證，2026-08-04）：
+- 🔴 **Day2 午餐 Fleur's Place 已於 2021 年底永久停業**（非公休），改為 **Fishwife**（Moeraki，145 Haven Street，僅週五至週日營業，12/20 為週日符合）。
+- 🔴 **Day11 午餐 Old Mountaineers' Café 每週一、二固定公休**，12/29 剛好是週二，改為 **Hermitage Hotel Alpine Restaurant**（與當日早上報到的冰河船 Activities Centre 同棟建築，不需額外移動）。
+- 🟡 **Day6 TSS Earnslaw＋Walter Peak（12/24 平安夜，已訂）**：查到聖誕／跨年前後班次可能縮減為單一時段（約18:00），晚餐菜單也可能從常態 BBQ 菜單改為「聖誕節特別菜單」，實際內容請務必以訂單確認信為準。
+- 🟡 **Day12 Kohan Restaurant（12/30 週三）**：官網顯示偶爾在週四、週日臨時公休，週三理論上正常營業，建議行前致電 03 680 6688 確認。
+- 🟡 **Day7 Patagonia Chocolates（聖誕節備案選項）**：僅查到 Wanaka 分店確認聖誕節有營業，皇后鎮本店聖誕節時間未查到官方資料，維持「以當日營業狀況為準」的備案性質不變。
+- ✅ 已逐一確認**沒有公休問題**、可維持原排程：Skyline（聖誕節照常營業）、International Antarctic Centre（元旦照常09:00–16:30）、Black Cat Cruises（僅聖誕節公休，Day15不受影響）、Kawarau Bungy（節禮日Day8正常營業9:30–16:00）、Riverside Market、Whitestone Cheese Café、Kai Whakapai、Arrowtown Bakery、Fairlie Bakehouse、Barker's of Geraldine、High Country Salmon、Astro Café、Fergburger、Oamaru藍企鵝、Te Anau螢火蟲洞、Milford Sound巡航、塔斯曼冰河船、Dark Sky Project、Puzzling World。
+- 其餘路線、日期、住宿城市與已確認預訂皆維持不變。

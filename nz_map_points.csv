@@ -4,7 +4,7 @@ Day,Spot_Name,Latitude,Longitude,Category,Notes,Booking_URL
 1,Christchurch 住宿區,-43.5321,172.6362,住宿,Day1、Day13–15 住宿城鎮,https://www.booking.com/searchresults.html?ss=Christchurch%2C+New+Zealand
 2,Elephant Rocks,-44.8988,170.9204,景點,石灰岩奇石群 電影取景地,
 2,Moeraki Boulders,-45.3548,170.8225,景點,海灘巨石奇景,
-2,Fleur's Place,-45.3617,170.8496,餐廳,Day2 午餐 新鮮海鮮,https://fleursplace.com/
+2,Fishwife,-45.3592,170.8555,餐廳,Day2 午餐 新鮮海鮮 原Fleur's Place已於2021年底永久停業改為此店 地址145 Haven Street 僅週五至週日營業12/20為週日符合,https://www.facebook.com/MoerakiFishWife/
 2,Whitestone Cheese Factory Café,-45.0958,170.9738,餐廳,Day2 下午茶 起司品嚐,
 2,Oamaru Blue Penguin Colony,-45.1058,170.9751,景點,藍企鵝觀賞 嚴禁閃光燈 地址17 Waterfront Road South Hill 現場兩個免費停車場 建議開始前15分鐘報到 12月晚間場約19:00-21:00間開始實際依官方公布,https://www.penguins.co.nz/
 2,Oamaru 住宿區,-45.0968,170.9714,住宿,Day2 住宿城鎮,https://www.booking.com/searchresults.html?ss=Oamaru%2C+New+Zealand
@@ -44,7 +44,7 @@ Day,Spot_Name,Latitude,Longitude,Category,Notes,Booking_URL
 10,Aoraki Mount Cook Village,-43.7340,170.0964,景點,庫克山村,
 10,Hooker Valley Track,-43.7275,170.0999,景點,輕健行步道起點,
 11,Tasman Glacier Explorers Hermitage Activities Centre,-43.7346,170.0972,景點,冰河船報名處 位於The Hermitage Hotel一樓Activities Centre 非湖邊 需提前30分鐘報到後搭巴士+步行1.5km/25分鐘至冰河湖碼頭 飯店現場公眾可免費停車,https://www.hermitage.co.nz/experience/glacier-explorers/
-11,Old Mountaineers' Café,-43.7355,170.0980,餐廳,Mount Cook Village 午餐,
+11,Hermitage Hotel Alpine Restaurant,-43.7346,170.0972,餐廳,Mount Cook Village 午餐 原Old Mountaineers Café週一二公休已改為飯店自助餐廳 與早上冰河船報到處同棟建築,https://www.hermitage.co.nz/dine/
 11,Lake Pukaki Viewpoint,-44.1667,170.1500,景點,牛奶藍湖泊拍照點,
 11,Church of the Good Shepherd,-44.0086,170.4779,景點,好牧羊人教堂,
 11,Dark Sky Project Tekapo,-44.0034,170.4775,景點,觀星團集合點 地址1 Motuariki Lane 建議提前15-20分鐘報到 Summit Experience由業者接駁巴士上Mt John 非自行開車 與Day12白天自駕上山是不同活動,https://www.darkskyproject.co.nz/
