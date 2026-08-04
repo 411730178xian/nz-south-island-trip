@@ -27,8 +27,8 @@
 | 4 | 12/22（二）| 米佛峽灣 | Mirror Lakes、Eglinton Valley、Homer Tunnel、峽灣巡航 | 自備野餐/峽灣咖啡館 | 🛒 超市採買自煮 | Te Anau |
 | 5 | 12/23（三）| 蒂阿瑙→皇后鎮 | Devil's Staircase 觀景點，皇后鎮連住第 1 晚 | 途中簡餐 | 皇后鎮餐廳 | Queenstown |
 | 6 | 12/24（四）🎄| 皇后鎮 | TSS Earnslaw＋Walter Peak 高地 BBQ 晚餐，第 2 晚 | Queenstown 自由午餐／輕食 | Walter Peak 高地 BBQ 晚餐（已含票價） | Queenstown |
-| 7 | 12/25（五）🎄| 皇后鎮 | Skyline+Luge、高空彈跳，第 3 晚 | 皇后鎮湖濱咖啡館 | 超市自煮／飯店 Christmas Buffet（提前訂位） | Queenstown |
-| 8 | 12/26（六）| 箭鎮→克倫威爾→瓦納卡 | 淘金小鎮、水果小鎮 | 箭鎮 Bakery 👍 | 瓦納卡湖畔餐廳 | Wanaka |
+| 7 | 12/25（五）🎄| 皇后鎮 | Skyline+Luge，第 3 晚（Bungy 因聖誕節公休已改至 Day8） | 皇后鎮湖濱咖啡館 | 超市自煮／飯店 Christmas Buffet（提前訂位） | Queenstown |
+| 8 | 12/26（六）| 箭鎮→克倫威爾→瓦納卡 | 淘金小鎮、Kawarau Bridge Bungy（途中）、水果小鎮 | 箭鎮 Bakery 👍 | 瓦納卡湖畔餐廳 | Wanaka |
 | 9 | 12/27（日）| 瓦納卡 | 悠閒日、孤樹 | 瓦納卡湖濱咖啡館 | Kai Whakapai 👍 | Wanaka |
 | 10 | 12/28（一）| 瓦納卡→庫克山 | Lindis Pass 觀景台、胡克谷健行 | High Country Salmon 🌟 | 🛒 超市採買自煮 | Haka House Hostel Aoraki Mt Cook |
 | 11 | 12/29（二）| 庫克山→蒂卡波湖 | 塔斯曼冰河船 | Old Mountaineers' Café | 🛒 超市採買自煮 | Lake Tekapo |
@@ -71,8 +71,11 @@
 - 下午：奧瑪魯維多利亞古蹟街區散步
 - 下午茶／起司品嚐：👍 **Whitestone Cheese Factory Café**（在地起司品飲＋輕食，適合親子參觀起司製作）
 - 🍽️ 晚餐：奧瑪魯市區小酒館或餐廳
-- 藍企鵝棲息地觀賞：觀賞時間依當日官方公布或訂位時段調整　`📌待訂`
+- 藍企鵝棲息地觀賞：12月屬夏季時段，晚間觀賞約 19:00–21:00 間開始，實際時段依當日官方公布或訂位頁為準　`📌待訂`
   - 🎟️ [官方預訂 penguins.co.nz](https://www.penguins.co.nz/)
+  - 📍 地點：17 Waterfront Road, South Hill, Oamaru 9400
+  - 🅿️ 現場有兩個免費停車場（一般車輛＋露營車/遊覽車專用大車格）
+  - ⏰ 建議開始前 15 分鐘報到
   - ⚠️ 全程禁止閃光燈
 - 🏨 住宿：Oamaru　`📌待訂（高優先）`
   - [Booking.com 搜尋](https://www.booking.com/searchresults.html?ss=Oamaru%2C+New+Zealand) ｜ [Airbnb 搜尋](https://www.airbnb.com/s/Oamaru--New-Zealand/homes)
@@ -92,6 +95,8 @@
 - 🍽️ 晚餐：🛒 超市採買自煮
 - 19:30 起：Te Anau Glowworm Caves 螢火蟲洞船遊
   - 🎟️ [官方預訂 RealNZ](https://www.realnz.com/en/experiences/glowworm-caves/te-anau-glowworm-caves/)
+  - 📍 報到／集合處：RealNZ Visitor Centre, 85 Lakefront Drive, Te Anau（現場免費停車）
+  - ⏰ 建議開船前 20–30 分鐘報到
   - 💰 **峽灣「經典套餐」**——螢火蟲洞＋Day4 的米爾福德峽灣特色遊船一起買，每人省 NZ$35　`📌待訂（高優先，旺季易額滿）`
     - [峽灣套餐購買頁](https://www.realnz.com/zh-cn/specials/combo-deals/)
 - 🏨 住宿：Te Anau　`📌待訂（高優先）`
@@ -105,7 +110,7 @@
   - 🚗 [Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Eglinton+Valley&destination=Homer+Tunnel&travelmode=driving)
 - Homer Tunnel → Milford Sound
   - 🚗 [Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Homer+Tunnel&destination=Milford+Sound&travelmode=driving)
-- ⏰ 請預留 30 分鐘，供遠端停車場停車、步行至碼頭與遊船報到
+- ⏰ 官方建議請預留 **45 分鐘至 1 小時**停車並步行至 Milford Sound Visitor Terminal（主停車場約步行10分鐘，Deepwater Basin 停車場約步行25分鐘），並於開船前 20 分鐘完成報到
 - 12:00-14:00 峽灣巡航遊船
   - 🎟️ 船票將包含在 Day3「峽灣經典套餐」內（螢火蟲洞＋米爾福德峽灣特色遊船，省 NZ$35/人）　`📌待訂（高優先，旺季易額滿）`
     - [套餐購買頁](https://www.realnz.com/zh-cn/specials/combo-deals/) ｜ [單獨購票頁](https://www.realnz.com/en/experiences/day-cruises/milford-sound-signature-cruise/)
@@ -135,6 +140,9 @@
 - 傍晚至晚上：搭乘 **TSS Earnslaw 恩斯洛號百年蒸汽船**，橫渡瓦卡蒂普湖前往 Walter Peak 高地農場
 - 🎟️ **TSS Earnslaw＋Walter Peak 高地 BBQ 晚餐**，公開起價 NZ$189 起　`📌已訂`
   - [官方預訂 RealNZ](https://www.realnz.com/zh-cn/experiences/dining/walter-peak-bbq-dining/)
+  - 📍 報到處：RealNZ 櫃檯，Steamer Wharf, 88 Beach Street, Queenstown（船就停靠在碼頭前）
+  - ⏰ 建議開船前 20 分鐘報到
+  - 🅿️ 碼頭本身**沒有專屬停車場**，需停在皇后鎮市區停車格或步行從住宿處前往，請預留額外找車位的時間
   - ⚠️ 實際價格與可訂時段以訂票頁及訂單確認信為準（`以訂單確認信為準`）
   - 實際報到與登船時間：以訂單確認信為準
   - 方案包含往返蒸汽船、Walter Peak 高地 BBQ 晚餐，以及晚餐後的牧羊犬趕羊秀 (farm dog show)
@@ -147,11 +155,13 @@
 - ⚠️ 聖誕節當天部分商店/景點縮短營業，出發前先確認開放時間
 - 上午：Skyline Gondola 天際纜車 + Luge 溜溜車　`📌待訂`
   - 🎟️ [官方預訂 Skyline](https://www.skyline.co.nz/queenstown/)
+  - 📍 纜車基地站：Brecon Street, Queenstown
+  - 🅿️ 基地站後方有立體停車場（收費，憑當日纜車票可折抵部分費用）
+  - ⏰ 現場尖峰擁擠時段為 **10:00–14:30**，建議一早或傍晚前往人潮較少；強烈建議先線上訂票，可直接領票免排隊購票
   - ⚠️ 聖誕節營業與可選時段以各景點訂位頁為準
 - 🍽️ 午餐：皇后鎮湖濱咖啡館，或 👍 **Patagonia Chocolates**（人氣冰淇淋/巧克力甜點）——以聖誕節當日營業與預訂狀況為準
-- 下午：Kawarau Bridge Bungy（自由參加）　`📌待訂／自由參加`
-  - 🎟️ [官方預訂 AJ Hackett - Kawarau Bungy Centre](https://www.bungy.co.nz/queenstown/kawarau-bungy-centre/kawarau-bridge-bungy/)
-  - ⚠️ 聖誕節營業與可選時段以各景點訂位頁為準
+- 下午：皇后鎮自由活動、湖濱散步
+  - 💡 Kawarau Bridge Bungy 已改排至 **Day8**（前往箭鎮／克倫威爾途中順路停靠）——因為 Kawarau Bungy Centre 聖誕節當天公休，無法在本日進行
 - 🍽️ 晚餐：強烈建議於 12/24 先至超市採買食材，回住宿點自煮；或於出發前三個月直接預訂高級飯店的 Christmas Buffet
 - 🏨 住宿：Queenstown（同 Day5/6）
 
@@ -160,8 +170,16 @@
   - 🚗 約 25 分鐘｜[Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Queenstown&destination=Arrowtown&travelmode=driving)
 - 淘金小鎮歷史街區散步
 - 🍽️ 午餐：👍 **Arrowtown Bakery**（在地人氣烘焙坊）或 Cromwell 水果攤
-- 12:00 Arrowtown → Cromwell
-  - 🚗 約 35 分鐘｜[Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Arrowtown&destination=Cromwell&travelmode=driving)
+- 12:00 Arrowtown → Kawarau Bridge Bungy Centre（沿 SH6 順路，不繞路）
+  - 🚗 約 10–15 分鐘｜[Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Arrowtown&destination=Kawarau+Bridge+Bungy+Centre&travelmode=driving)
+- **Kawarau Bridge Bungy（自由參加）**　`📌待訂／自由參加`（原排 Day7，因聖誕節公休已改至本日）
+  - 🎟️ [官方預訂 AJ Hackett - Kawarau Bungy Centre](https://www.bungy.co.nz/queenstown/kawarau-bungy-centre/kawarau-bridge-bungy/)
+  - 📍 地址：State Highway 6 (SH6), Gibbston Valley, Queenstown
+  - 🅿️ 現場免費停車（含露營車過夜車格）
+  - ⏰ 自行開車者建議提前 15 分鐘報到；若在皇后鎮搭乘官方接駁車則需提前 30 分鐘報到
+  - ⏰ 營業時間 9:30–16:00
+- 12:45 Kawarau Bridge Bungy Centre → Cromwell
+  - 🚗 約 30 分鐘｜[Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Kawarau+Bridge+Bungy+Centre&destination=Cromwell&travelmode=driving)
 - 水果雕塑拍照、採買新鮮水果
 - 14:00 Cromwell → Wanaka
   - 🚗 約 55 分鐘｜[Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Cromwell&destination=Wanaka&travelmode=driving)
@@ -174,6 +192,9 @@
 - 🍽️ 午餐：瓦納卡湖濱咖啡館
 - 下午：自由活動（可選 Puzzling World）　`📌待訂／自由參加`
   - 🎟️ [官方預訂 Puzzling World](https://www.puzzlingworld.co.nz/)
+  - 📍 地址：188 Wanaka-Luggate Hwy, Wanaka 9382
+  - 🅿️ 現場免費停車
+  - ⏰ 營業時間 9:00–16:30（12/27 非假日，正常營業）
 - 🍽️ 晚餐：👍 **Kai Whakapai Cafe & Bar**（瓦納卡湖畔人氣老店，餐點選擇多適合家庭）
 - 🏨 住宿：Wanaka（同 Day8）
 
@@ -193,16 +214,20 @@
   - [Booking.com 查詢](https://www.booking.com/searchresults.html?ss=Haka+House+Hostel+Aoraki+Mount+Cook)
 
 ### Day 11｜12/29（二）｜塔斯曼冰河船 → 蒂卡波湖
-- 09:00 Tasman Glacier Explorer 冰河船　`📌待訂`
+- 08:30 於 **The Hermitage Hotel 一樓 Activities Centre** 報到（Aoraki Mount Cook Village，公眾可免費停車） → 09:00 Tasman Glacier Explorer 冰河船出發　`📌待訂`
   - 🎟️ [官方預訂 The Hermitage - Glacier Explorers](https://www.hermitage.co.nz/experience/glacier-explorers/)
-  - 💡 行程含報到、步行至冰河湖與船程，總時長請以官網為準
+  - 📍 **報到地點不是湖邊，是飯店內的活動櫃檯**：check-in 後會搭接駁巴士前往塔斯曼谷，再步行 1.5km／約25分鐘的高山步道才抵達冰河湖碼頭上船
+  - ⏰ 務必於出發前 **30 分鐘**到 Activities Centre 報到
+  - 💡 行程含報到、巴士、步行至冰河湖與船程，總時長請以官網為準
 - 🍽️ 午餐：Old Mountaineers' Café（Mount Cook Village）
 - 約 13:30 出發前往 Lake Tekapo（途經 Lake Pukaki 拍照，避免與冰河船行程時間重疊）
   - 🚗 約 1h35m｜[Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Aoraki+Mount+Cook+Village&destination=Lake+Tekapo&travelmode=driving)
 - 下午：好牧羊人教堂、湖畔散步，抵達後先至超市採買晚餐
 - 🍽️ 晚餐：🛒 超市採買自煮
-- 21:30 起：Dark Sky Project 觀星團　`📌待訂`
+- 21:30 起：Dark Sky Project 觀星團（Summit Experience，Mt John 山頂）　`📌待訂`
   - 🎟️ [官方預訂 Dark Sky Project](https://www.darkskyproject.co.nz)
+  - 📍 報到地點：Dark Sky Project 基地，**1 Motuariki Lane, Lake Tekapo**（湖濱鎮上，⚠️ 不是自行開車上 Mt John；上山是搭乘官方接駁巴士，車程約15分鐘，會提供保暖外套）
+  - ⏰ 建議出發前 15–20 分鐘報到
 - 🏨 住宿：Lake Tekapo（連住 2 晚）　`📌待訂（高優先）`
   - [Booking.com 搜尋](https://www.booking.com/searchresults.html?ss=Lake+Tekapo%2C+New+Zealand) ｜ [Airbnb 搜尋](https://www.airbnb.com/s/Lake-Tekapo--New-Zealand/homes)
 
@@ -212,11 +237,13 @@
   - 🚗 [Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Lake+Tekapo&destination=Mt+John+Observatory&travelmode=driving)
   - 💰 上山道路需支付約 NZ$14／車通行費（可併入停車／雜費預算）
   - ⚠️ 道路與 Astro Café 開放時段可能季節性調整，出發前再確認：[UC Mt John 資訊](https://www.canterbury.ac.nz/research/about-uc-research/enabling-infrastructure/field-stations/mt-john-observatory-field-station/visit-the-observatory)｜[Astro Café 資訊](https://www.mackenzienz.com/visit/astro-cafe/)
+  - 💡 這是白天**自行開車**上山的觀景公路，跟 Day11／本日晚上的 Dark Sky Project 觀星團（由業者接駁巴士上山）是兩件不同的事，請勿混淆
 - 🍽️ 午餐：湖畔咖啡館，或 Astro Café 山頂簡餐
 - 下午：自由活動（獨木舟租借、湖濱野餐、採買隔日路上零食）
 - 🍽️ 晚餐：👍 **Kohan Restaurant**（蒂卡波湖畔人氣日式料理，湖景座位需提前訂位），或 🛒 超市採買自煮
 - 21:30 起（若前晚天候不佳）：Dark Sky Project 觀星團補訂　`📌待訂`
   - 🎟️ [官方預訂 Dark Sky Project](https://www.darkskyproject.co.nz)
+  - 📍 報到地點同 Day11：1 Motuariki Lane, Lake Tekapo，建議提前 15–20 分鐘報到
 - 🏨 住宿：Lake Tekapo（同 Day11）
 
 ### Day 13｜12/31（四，跨年夜）｜蒂卡波湖 → 基督城（沿途打卡＋跨年倒數）
@@ -240,6 +267,9 @@
 - 11:00 起：**International Antarctic Centre 南極中心**（企鵝、雪地車體驗）　`📌待訂`
   - 🎟️ [官方預訂 Antarctic Centre](https://www.iceberg.co.nz/)
   - 💰 成人票 NZ$74／人；4 位成人合計 NZ$296（不使用家庭票）
+  - 📍 地址：38 Orchard Road, Christchurch Airport
+  - 🅿️ 現場免費停車（含露營車／遊覽車車格）
+  - 💡 官方建議開門（09:00）時人潮最少，企鵝餵食與雪地車體驗也較不用等；我們排 11:00 是考量跨年夜熬夜後的睡眠，屬於刻意取捨，不一定要改
   - ⚠️ 出發前須確認 2027/1/1 元旦當日的開館時間與可預訂入場時段（此為 International Antarctic Centre 遊客中心之營業資訊，非 Antarctica New Zealand 辦公室假期資訊）
 - 🍽️ 午餐：Antarctic Centre 附設咖啡館，或自備三明治
 - 下午：市區散步、Hagley Park 野餐、休息，為隔天 Akaroa 一日遊養精蓄銳
@@ -251,6 +281,9 @@
   - 🚗 約 1h40m（山路較多彎，含緩衝）｜[Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Christchurch&destination=Akaroa&travelmode=driving)
 - ⚠️ **目前尚未選定活動方案，出發前請全家先討論決定**：
   - 🎟️ [Black Cat Cruises 官網](https://www.blackcat.co.nz/)
+  - 📍 **報到地點異動**：自 2026/5/1 起所有行程改在 **61 Beach Road, Akaroa** 報到，⚠️ 請勿直接前往原本的 Main Wharf（碼頭整修關閉中）
+  - 🅿️ 免費停車：Gaiety Hall, Rue Jolie（距報到處步行約3分鐘，可停最長8小時，含露營車）
+  - ⏰ 建議出發前 20 分鐘完成報到，工作人員會現場提供船票與前往登船碼頭的指引
 
   | 選項 | 行程時間 | 4 位成人預算 | 實際狀況 | 適合對象 |
   |---|---|---:|---|---|
@@ -419,3 +452,12 @@
 
 ---
 狀態：**行程 V8 除錯與資料一致性最終校正完成**（旅客為 4 位成人）— Day3 車程改為「純駕駛6h15-6h30＋休息」、抵達時間改為16:00-16:30；Day10 明確標示09:00從Wanaka出發；Day11 冰河船後出發時間改為約13:30，避免與船程重疊；Day12 加註Mt John上山通行費約NZ$14/車與季節性開放提醒；Day14 南極中心訂票連結改為官方通用頁面（移除固定09:00時段參數）；峽灣套餐與Black Cat Cruises狀態標記統一改為`📌待訂`／`📌待選擇`，不再使用「已確認」字樣；其餘路線、日期、住宿城市與景點皆維持不變。
+
+---
+
+**V9 報到／停車／預訂時段校正**（依官網逐一查證，2026-08-04）：
+- 🔴 **Kawarau Bridge Bungy 聖誕節（12/25）公休**，已從 Day7 移至 **Day8**（箭鎮→克倫威爾途中順路停靠，SH6 沿線不繞路）。
+- 🔴 **Black Cat Cruises（Akaroa）報到地點異動**：自 2026/5/1 起改到 61 Beach Road（原 Main Wharf 整修關閉），Day15 與 `nz_map_points.csv` 皆已更新。
+- 🔴 **Milford Sound 停車轉乘時間**由「30分鐘」修正為官方建議的「45分鐘至1小時」（Day4）。
+- 🟡 已為以下項目補上官方查證的報到地點、停車資訊與建議報到時段：Day2 藍企鵝、Day3 螢火蟲洞、Day6 TSS Earnslaw、Day7 Skyline、Day8 Kawarau Bungy、Day9 Puzzling World、Day11 塔斯曼冰河船（**確認需在 The Hermitage Hotel 一樓 Activities Centre 報到，非直接到湖邊**）、Day11/12 Dark Sky Project（報到於 1 Motuariki Lane，與 Day12 白天自駕上 Mt John 是兩件不同的事）、Day14 南極中心。
+- 其餘路線、日期、住宿城市、餐廳與已確認預訂皆維持不變。
