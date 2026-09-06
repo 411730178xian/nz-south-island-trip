@@ -120,6 +120,10 @@ input,button{ font-size:1rem; }
   padding:6px 13px; border-radius:999px; white-space:nowrap;
 }
 .day-chip.active{ background:var(--primary); color:#fff; border-color:var(--primary); }
+.chip-dot{
+  display:inline-block; width:8px; height:8px; border-radius:50%;
+  margin-right:5px; vertical-align:middle; background:var(--chip-color, var(--text-soft));
+}
 #trip-map{
   width:100%; height:300px; border-radius:var(--radius-md);
   overflow:hidden; margin-bottom:10px; background:var(--surface-soft);
@@ -128,15 +132,6 @@ input,button{ font-size:1rem; }
   display:flex; flex-wrap:wrap; gap:6px 14px; font-size:0.72rem;
   color:var(--text-soft); margin-bottom:12px; padding:0 2px;
 }
-.map-legend .dot{
-  display:inline-block; width:9px; height:9px; border-radius:50%;
-  margin-right:4px; vertical-align:middle;
-}
-.dot-spot{ background:var(--primary); }
-.dot-food{ background:var(--accent-orange); }
-.dot-stay{ background:var(--accent-purple); }
-.dot-shop{ background:var(--accent-green); }
-.dot-transit{ background:var(--text-soft); }
 .btn-fullmap{
   display:flex; align-items:center; justify-content:center; gap:6px;
   background:var(--primary-tint); color:var(--primary-dark) !important;
@@ -572,30 +567,26 @@ table.food-table th{ color:var(--text-soft); font-size:0.72rem; }
     <div class="map-card" id="trip-map-card">
       <div class="day-filter" id="day-filter">
         <button class="day-chip active" data-day="all">全部</button>
-        <button class="day-chip" data-day="1">Day1</button>
-        <button class="day-chip" data-day="2">Day2</button>
-        <button class="day-chip" data-day="3">Day3</button>
-        <button class="day-chip" data-day="4">Day4</button>
-        <button class="day-chip" data-day="5">Day5</button>
-        <button class="day-chip" data-day="6">Day6</button>
-        <button class="day-chip" data-day="7">Day7</button>
-        <button class="day-chip" data-day="8">Day8</button>
-        <button class="day-chip" data-day="9">Day9</button>
-        <button class="day-chip" data-day="10">Day10</button>
-        <button class="day-chip" data-day="11">Day11</button>
-        <button class="day-chip" data-day="12">Day12</button>
-        <button class="day-chip" data-day="13">Day13</button>
-        <button class="day-chip" data-day="14">Day14</button>
-        <button class="day-chip" data-day="15">Day15</button>
-        <button class="day-chip" data-day="16">Day16</button>
+        <button class="day-chip" data-day="1" style="--chip-color:hsl(0,58%,52%)"><i class="chip-dot"></i>Day1</button>
+        <button class="day-chip" data-day="2" style="--chip-color:hsl(22.5,58%,52%)"><i class="chip-dot"></i>Day2</button>
+        <button class="day-chip" data-day="3" style="--chip-color:hsl(45,58%,52%)"><i class="chip-dot"></i>Day3</button>
+        <button class="day-chip" data-day="4" style="--chip-color:hsl(67.5,58%,52%)"><i class="chip-dot"></i>Day4</button>
+        <button class="day-chip" data-day="5" style="--chip-color:hsl(90,58%,52%)"><i class="chip-dot"></i>Day5</button>
+        <button class="day-chip" data-day="6" style="--chip-color:hsl(112.5,58%,52%)"><i class="chip-dot"></i>Day6</button>
+        <button class="day-chip" data-day="7" style="--chip-color:hsl(135,58%,52%)"><i class="chip-dot"></i>Day7</button>
+        <button class="day-chip" data-day="8" style="--chip-color:hsl(157.5,58%,52%)"><i class="chip-dot"></i>Day8</button>
+        <button class="day-chip" data-day="9" style="--chip-color:hsl(180,58%,52%)"><i class="chip-dot"></i>Day9</button>
+        <button class="day-chip" data-day="10" style="--chip-color:hsl(202.5,58%,52%)"><i class="chip-dot"></i>Day10</button>
+        <button class="day-chip" data-day="11" style="--chip-color:hsl(225,58%,52%)"><i class="chip-dot"></i>Day11</button>
+        <button class="day-chip" data-day="12" style="--chip-color:hsl(247.5,58%,52%)"><i class="chip-dot"></i>Day12</button>
+        <button class="day-chip" data-day="13" style="--chip-color:hsl(270,58%,52%)"><i class="chip-dot"></i>Day13</button>
+        <button class="day-chip" data-day="14" style="--chip-color:hsl(292.5,58%,52%)"><i class="chip-dot"></i>Day14</button>
+        <button class="day-chip" data-day="15" style="--chip-color:hsl(315,58%,52%)"><i class="chip-dot"></i>Day15</button>
+        <button class="day-chip" data-day="16" style="--chip-color:hsl(337.5,58%,52%)"><i class="chip-dot"></i>Day16</button>
       </div>
       <div id="trip-map"></div>
       <div class="map-legend">
-        <span><i class="dot dot-spot"></i>景點</span>
-        <span><i class="dot dot-food"></i>餐廳</span>
-        <span><i class="dot dot-stay"></i>住宿</span>
-        <span><i class="dot dot-shop"></i>採買</span>
-        <span><i class="dot dot-transit"></i>交通</span>
+        <span>🎨 圓點顏色代表天數，點擊上方按鈕可篩選單日行程；點地圖上的點看詳細資訊</span>
       </div>
       <a class="btn-fullmap" href="https://www.google.com/maps/d/viewer?mid=1q6UR9yL7A34qGw-1nc-GzSb84l8fX-0" target="_blank" rel="noopener">🗺️ 在 Google Maps 開啟完整地圖 ↗</a>
     </div>
@@ -2240,14 +2231,9 @@ table.food-table th{ color:var(--text-soft); font-size:0.72rem; }
     var mapEl = document.getElementById("trip-map");
     if (!mapEl || typeof L === "undefined") return;
 
-    var catColors = {
-      "景點": "#4A8B9C",
-      "景觀／短停": "#4A8B9C",
-      "餐廳": "#E59572",
-      "住宿": "#9D7CA6",
-      "採買": "#7FA66B",
-      "交通": "#8B8F82"
-    };
+    function dayColor(d){
+      return "hsl(" + ((d - 1) * 22.5) + ",58%,52%)";
+    }
 
     tripMap = L.map("trip-map", { scrollWheelZoom: false, minZoom: 5 });
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -2257,18 +2243,17 @@ table.food-table th{ color:var(--text-soft); font-size:0.72rem; }
 
     var allLatLngs = [];
     var markers = tripMapPoints.map(function(p){
-      var color = catColors[p.cat] || "#4A8B9C";
       var marker = L.circleMarker([p.lat, p.lng], {
         radius: 7,
         color: "#fff",
         weight: 2,
-        fillColor: color,
+        fillColor: dayColor(p.d),
         fillOpacity: 0.95
       });
       marker.day = p.d;
 
-      var popupHtml = '<div class="map-popup"><b>' + p.n + '</b>';
-      if (p.note) popupHtml += '<div class="popup-note">' + p.note + '</div>';
+      var popupHtml = '<div class="map-popup"><b>Day' + p.d + '｜' + p.n + '</b>';
+      popupHtml += '<div class="popup-note">' + p.cat + (p.note ? ' · ' + p.note : '') + '</div>';
       popupHtml += '<a href="https://www.google.com/maps/search/?api=1&query=' + p.lat + ',' + p.lng + '" target="_blank" rel="noopener">🚗 導航</a>';
       if (p.url) popupHtml += '<br><a href="' + p.url + '" target="_blank" rel="noopener">🔗 預訂／官網</a>';
       popupHtml += '</div>';
