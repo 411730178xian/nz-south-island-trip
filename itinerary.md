@@ -23,8 +23,8 @@
 |---|---|---|---|---|---|---|
 | 1 | 12/19（六）| 基督城 | 抵達、取車、超市採買 | 機上/轉機 | 基督城市區餐廳 🌟 | Christchurch |
 | 2 | 12/20（日）| 東海岸 | 摩洛奇龍珠石、奧瑪魯藍企鵝（途經Timaru短停） | Fishwife 🌟 | 奧瑪魯市區小酒館或餐廳 | Oamaru |
-| 3 | 12/21（一）| 南下大移動 | Dunedin、Mataura Falls 沿途打卡 | Gore 小鎮咖啡館 | 🛒 超市採買自煮 | Te Anau |
-| 4 | 12/22（二）| 米佛峽灣 | Mirror Lakes、Eglinton Valley、Homer Tunnel、峽灣巡航 | 自備野餐/峽灣咖啡館 | 🛒 超市採買自煮 | Te Anau |
+| 3 | 12/21（一）| 南下大移動 | Dunedin、Mataura Falls 沿途打卡 | Gore 小鎮咖啡館 | Te Anau 市區餐廳（住宿無廚房） | Te Anau |
+| 4 | 12/22（二）| 米佛峽灣 | Mirror Lakes、Eglinton Valley、Homer Tunnel、峽灣巡航 | 自備野餐/峽灣咖啡館 | Te Anau 市區餐廳（住宿無廚房） | Te Anau |
 | 5 | 12/23（三）| 蒂阿瑙→皇后鎮 | Devil's Staircase 觀景點，皇后鎮連住第 1 晚 | 途中簡餐 | 皇后鎮餐廳 | Queenstown |
 | 6 | 12/24（四）🎄| 皇后鎮 | TSS Earnslaw＋Walter Peak 高地 BBQ 晚餐，第 2 晚 | Queenstown 自由午餐／輕食 | Walter Peak 高地 BBQ 晚餐（已含票價） | Queenstown |
 | 7 | 12/25（五）🎄| 皇后鎮 | Skyline+Luge，第 3 晚（Bungy 因聖誕節公休已改至 Day8） | 皇后鎮湖濱咖啡館 | 超市自煮／飯店 Christmas Buffet（提前訂位） | Queenstown |
@@ -56,8 +56,8 @@
 - 前往市區超市（Woolworths / New World）採買隔日早餐、車上零食、礦泉水
 - 🍽️ 晚餐：Christchurch 市區 🌟 **Riverside Market**（多元選擇適合家庭，必吃推薦）
 - 💤 台紐時差僅 5 小時，中午抵達已有充分時間休息，隔天可正常出發
-- 🏨 住宿：Christchurch 市區　`📌待訂（高優先）`
-  - [Booking.com 搜尋](https://www.booking.com/searchresults.html?ss=Christchurch%2C+New+Zealand) ｜ [Airbnb 搜尋](https://www.airbnb.com/s/Christchurch--New-Zealand/homes)
+- 🏨 住宿：**Simply The Best CBD 3 Mins Plus Garage**（212 Hereford Street Unit 2, Christchurch）　`📌已訂`
+  - 兩臥室公寓，1晚共NZD402.09（Booking.com訂單編號6342378756），含免費私人車庫車位；2026/12/13 23:59前可免費取消
 
 ### Day 2｜12/20（日）｜Christchurch → Moeraki → 奧瑪魯藍企鵝
 - 🗺️ [開啟本日完整路線（多站導航，起點為你目前位置）](https://www.google.com/maps/dir/?api=1&destination=-45.1058,170.9751&waypoints=-44.3826,171.2509%7C-45.3548,170.8225%7C-45.3592,170.8555%7C-45.0958,170.9738&travelmode=driving)
@@ -82,8 +82,8 @@
   - 🅿️ 現場有兩個免費停車場（一般車輛＋露營車/遊覽車專用大車格）
   - ⏰ 建議開始前 15 分鐘報到
   - ⚠️ 全程禁止閃光燈
-- 🏨 住宿：Oamaru　`📌待訂（高優先）`
-  - [Booking.com 搜尋](https://www.booking.com/searchresults.html?ss=Oamaru%2C+New+Zealand) ｜ [Airbnb 搜尋](https://www.airbnb.com/s/Oamaru--New-Zealand/homes)
+- 🏨 住宿：**Tyne above Town**（Jodie出租，Airbnb）　`📌已訂`
+  - 1晚，HKD$1,823.88（Airbnb訂單編號B22963430），房東Jodie（+64 27 330 0669）
 
 ### Day 3｜12/21（一）｜長途轉場前往蒂阿瑙（沿途打卡）
 - 🗺️ [開啟本日完整路線（多站導航，起點為你目前位置）](https://www.google.com/maps/dir/?api=1&destination=-45.4177,167.7119&waypoints=-45.8555,170.5185%7C-46.1930,168.8630&travelmode=driving)
@@ -98,16 +98,16 @@
 - 13:00 Gore → Te Anau（經 Lumsden）
   - 🚗 約 2h｜[Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Mataura+Falls&destination=Te+Anau&travelmode=driving)
 - 預計 16:00–16:30 抵達 Te Anau，安頓入住
-- 抵達後先至超市採買（Te Anau 為進入米佛峽灣前最後大型超市）
-- 🍽️ 晚餐：🛒 超市採買自煮
+- 抵達後先至超市採買（Te Anau 為進入米佛峽灣前最後大型超市，採買隔日野餐/零食用，住宿無廚房不需採買晚餐食材）
+- 🍽️ 晚餐：Te Anau 市區餐廳（住宿為飯店房型無廚房，需外食，餐廳選項待現場決定）
 - 19:30 起：Te Anau Glowworm Caves 螢火蟲洞船遊
   - 🎟️ [官方預訂 RealNZ](https://www.realnz.com/en/experiences/glowworm-caves/te-anau-glowworm-caves/)
   - 📍 報到／集合處：RealNZ Visitor Centre, 85 Lakefront Drive, Te Anau（現場免費停車）
   - ⏰ 建議開船前 20–30 分鐘報到
   - 💰 **峽灣「經典套餐」**——螢火蟲洞＋Day4 的米爾福德峽灣特色遊船一起買，每人省 NZ$35　`📌待訂（高優先，旺季易額滿）`
     - [峽灣套餐購買頁](https://www.realnz.com/zh-cn/specials/combo-deals/)
-- 🏨 住宿：Te Anau　`📌待訂（高優先）`
-  - [Booking.com 搜尋](https://www.booking.com/searchresults.html?ss=Te+Anau%2C+New+Zealand) ｜ [Airbnb 搜尋](https://www.airbnb.com/s/Te-Anau--New-Zealand/homes)
+- 🏨 住宿：**The Village Inn Hotel Te Anau**（田園假日酒店，24 Mokoroa Street）　`📌已訂`
+  - 高級雙床房，2晚共TWD14,898（Trip.com訂單編號1359047395021619），⚠️飯店房型無廚房，不可自煮
 
 ### Day 4｜12/22（二）｜米佛峽灣一日遊
 - 🗺️ [開啟本日完整路線（多站導航，起點為你目前位置）](https://www.google.com/maps/dir/?api=1&destination=-45.4131,167.7150&waypoints=-44.9930,168.0570%7C-44.7645,168.0004%7C-44.6706,167.9250%7C-44.8912,168.0148&travelmode=driving)
@@ -126,8 +126,8 @@
 - 回程：依道路、天候、停靠與交通狀況彈性調整，回程順道停靠 **Mirror Lakes**（鏡湖，倒影經典拍照點）
   - 🚗 [Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Milford+Sound&destination=Mirror+Lakes+New+Zealand&travelmode=driving)
   - 🚗 Mirror Lakes → Te Anau｜[Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Mirror+Lakes+New+Zealand&destination=Te+Anau&travelmode=driving)
-- 🍽️ 晚餐：🛒 超市採買自煮
-- 🏨 住宿：Te Anau（同 Day3）
+- 🍽️ 晚餐：Te Anau 市區餐廳（住宿為飯店房型無廚房，需外食，餐廳選項待現場決定）
+- 🏨 住宿：The Village Inn Hotel Te Anau（同 Day3）
 
 ### Day 5｜12/23（三）｜蒂阿瑙 → 皇后鎮（沿途打卡，連住第 1 晚）
 - 🗺️ [開啟本日完整路線（多站導航，起點為你目前位置，⚠️部分座標暫定）](https://www.google.com/maps/dir/?api=1&destination=-45.0312,168.6626&waypoints=-45.24571,168.74286&travelmode=driving)
@@ -140,8 +140,8 @@
 - 🍽️ 午餐：途中小鎮簡餐（Mossburn 或抵達後於皇后鎮解決）
 - 下午：皇后鎮鎮中心、瓦卡蒂普湖濱散步，安頓入住（接下來連住 3 晚，不需再搬行李）
 - 🍽️ 晚餐：皇后鎮餐廳
-- 🏨 住宿：Queenstown（連住 3 晚）　`📌待訂（高優先，旺季搶手）`
-  - [Booking.com 搜尋](https://www.booking.com/searchresults.html?ss=Queenstown%2C+New+Zealand) ｜ [Airbnb 搜尋](https://www.airbnb.com/s/Queenstown--New-Zealand/homes)
+- 🏨 住宿：**Awa Stunning Riverview Apartment**（Arthurs Point, Queenstown）　`📌已訂`
+  - 連住3晚，HKD$13,196.68（付款排程2026/11/15扣款），Divine Property Management
 
 ### Day 6｜12/24（四，平安夜）｜TSS Earnslaw 恩斯洛號＋Walter Peak 高地 BBQ 晚餐（連住第 2 晚）
 - 🗺️ [開啟本日完整路線（多站導航，起點為你目前位置）](https://www.google.com/maps/dir/?api=1&destination=-45.0334,168.6601&travelmode=driving)
@@ -197,8 +197,8 @@
 - 14:00 Cromwell → Wanaka
   - 🚗 約 55 分鐘｜[Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Cromwell&destination=Wanaka&travelmode=driving)
 - 🍽️ 晚餐：瓦納卡湖畔餐廳
-- 🏨 住宿：Wanaka　`📌待訂（高優先）`
-  - [Booking.com 搜尋](https://www.booking.com/searchresults.html?ss=Wanaka%2C+New+Zealand) ｜ [Airbnb 搜尋](https://www.airbnb.com/s/Wanaka--New-Zealand/homes)
+- 🏨 住宿：**Archway Motels & Chalets**（64 Hedditch Street, Wanaka）　`📌已訂`
+  - 標準家庭兩臥室公寓，2晚共TWD48,660（Trip.com訂單編號1359047394878824），12/24 14:00前可免費取消
 
 ### Day 9｜12/27（日）｜瓦納卡悠閒日
 - 🗺️ [開啟本日完整路線（多站導航，起點為你目前位置）](https://www.google.com/maps/dir/?api=1&destination=-44.6852,169.1699&waypoints=-44.6963,169.1339&travelmode=driving)
@@ -471,11 +471,11 @@
 
 | Day | 城鎮 | 住宿 |
 |---|---|---|
-| 1 | Christchurch | 待訂（1 晚） |
-| 2 | Oamaru | 待訂（1 晚） |
-| 3-4 | Te Anau | 待訂（2 晚） |
-| 5-7 | Queenstown | 待訂（**連住 3 晚**） |
-| 8-9 | Wanaka | 待訂（2 晚） |
+| 1 | Christchurch | **Simply The Best CBD 3 Mins Plus Garage**（已訂，1 晚） |
+| 2 | Oamaru | **Tyne above Town**（已訂，1 晚） |
+| 3-4 | Te Anau | **The Village Inn Hotel Te Anau**（已訂，2 晚，無廚房） |
+| 5-7 | Queenstown | **Awa Stunning Riverview Apartment**（已訂，**連住 3 晚**） |
+| 8-9 | Wanaka | **Archway Motels & Chalets**（已訂，2 晚） |
 | 10 | Mount Cook | **Haka House Hostel Aoraki Mt Cook**（已確認，1 晚） |
 | 11-12 | Lake Tekapo | 待訂（2 晚） |
 | 13-15 | Christchurch | 待訂（**連住 3 晚**，涵蓋跨年夜、元旦 Willowbank、Akaroa 一日遊） |
@@ -558,4 +558,25 @@
 
 **V17 回程航班 CX408 班期異動**（依國泰航空官方通知，2026-08-31）：
 - 🔴 **Day16 回程 CX408（香港→台北）班期已更改**：出發時間由 22:55 改為 **23:10**，抵達時間由 1/4 00:35 改為 **1/4 00:50**；香港轉機時間相應由 2h05m 延長為 **2h20m**（緩衝時間增加，對行程無不利影響）。基督城→香港航段（CX119去程對應航段）未受影響，仍為 14:20 起飛、20:50 抵港。
+- 其餘路線、日期、住宿城市、餐廳與已確認預訂皆維持不變。
+
+---
+
+**V18 住宿訂購狀態更新**（2026-09-06）：
+- 🔴 **Day5-7 Queenstown 住宿已訂**：Awa Stunning Riverview Apartment（Arthurs Point），連住3晚，HKD$13,196.68（Airbnb，Divine Property Management，2026/11/15扣款）。
+- 🔴 **Day8-9 Wanaka 住宿已訂**：Archway Motels & Chalets（64 Hedditch Street），2晚共TWD48,660（Trip.com訂單編號1359047394878824）。
+- 其餘路線、日期、住宿城市、餐廳與已確認預訂皆維持不變。
+
+---
+
+**V19 Te Anau 住宿已訂，Day3/4 晚餐配合調整為外食**（2026-09-06）：
+- 🔴 **Day3-4 Te Anau 住宿已訂**：The Village Inn Hotel Te Anau（田園假日酒店，24 Mokoroa Street），2晚共TWD14,898（Trip.com訂單編號1359047395021619）。
+- 🟡 **Day3、Day4 晚餐配合改為外食**：訂的是一般飯店房型（無廚房），原規劃的「超市採買自煮」無法執行，已改為「Te Anau 市區餐廳（住宿無廚房，餐廳選項待現場決定）」；Day3 抵達後的超市採買行程保留，改為採買隔日野餐/零食用，不再是晚餐食材。
+- 其餘路線、日期、住宿城市、餐廳與已確認預訂皆維持不變。
+
+---
+
+**V20 Day1 Christchurch、Day2 Oamaru 住宿已訂**（2026-09-06）：
+- 🔴 **Day1 Christchurch 住宿已訂**：Simply The Best CBD 3 Mins Plus Garage（212 Hereford Street Unit 2），兩臥室公寓，1晚NZD402.09（Booking.com訂單編號6342378756），含免費私人車庫車位。
+- 🔴 **Day2 Oamaru 住宿已訂**：Tyne above Town（Airbnb，房東Jodie，訂單編號B22963430），1晚HKD$1,823.88。
 - 其餘路線、日期、住宿城市、餐廳與已確認預訂皆維持不變。
