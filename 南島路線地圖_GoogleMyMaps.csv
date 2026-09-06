@@ -1,0 +1,61 @@
+﻿Day,Name,Latitude,Longitude,Category,Description
+Day1,Christchurch Airport,-43.4864,172.5469,交通,抵達南島的機場，在此取車展開自駕行程
+Day1,Riverside Market,-43.5292,172.6367,餐廳,第一天晚餐地點，多元美食選擇，適合全家用餐
+Day1/13-15,Christchurch 住宿區,-43.5321,172.6362,住宿,基督城市區，第1晚及第13-15晚（跨年期間）的住宿城鎮
+Day2,Timaru / Caroline Bay,-44.3826,171.2509,景觀,沿海休息站，沙灘、玫瑰園、木棧道，免費順路停留
+Day2,Moeraki Boulders,-45.3548,170.8225,景點,摩拉基海灘上的巨大圓形石頭奇景
+Day2,Fishwife,-45.3592,170.8555,餐廳,海邊魚薯條店，招牌新鮮藍鱈魚
+Day2,Whitestone Cheese Factory Café,-45.0958,170.9738,餐廳,在地起司品飲與輕食
+Day2,Oamaru Blue Penguin Colony,-45.1058,170.9751,景點,傍晚觀賞野生藍企鵝返巢
+Day2,Oamaru 住宿區,-45.0968,170.9714,住宿,第2晚住宿城鎮
+Day3,Baldwin Street Dunedin,-45.8555,170.5185,景點,金氏世界紀錄認證的全球最陡街道
+Day3,Dunedin Railway Station,-45.8753,170.5090,景點,世界知名的美麗砂岩火車站建築
+Day3,Mataura Falls,-46.1930,168.8630,景點,Gore小鎮附近的瀑布景觀
+Day3,Gore,-46.0980,168.9430,餐廳,長途路程中的午餐休息小鎮
+Day3,RealNZ Visitor Centre Te Anau,-45.4177,167.7119,景點,螢火蟲洞遊船的集合與搭船處
+Day3-4,Te Anau 住宿區,-45.4131,167.7150,住宿,第3-4晚住宿城鎮，米佛峽灣的門戶小鎮
+Day4,Eglinton Valley,-44.9930,168.0570,景點,開闊谷地草原景觀，多部電影取景地
+Day4,Homer Tunnel,-44.7645,168.0004,景點,單線通行隧道，等待號誌時可順道觀景
+Day4,Milford Sound,-44.6706,167.9250,景點,世界知名峽灣，搭船巡航欣賞瀑布與山壁
+Day4,Mirror Lakes,-44.8912,168.0148,景點,湖面如鏡倒映雪山的經典拍照點
+Day5,Devil's Staircase Lookout,-45.24571,168.74286,景點,瓦卡蒂普湖畔的絕美觀景台
+Day5,Fergburger,-45.0311,168.6600,餐廳,皇后鎮排隊名店漢堡
+Day5-7,Queenstown 住宿區,-45.0312,168.6626,住宿,第5-7晚住宿城鎮，連住3晚
+Day6,TSS Earnslaw Steamer Wharf,-45.0334,168.6601,交通,百年蒸汽船登船碼頭
+Day6,Walter Peak High Country Farm,-45.0770,168.5880,景點,湖對岸高原牧場，BBQ晚餐與剪羊毛秀
+Day7,Skyline Queenstown,-45.0328,168.6615,景點,纜車登山俯瞰皇后鎮全景，加碼滑草橇
+Day7,Patagonia Chocolates,-45.0320,168.6595,餐廳,人氣冰淇淋與巧克力甜點店
+Day7,Glenorchy,-44.8497,168.3852,景點,紐西蘭最美短程景觀公路之一，魔戒取景地
+Day8,Arrowtown,-44.9391,168.8323,景點,淘金歷史小鎮，秋色景致聞名
+Day8,Arrowtown Bakery,-44.9388,168.8320,餐廳,在地人氣烘焙坊
+Day8,Kawarau Bridge Bungy,-45.1275,168.7508,景點,世界第一座商業高空彈跳橋
+Day8,Cromwell,-45.0392,169.1962,景點,水果雕塑地標與新鮮水果攤
+Day8-9,Wanaka 住宿區,-44.6975,169.1348,住宿,第8-9晚住宿城鎮
+Day9,That Wanaka Tree,-44.6963,169.1339,景點,全球知名的湖中孤樹打卡點
+Day9,Puzzling World,-44.6852,169.1699,景點,視覺錯覺展覽館與戶外迷宮
+Day9,Kai Whakapai Cafe & Bar,-44.6975,169.1345,餐廳,瓦納卡湖畔人氣老店
+Day10,Lindis Pass Summit,-44.5813,169.6417,景觀,金黃色高原草丘經典景觀
+Day10,High Country Salmon,-44.29139,170.08513,餐廳,Twizel在地新鮮鮭魚餐廳
+Day10,Aoraki Mount Cook Village,-43.7340,170.0964,景點,庫克山國家公園的門戶村落
+Day10,Hooker Valley Track,-43.7275,170.0999,景點,通往庫克山的經典健行步道
+Day11,Mount Cook Airport (Tasman Glacier Heli-Hike),-43.7667,170.1334,景點,直升機健行報到處，飛越並降落在塔斯曼冰河上
+Day11,Tasman Glacier Explorers Hermitage Activities Centre,-43.7346,170.0972,景點,冰河船報到處（天候備案行程）
+Day11,Hermitage Hotel Alpine Restaurant,-43.7346,170.0972,餐廳,山景自助餐廳（與冰河船報到同棟建築）
+Day11,Lake Pukaki Viewpoint,-44.1667,170.1500,景點,夢幻牛奶藍湖泊拍照點
+Day11,Church of the Good Shepherd,-44.0086,170.4779,景點,蒂卡波湖畔的知名石造教堂
+Day11,Dark Sky Project Tekapo,-44.0034,170.4775,景點,國際暗空保護區觀星團集合處
+Day11-12,Lake Tekapo 住宿區,-44.0047,170.4785,住宿,第11-12晚住宿城鎮
+Day12,Mt John Observatory,-43.986667,170.465000,景點,觀景公路自駕上山，可俯瞰整個蒂卡波湖
+Day12,Astro Café,-43.985326,170.464892,餐廳,山頂咖啡館，邊喝咖啡邊賞湖景
+Day12,Kohan Restaurant,-44.0044,170.4780,餐廳,湖畔人氣日式料理
+Day13,Fairlie Bakehouse,-44.0967,170.8305,餐廳,招牌肉派必吃名店
+Day13,Geraldine,-44.0958,171.2419,景點,復古車輛博物館與可愛小鎮風情
+Day13,Barker's of Geraldine,-44.0954,171.2434,餐廳,在地果醬果汁品牌創始店
+Day13,North Hagley Park 跨年活動,-43.5276,172.6203,景點,基督城跨年夜免費演唱會與煙火秀地點
+Day14,New Brighton Pier,-43.5064,172.7332,景點,元旦日出觀賞選配地點，正東面海
+Day14,Willowbank Wildlife Reserve,-43.4635,172.5941,景點,近距離觀賞紐西蘭國寶奇異鳥
+Day15,Hilltop 觀景點／Hilltop Tavern,-43.7492,172.8695,景點,可俯瞰整個Akaroa港灣全景的觀景點
+Day15,Akaroa 法式小鎮中心,-43.8037,172.9483,景點,法式殖民風情的港灣小鎮
+Day15,The Giant's House,-43.8067,172.9709,景點,療癒的馬賽克雕塑花園
+Day15,Black Cat Cruises 報到處,-43.8087,172.9630,交通,賞豚遊船報到處（自由參加選項）
+Day16,Christchurch Airport Rental Car Return,-43.4864,172.5469,交通,還車並搭機返台，行程終點

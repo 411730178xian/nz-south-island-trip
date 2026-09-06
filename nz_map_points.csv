@@ -2,13 +2,14 @@ Day,Spot_Name,Latitude,Longitude,Category,Notes,Booking_URL
 1,Christchurch Airport,-43.4864,172.5469,交通,抵達取車點,
 1,Riverside Market,-43.5292,172.6367,餐廳,Day1 晚餐,
 1,Christchurch 住宿區,-43.5321,172.6362,住宿,Day1、Day13–15 住宿城鎮,https://www.booking.com/searchresults.html?ss=Christchurch%2C+New+Zealand
-2,Elephant Rocks,-44.8988,170.9204,景點,石灰岩奇石群 電影取景地,
-2,Moeraki Boulders,-45.3548,170.8225,景點,海灘巨石奇景,
+2,Timaru / Caroline Bay,-44.3826,171.2509,景觀／短停,已取代大象石Elephant Rocks 全程中點正好在SH1幹道上不繞路 沿海沙灘玫瑰園木棧道 免費 休息20-30分鐘剛好,
+2,Moeraki Boulders,-45.3548,170.8225,景點,海灘巨石奇景 白天造訪即可不特別安排日出行程,
 2,Fishwife,-45.3592,170.8555,餐廳,Day2 午餐 新鮮海鮮 原Fleur's Place已於2021年底永久停業改為此店 地址145 Haven Street 僅週五至週日營業12/20為週日符合,https://www.facebook.com/MoerakiFishWife/
 2,Whitestone Cheese Factory Café,-45.0958,170.9738,餐廳,Day2 下午茶 起司品嚐,
 2,Oamaru Blue Penguin Colony,-45.1058,170.9751,景點,藍企鵝觀賞 嚴禁閃光燈 地址17 Waterfront Road South Hill 現場兩個免費停車場 建議開始前15分鐘報到 12月晚間場約19:00-21:00間開始實際依官方公布,https://www.penguins.co.nz/
 2,Oamaru 住宿區,-45.0968,170.9714,住宿,Day2 住宿城鎮,https://www.booking.com/searchresults.html?ss=Oamaru%2C+New+Zealand
 3,Baldwin Street Dunedin,-45.8555,170.5185,景點,全球最陡街道打卡,
+3,Dunedin Railway Station,-45.8753,170.5090,景點,彈性選項 距Baldwin Street車程約5-10分鐘 全球知名砂岩火車站建築 免費 10-15分鐘可拍完 依當天時間決定,
 3,Mataura Falls,-46.1930,168.8630,景點,Gore附近瀑布景觀,
 3,Gore,-46.0980,168.9430,餐廳,長途轉場中繼午餐點,
 3,Te Anau 超市採買點,-45.4131,167.7150,採買,進入米佛峽灣前最後大型超市 非已訂活動,
@@ -28,6 +29,7 @@ Day,Spot_Name,Latitude,Longitude,Category,Notes,Booking_URL
 6,Queenstown 住宿區,-45.0312,168.6626,住宿,Day5–7 住宿城鎮（同 Day5）,https://www.booking.com/searchresults.html?ss=Queenstown%2C+New+Zealand
 7,Skyline Queenstown,-45.0328,168.6615,景點,天際纜車與Luge溜溜車 基地站Brecon Street 現場有收費立體停車場(憑票折抵) 尖峰擁擠時段10:00-14:30 建議一早或傍晚前往並先線上訂票 聖誕節營業時段以官網為準,https://www.skyline.co.nz/queenstown/
 7,Patagonia Chocolates,-45.0320,168.6595,餐廳,Day7 午餐選項 人氣冰淇淋巧克力,
+7,Glenorchy,-44.8497,168.3852,景點,彈性選項 聖誕節下午自由活動時段 沿瓦卡蒂普湖岸單程車程約45-50分鐘 來回連停留約3-4小時 紐西蘭最美短程景觀公路之一 魔戒取景地 聖誕節當天鎮上店家可能沒開主要為沿途風景,
 7,Queenstown 住宿區,-45.0312,168.6626,住宿,Day5–7 住宿城鎮（同 Day5）,https://www.booking.com/searchresults.html?ss=Queenstown%2C+New+Zealand
 8,Arrowtown,-44.9391,168.8323,景點,淘金小鎮歷史街區,
 8,Arrowtown Bakery,-44.9388,168.8320,餐廳,Day8 午餐選項 在地人氣烘焙坊,
@@ -43,7 +45,8 @@ Day,Spot_Name,Latitude,Longitude,Category,Notes,Booking_URL
 10,Twizel 超市採買點,-44.2603,170.0986,採買,晚餐食材採買 Mount Cook Village商店選擇少,
 10,Aoraki Mount Cook Village,-43.7340,170.0964,景點,庫克山村,
 10,Hooker Valley Track,-43.7275,170.0999,景點,輕健行步道起點,
-11,Tasman Glacier Explorers Hermitage Activities Centre,-43.7346,170.0972,景點,冰河船報名處 位於The Hermitage Hotel一樓Activities Centre 非湖邊 需提前30分鐘報到後搭巴士+步行1.5km/25分鐘至冰河湖碼頭 飯店現場公眾可免費停車,https://www.hermitage.co.nz/experience/glacier-explorers/
+11,Mount Cook Airport (Tasman Glacier Heli-Hike),-43.7667,170.1334,景點,主要行程 Alpine Guides直升機健行 距Mt Cook Village 5km車程約10分鐘 09:00 check-in 總時長約3小時含2次飛行與最多2小時冰上健行 4人NZ$3780起2026/10起可能漲至995/人 高度依賴天氣可全額退款或免費改期,https://alpineguides.co.nz/tasman-glacier-heli-hike
+11,Tasman Glacier Explorers Hermitage Activities Centre,-43.7346,170.0972,景點,備案用 若直升機因天候取消可當天改訂船遊 位於The Hermitage Hotel一樓Activities Centre 非湖邊 需提前30分鐘報到 Nov-Apr班次8:00/9:45/11:30/13:15/15:00/16:45,https://www.hermitage.co.nz/experience/glacier-explorers/
 11,Hermitage Hotel Alpine Restaurant,-43.7346,170.0972,餐廳,Mount Cook Village 午餐 原Old Mountaineers Café週一二公休已改為飯店自助餐廳 與早上冰河船報到處同棟建築,https://www.hermitage.co.nz/dine/
 11,Lake Pukaki Viewpoint,-44.1667,170.1500,景點,牛奶藍湖泊拍照點,
 11,Church of the Good Shepherd,-44.0086,170.4779,景點,好牧羊人教堂,
@@ -56,11 +59,14 @@ Day,Spot_Name,Latitude,Longitude,Category,Notes,Booking_URL
 13,Fairlie Bakehouse,-44.0967,170.8305,餐廳,Day13 午餐 招牌肉派,
 13,Geraldine,-44.0958,171.2419,景點,復古車輛博物館 可愛小鎮,
 13,Barker's of Geraldine,-44.0954,171.2434,餐廳,果醬果汁品牌創始店 附設咖啡館,
-13,Cathedral Square,-43.5309,172.6373,景點,僅在官方日後公告跨年活動時才考慮 非固定行程,
+13,North Hagley Park 跨年活動,-43.5276,172.6203,景點,CCC每年固定舉辦之免費活動 往年模式16:00-19:00親子場 20:00-00:00派對 00:00煙火秀 全程禁酒禁菸 本年度官方場次細節10-11月才公告出發前再確認,https://www.christchurchnz.com/visit/whats-on/new-years-eve
 13,Christchurch 住宿區,-43.5321,172.6362,住宿,Day1、Day13–15 住宿城鎮（同 Day1）,https://www.booking.com/searchresults.html?ss=Christchurch%2C+New+Zealand
-14,International Antarctic Centre,-43.4894,172.5372,景點,Day14(1/1) 4位成人NZ$296 地址38 Orchard Road 現場免費停車 官方建議開門09:00前往人潮最少 出發前確認元旦營業,https://www.iceberg.co.nz/
+14,New Brighton Pier（元旦日出選配）,-43.5064,172.7332,景點,選配方案 正東面海地平線無遮蔽 車程約20-25分鐘 日出約05:50-06:00請出發前再確認 與跨年煙火00:00間幾乎無睡眠時間,
+14,Willowbank Wildlife Reserve,-43.4635,172.5941,景點,已取代南極中心International Antarctic Centre Day14(1/1) 近距離看奇異鳥 一般門票4位成人NZ$112 加購導覽奇異鳥摸摸體驗54/人 開放9:30-17:00 元旦正常營業僅聖誕節公休,https://www.willowbank.co.nz/
 14,Christchurch 住宿區,-43.5321,172.6362,住宿,Day1、Day13–15 住宿城鎮（同 Day1）,https://www.booking.com/searchresults.html?ss=Christchurch%2C+New+Zealand
+15,Hilltop 觀景點／Hilltop Tavern,-43.7492,172.8695,景點,彈性選項 就在SH75公路上不繞路 可俯瞰整個Akaroa港灣全景 免費 可停下拍照或喝咖啡休息,
 15,Akaroa 法式小鎮中心,-43.8037,172.9483,景點,法式殖民小鎮中心,
-15,Black Cat Cruises 報到處（61 Beach Road）,-43.8087,172.9630,交通,賞豚遊船/海豚共游二選一 待確認 自2026/5/1起報到地點改為61 Beach Road 原Main Wharf整修關閉中請勿前往 免費停車於Gaiety Hall Rue Jolie步行約3分鐘 建議提前20分鐘報到 座標由地址查詢取得建議行前以Google Maps再次確認,https://www.blackcat.co.nz/
+15,The Giant's House,-43.8067,172.9709,景點,彈性選項 Akaroa鎮中心不繞路 馬賽克雕塑花園 NZ$35/人 開放11:00-16:00 座標為Rue Balguerie街道位置建議行前以Google Maps再次確認 選Nature Cruise方案(12:30結束)下午空檔排得進去選海豚共游(14:00結束)較趕,https://www.thegiantshouse.co.nz/
+15,Black Cat Cruises 報到處（61 Beach Road）,-43.8087,172.9630,交通,已改為自由參加非必要行程 賞豚遊船/海豚共游二選一 自2026/5/1起報到地點改為61 Beach Road 原Main Wharf整修關閉中請勿前往 免費停車於Gaiety Hall Rue Jolie步行約3分鐘 建議提前20分鐘報到 座標由地址查詢取得建議行前以Google Maps再次確認,https://www.blackcat.co.nz/
 15,Christchurch 住宿區,-43.5321,172.6362,住宿,Day1、Day13–15 住宿城鎮（同 Day1）,https://www.booking.com/searchresults.html?ss=Christchurch%2C+New+Zealand
 16,Christchurch Airport Rental Car Return,-43.4864,172.5469,交通,還車地點 10:45-11:00還車,

@@ -22,7 +22,7 @@
 | Day | 日期 (週) | 區域 | 當日重點 | 午餐 | 晚餐 | 住宿地 |
 |---|---|---|---|---|---|---|
 | 1 | 12/19（六）| 基督城 | 抵達、取車、超市採買 | 機上/轉機 | 基督城市區餐廳 🌟 | Christchurch |
-| 2 | 12/20（日）| 東海岸 | Elephant Rocks、摩洛奇龍珠石、奧瑪魯藍企鵝 | Fishwife 🌟 | 奧瑪魯市區小酒館或餐廳 | Oamaru |
+| 2 | 12/20（日）| 東海岸 | 摩洛奇龍珠石、奧瑪魯藍企鵝（途經Timaru短停） | Fishwife 🌟 | 奧瑪魯市區小酒館或餐廳 | Oamaru |
 | 3 | 12/21（一）| 南下大移動 | Dunedin、Mataura Falls 沿途打卡 | Gore 小鎮咖啡館 | 🛒 超市採買自煮 | Te Anau |
 | 4 | 12/22（二）| 米佛峽灣 | Mirror Lakes、Eglinton Valley、Homer Tunnel、峽灣巡航 | 自備野餐/峽灣咖啡館 | 🛒 超市採買自煮 | Te Anau |
 | 5 | 12/23（三）| 蒂阿瑙→皇后鎮 | Devil's Staircase 觀景點，皇后鎮連住第 1 晚 | 途中簡餐 | 皇后鎮餐廳 | Queenstown |
@@ -31,11 +31,11 @@
 | 8 | 12/26（六）| 箭鎮→克倫威爾→瓦納卡 | 淘金小鎮、Kawarau Bridge Bungy（途中）、水果小鎮 | 箭鎮 Bakery 👍 | 瓦納卡湖畔餐廳 | Wanaka |
 | 9 | 12/27（日）| 瓦納卡 | 悠閒日、孤樹 | 瓦納卡湖濱咖啡館 | Kai Whakapai 👍 | Wanaka |
 | 10 | 12/28（一）| 瓦納卡→庫克山 | Lindis Pass 觀景台、胡克谷健行 | High Country Salmon 🌟 | 🛒 超市採買自煮 | Haka House Hostel Aoraki Mt Cook |
-| 11 | 12/29（二）| 庫克山→蒂卡波湖 | 塔斯曼冰河船 | Hermitage Hotel Alpine Restaurant | 🛒 超市採買自煮 | Lake Tekapo |
+| 11 | 12/29（二）| 庫克山→蒂卡波湖 | 塔斯曼冰河直升機健行（備案：冰河船） | Hermitage Hotel Alpine Restaurant | 🛒 超市採買自煮 | Lake Tekapo |
 | 12 | 12/30（三）| 蒂卡波湖 | 悠閒緩衝日：Mt John 觀景公路、二訪觀星 | Kohan Restaurant 👍 | 🛒 超市採買自煮 | Lake Tekapo |
-| 13 | 12/31（四）🎉| 蒂卡波湖→基督城 | 沿途 Geraldine，市區溫馨跨年 | Fairlie Bakehouse 🌟 | 基督城跨年晚餐（先訂位） | Christchurch |
-| 14 | 1/1（五）🎊| 基督城 | 🆕 南極中心 (International Antarctic Centre) | 🛒 自煮 | 🛒 自煮 | Christchurch |
-| 15 | 1/2（六）| 阿卡羅瓦 | Akaroa 一日遊：法式小鎮＋賞豚遊船／海豚共游（待選擇） | Akaroa 港邊咖啡館 👍 | 基督城市區餐廳 | Christchurch |
+| 13 | 12/31（四）🎉| 蒂卡波湖→基督城 | 沿途 Geraldine，North Hagley Park跨年煙火（官方活動） | Fairlie Bakehouse 🌟 | 基督城跨年晚餐（先訂位） | Christchurch |
+| 14 | 1/1（五）🎊| 基督城 | 元旦日出（選配）、Willowbank Wildlife Reserve | 🛒 自煮 | 🛒 自煮 | Christchurch |
+| 15 | 1/2（六）| 阿卡羅瓦 | Akaroa 一日遊：法式小鎮＋Hilltop＋The Giant's House（賞豚遊船改為自由參加） | Akaroa 港邊咖啡館 👍 | 基督城市區餐廳 | Christchurch |
 | 16 | 1/3（日）| 基督城 | 收拾、10:45-11:00還車、11:20前抵機場 | 機場用餐/簡便食物 | 機上 | — |
 
 ---
@@ -43,6 +43,7 @@
 ## 二、每日詳細時間軸
 
 ### Day 1｜12/19（六）｜抵達基督城
+- 🗺️ [開啟本日完整路線（多站導航，起點為你目前位置）](https://www.google.com/maps/dir/?api=1&destination=-43.5321,172.6362&waypoints=-43.5292,172.6367&travelmode=driving)
 - ✈️ **去程航班（國泰航空，經香港轉機）**
   - 12/18（五）13:20 台北桃園機場 T1 起飛 → CX495 → 15:25 抵達香港 T1（飛行 2h05m）
   - 香港轉機 5h15m（免提領行李、免重新託運）
@@ -58,12 +59,13 @@
 - 🏨 住宿：Christchurch 市區　`📌待訂（高優先）`
   - [Booking.com 搜尋](https://www.booking.com/searchresults.html?ss=Christchurch%2C+New+Zealand) ｜ [Airbnb 搜尋](https://www.airbnb.com/s/Christchurch--New-Zealand/homes)
 
-### Day 2｜12/20（日）｜Elephant Rocks → 摩洛奇龍珠石 → 奧瑪魯藍企鵝
-- 07:30 出發，基督城 → Elephant Rocks（Duntroon 附近石灰岩奇石群，電影取景地）
-  - 🚗 [Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Christchurch&destination=Elephant+Rocks+Duntroon&travelmode=driving)
-- 預計 11:30 抵達 Elephant Rocks，短停拍照
-- Elephant Rocks → Moeraki Boulders
-  - 🚗 [Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Elephant+Rocks+Duntroon&destination=Moeraki+Boulders&travelmode=driving)
+### Day 2｜12/20（日）｜Christchurch → Moeraki → 奧瑪魯藍企鵝
+- 🗺️ [開啟本日完整路線（多站導航，起點為你目前位置）](https://www.google.com/maps/dir/?api=1&destination=-45.1058,170.9751&waypoints=-44.3826,171.2509%7C-45.3548,170.8225%7C-45.3592,170.8555%7C-45.0958,170.9738&travelmode=driving)
+- ⚠️ **原本的大象石 Elephant Rocks（Duntroon）已刪除**：要從沿海 SH1 特地繞進內陸再繞出來，多花約 45–70 分鐘，不算順路，故改走下方直達路線
+- 08:00 出發，Christchurch → Moeraki（直接沿 SH1 走，不再繞去內陸）
+  - 🚗 約 3h30m｜[Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Christchurch&destination=Moeraki+Boulders&travelmode=driving)
+- 💡 **彈性選項：Timaru / Caroline Bay**（全程中點，正好在 SH1 幹道上，不需繞路）——沿海沙灘、玫瑰園、木棧道，免費，休息 20–30 分鐘剛好
+- 預計約 11:30–12:00 抵達 Moeraki Boulders，白天造訪即可（不特別安排日出行程）
 - 🍽️ 午餐：🌟 **Fishwife**（Moeraki 海邊魚薯條店，主打新鮮藍鱈魚 blue cod，必吃推薦）
   - ⚠️ **原指定的 Fleur's Place 已於 2021 年底永久停業**（非暫時公休，老闆已無意重開，房產一度掛牌出售），故改推薦 Fishwife 作為替代
   - 📍 地址：145 Haven Street, Moeraki 9482
@@ -84,10 +86,12 @@
   - [Booking.com 搜尋](https://www.booking.com/searchresults.html?ss=Oamaru%2C+New+Zealand) ｜ [Airbnb 搜尋](https://www.airbnb.com/s/Oamaru--New-Zealand/homes)
 
 ### Day 3｜12/21（一）｜長途轉場前往蒂阿瑙（沿途打卡）
+- 🗺️ [開啟本日完整路線（多站導航，起點為你目前位置）](https://www.google.com/maps/dir/?api=1&destination=-45.4177,167.7119&waypoints=-45.8555,170.5185%7C-46.1930,168.8630&travelmode=driving)
 - ⚠️ 本日為全程最長車程：純駕駛至少約 6 小時 15 分至 6 小時 30 分，另加休息、午餐與拍照時間，建議 08:00 前出發，中途多次休息換手駕駛
 - 08:00 出發，Oamaru → Dunedin（Baldwin Street 全球最陡街道打卡）
   - 🚗 約 1h20m｜[Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Oamaru&destination=Baldwin+Street+Dunedin&travelmode=driving)
 - 09:30-10:00 Baldwin Street 短停拍照
+- 💡 **彈性選項：Dunedin Railway Station**（距 Baldwin Street 車程約 5–10 分鐘，同樣在市區）——全球公認最美的砂岩火車站建築之一，10–15 分鐘可拍完，依當天時間決定要不要繞過去，不強制排入
 - 10:00 Dunedin → Mataura Falls（Gore 附近瀑布景觀）
   - 🚗 約 1h40m｜[Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Baldwin+Street+Dunedin&destination=Mataura+Falls&travelmode=driving)
 - 🍽️ 午餐：Gore 小鎮咖啡館（Mataura Falls 附近）
@@ -106,6 +110,7 @@
   - [Booking.com 搜尋](https://www.booking.com/searchresults.html?ss=Te+Anau%2C+New+Zealand) ｜ [Airbnb 搜尋](https://www.airbnb.com/s/Te-Anau--New-Zealand/homes)
 
 ### Day 4｜12/22（二）｜米佛峽灣一日遊
+- 🗺️ [開啟本日完整路線（多站導航，起點為你目前位置）](https://www.google.com/maps/dir/?api=1&destination=-45.4131,167.7150&waypoints=-44.9930,168.0570%7C-44.7645,168.0004%7C-44.6706,167.9250%7C-44.8912,168.0148&travelmode=driving)
 - 07:30 Te Anau 出發前往 Milford Sound
 - 去程：**Eglinton Valley** 短停約 5 分鐘（開闊谷地草原景觀，多部電影取景地）
   - 🚗 [Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Te+Anau&destination=Eglinton+Valley&travelmode=driving)
@@ -125,6 +130,7 @@
 - 🏨 住宿：Te Anau（同 Day3）
 
 ### Day 5｜12/23（三）｜蒂阿瑙 → 皇后鎮（沿途打卡，連住第 1 晚）
+- 🗺️ [開啟本日完整路線（多站導航，起點為你目前位置，⚠️部分座標暫定）](https://www.google.com/maps/dir/?api=1&destination=-45.0312,168.6626&waypoints=-45.24571,168.74286&travelmode=driving)
 - 10:00 Te Anau → Devil's Staircase 觀景點（瓦卡蒂普湖畔經典觀景台）
   - 🚗 [Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Te+Anau&destination=Devil%27s+Staircase+Lookout&travelmode=driving)
 - 約 11:45 抵達 Devil's Staircase，短停拍照，欣賞 Lake Wakatipu 湖光山色
@@ -138,10 +144,11 @@
   - [Booking.com 搜尋](https://www.booking.com/searchresults.html?ss=Queenstown%2C+New+Zealand) ｜ [Airbnb 搜尋](https://www.airbnb.com/s/Queenstown--New-Zealand/homes)
 
 ### Day 6｜12/24（四，平安夜）｜TSS Earnslaw 恩斯洛號＋Walter Peak 高地 BBQ 晚餐（連住第 2 晚）
+- 🗺️ [開啟本日完整路線（多站導航，起點為你目前位置）](https://www.google.com/maps/dir/?api=1&destination=-45.0334,168.6601&travelmode=driving)
 - 上午／下午：皇后鎮自由活動
 - 🍽️ 午餐：Queenstown 自由午餐／輕食
 - 傍晚至晚上：搭乘 **TSS Earnslaw 恩斯洛號百年蒸汽船**，橫渡瓦卡蒂普湖前往 Walter Peak 高地農場
-- 🎟️ **TSS Earnslaw＋Walter Peak 高地 BBQ 晚餐**，公開起價 NZ$189 起　`📌已訂`
+- 🎟️ **TSS Earnslaw＋Walter Peak 高地 BBQ 晚餐**，公開起價 NZ$189 起　`📌待訂`
   - [官方預訂 RealNZ](https://www.realnz.com/zh-cn/experiences/dining/walter-peak-bbq-dining/)
   - 📍 報到處：RealNZ 櫃檯，Steamer Wharf, 88 Beach Street, Queenstown（船就停靠在碼頭前）
   - ⏰ 建議開船前 20 分鐘報到
@@ -155,6 +162,7 @@
 - 🏨 住宿：Queenstown（同 Day5）
 
 ### Day 7｜12/25（五，聖誕節）｜皇后鎮經典體驗（連住第 3 晚）
+- 🗺️ [開啟本日完整路線（多站導航，起點為你目前位置）](https://www.google.com/maps/dir/?api=1&destination=-45.0328,168.6615&travelmode=driving)
 - ⚠️ 聖誕節當天部分商店/景點縮短營業，出發前先確認開放時間
 - 上午：Skyline Gondola 天際纜車 + Luge 溜溜車　`📌待訂`
   - 🎟️ [官方預訂 Skyline](https://www.skyline.co.nz/queenstown/)
@@ -165,10 +173,12 @@
 - 🍽️ 午餐：皇后鎮湖濱咖啡館，或 👍 **Patagonia Chocolates**（人氣冰淇淋/巧克力甜點）——以聖誕節當日營業與預訂狀況為準
 - 下午：皇后鎮自由活動、湖濱散步
   - 💡 Kawarau Bridge Bungy 已改排至 **Day8**（前往箭鎮／克倫威爾途中順路停靠）——因為 Kawarau Bungy Centre 聖誕節當天公休，無法在本日進行
+  - 💡 **彈性選項：Glenorchy 一日往返**（沿瓦卡蒂普湖岸單程車程約 45–50 分鐘，來回連同停留約需 3–4 小時）——公認紐西蘭最美短程景觀公路之一，魔戒取景地、雪山湖景無敵；聖誕節當天鎮上店家可能沒開，主要是為了沿途風景，若想去建議這個下午幾乎整段時間都會用在這趟車程上，依心情決定
 - 🍽️ 晚餐：強烈建議於 12/24 先至超市採買食材，回住宿點自煮；或於出發前三個月直接預訂高級飯店的 Christmas Buffet
 - 🏨 住宿：Queenstown（同 Day5/6）
 
 ### Day 8｜12/26（六，Boxing Day）｜箭鎮 → 克倫威爾 → 瓦納卡
+- 🗺️ [開啟本日完整路線（多站導航，起點為你目前位置）](https://www.google.com/maps/dir/?api=1&destination=-44.6975,169.1348&waypoints=-44.9391,168.8323%7C-45.1275,168.7508%7C-45.0392,169.1962&travelmode=driving)
 - 09:30 Queenstown → Arrowtown
   - 🚗 約 25 分鐘｜[Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Queenstown&destination=Arrowtown&travelmode=driving)
 - 淘金小鎮歷史街區散步
@@ -191,6 +201,7 @@
   - [Booking.com 搜尋](https://www.booking.com/searchresults.html?ss=Wanaka%2C+New+Zealand) ｜ [Airbnb 搜尋](https://www.airbnb.com/s/Wanaka--New-Zealand/homes)
 
 ### Day 9｜12/27（日）｜瓦納卡悠閒日
+- 🗺️ [開啟本日完整路線（多站導航，起點為你目前位置）](https://www.google.com/maps/dir/?api=1&destination=-44.6852,169.1699&waypoints=-44.6963,169.1339&travelmode=driving)
 - 上午：That Wanaka Tree 打卡、湖濱步道
 - 🍽️ 午餐：瓦納卡湖濱咖啡館
 - 下午：自由活動（可選 Puzzling World）　`📌待訂／自由參加`
@@ -198,10 +209,12 @@
   - 📍 地址：188 Wanaka-Luggate Hwy, Wanaka 9382
   - 🅿️ 現場免費停車
   - ⏰ 營業時間 9:00–16:30（12/27 非假日，正常營業）
+  - ⚠️ **Rippon Vineyard 品酒選項已移除**：因全程自駕，不方便安排品酒活動
 - 🍽️ 晚餐：👍 **Kai Whakapai Cafe & Bar**（瓦納卡湖畔人氣老店，餐點選擇多適合家庭）
 - 🏨 住宿：Wanaka（同 Day8）
 
 ### Day 10｜12/28（一）｜瓦納卡 → 庫克山（沿途打卡＋胡克谷健行）
+- 🗺️ [開啟本日完整路線（多站導航，起點為你目前位置，⚠️部分座標暫定）](https://www.google.com/maps/dir/?api=1&destination=-43.7275,170.0999&waypoints=-44.5813,169.6417%7C-44.29139,170.08513&travelmode=driving)
 - 09:00 從 Wanaka 出發，前往 Lindis Pass Summit 觀景台（金黃色高原草丘經典景觀），短停拍照
   - 🚗 [Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Wanaka&destination=Lindis+Pass+Summit&travelmode=driving)
 - Lindis Pass → Twizel（經 Omarama）
@@ -216,12 +229,16 @@
   - 評分 9.0（302則評價）、免費泊車、共用廚房，距庫克山國家公園入口僅 570m
   - [Booking.com 查詢](https://www.booking.com/searchresults.html?ss=Haka+House+Hostel+Aoraki+Mount+Cook)
 
-### Day 11｜12/29（二）｜塔斯曼冰河船 → 蒂卡波湖
-- 08:30 於 **The Hermitage Hotel 一樓 Activities Centre** 報到（Aoraki Mount Cook Village，公眾可免費停車） → 09:00 Tasman Glacier Explorer 冰河船出發　`📌待訂`
-  - 🎟️ [官方預訂 The Hermitage - Glacier Explorers](https://www.hermitage.co.nz/experience/glacier-explorers/)
-  - 📍 **報到地點不是湖邊，是飯店內的活動櫃檯**：check-in 後會搭接駁巴士前往塔斯曼谷，再步行 1.5km／約25分鐘的高山步道才抵達冰河湖碼頭上船
-  - ⏰ 務必於出發前 **30 分鐘**到 Activities Centre 報到
-  - 💡 行程含報到、巴士、步行至冰河湖與船程，總時長請以官網為準
+### Day 11｜12/29（二）｜塔斯曼冰河直升機健行 → 蒂卡波湖
+- 🗺️ [開啟本日完整路線（多站導航，起點為你目前位置）](https://www.google.com/maps/dir/?api=1&destination=-44.0034,170.4775&waypoints=-43.7667,170.1334%7C-43.7346,170.0972%7C-44.1667,170.1500&travelmode=driving)
+- 08:20 從 Haka House Hostel 出發 → **Mount Cook Airport**（距 Mt Cook Village 5km，車程約10分鐘，⚠️ 不是 Hermitage Hotel）
+- 09:00 check-in，**Tasman Glacier Heli-Hike**（Alpine Guides，直升機＋冰上健行）　`📌待訂`
+  - 🎟️ [官方預訂 Alpine Guides](https://alpineguides.co.nz/tasman-glacier-heli-hike)
+  - 💰 現行價 NZ$945/人，4人合計 NZ$3,780（2026/10 起可能調漲至 NZ$995/人，實際以結帳頁為準）
+  - ⏰ 總時長約 3 小時：2 趟直升機航程＋最多 2 小時冰上健行（配發冰爪、健行杖、保暖衣物），約 12:00 結束
+  - ⚠️ 高度依賴天氣，可能臨時取消；取消可全額退款或免費改期；24小時前皆可免費取消
+  - 🔴 **備案：Tasman Glacier Explorers 冰河船**——若直升機因天候取消，可當天改訂船遊（Nov–Apr 班次：8:00／9:45／11:30／13:15／15:00／16:45，報到於 The Hermitage Hotel 一樓 Activities Centre，提前30分鐘報到），船隻對天候的容忍度較高，適合當天備案而非改期
+    - 🎟️ [官方預訂 The Hermitage - Glacier Explorers](https://www.hermitage.co.nz/experience/glacier-explorers/)
 - 🍽️ 午餐：**Hermitage Hotel Alpine Restaurant**（飯店一樓自助餐廳，看山景）
   - ⚠️ 原排的 Old Mountaineers' Café **週一、週二公休**，12/29 剛好是週二，故改到早上報到的同一棟 Hermitage Hotel 內用餐，不需額外移動
   - 💡 飯店內也有 Sir Edmund Hillary Café & Bar 可選（較快速的簡餐/咖啡選項）
@@ -238,6 +255,7 @@
   - [Booking.com 搜尋](https://www.booking.com/searchresults.html?ss=Lake+Tekapo%2C+New+Zealand) ｜ [Airbnb 搜尋](https://www.airbnb.com/s/Lake-Tekapo--New-Zealand/homes)
 
 ### Day 12｜12/30（三）｜蒂卡波湖悠閒緩衝日
+- 🗺️ [開啟本日完整路線（多站導航，起點為你目前位置）](https://www.google.com/maps/dir/?api=1&destination=-43.986667,170.465000&travelmode=driving)
 - 上午：睡到自然醒，湖畔散步、Church of the Good Shepherd 晨光拍照（早上人潮較少）
 - 10:30 起：**Mt John Summit Road** 觀景公路自駕上山（車程約 10 分鐘，山頂咖啡館 Astro Café 可俯瞰整個蒂卡波湖）
   - 🚗 [Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Lake+Tekapo&destination=Mt+John+Observatory&travelmode=driving)
@@ -253,6 +271,7 @@
 - 🏨 住宿：Lake Tekapo（同 Day11）
 
 ### Day 13｜12/31（四，跨年夜）｜蒂卡波湖 → 基督城（沿途打卡＋跨年倒數）
+- 🗺️ [開啟本日完整路線（多站導航，起點為你目前位置）](https://www.google.com/maps/dir/?api=1&destination=-43.5276,172.6203&waypoints=-44.0967,170.8305%7C-44.0958,171.2419&travelmode=driving)
 - 10:00 出發，Tekapo → Fairlie
   - 🚗 約 40 分鐘｜[Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Lake+Tekapo&destination=Fairlie&travelmode=driving)
 - 🍽️ 午餐：🌟 **Fairlie Bakehouse**（招牌肉派，必吃推薦）
@@ -263,29 +282,36 @@
   - 🚗 約 1h20m｜[Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Geraldine&destination=Christchurch&travelmode=driving)
 - 下午：抵達基督城，入住、稍作休息
 - 🍽️ 晚餐：基督城跨年晚餐（建議提前訂位，跨年夜熱門餐廳容易客滿）
-- 晚間：於市區住宿點溫馨跨年，預先備妥超市零食與酒水；若官方日後公告市區活動，再視情況參加
+- 晚間：🎆 **North Hagley Park 跨年活動**（Christchurch City Council 主辦，近年皆固定在此舉辦的免費年度活動；本次跨年〔迎接2027〕的官方場次細節通常要到10–11月才會公告，目前先依往年模式規劃，出發前請上 [CCC官網](https://ccc.govt.nz/news-and-events/whats-on/) 再次確認實際時間與內容）
+  - 往年模式參考：16:00–19:00 親子倒數場，20:00–00:00 主舞台音樂演出，00:00 煙火秀
+  - ⚠️ 往年皆為全程禁菸禁電子菸禁酒（24小時酒精管制），入場截止時間以當年公告為準
+  - 💡 隔天（Day14）若想追元旦日出，這裡結束後幾乎沒有睡眠時間可以休息，請提前決定要不要熬夜接著去看日出（見 Day14）
 - 🏨 住宿：Christchurch（連住 3 晚，Day13–15）　`📌待訂（高優先，跨年期間搶手）`
   - [Booking.com 搜尋](https://www.booking.com/searchresults.html?ss=Christchurch%2C+New+Zealand) ｜ [Airbnb 搜尋](https://www.airbnb.com/s/Christchurch--New-Zealand/homes)
 
-### Day 14｜1/1（五，元旦）｜🆕 南極中心 (International Antarctic Centre)
+### Day 14｜1/1（五，元旦）｜Willowbank Wildlife Reserve（奇異鳥保護區）
+- 🗺️ [開啟本日完整路線（多站導航，起點為你目前位置）](https://www.google.com/maps/dir/?api=1&destination=-43.4635,172.5941&waypoints=-43.5064,172.7332&travelmode=driving)
+- ⚠️ **原本的南極中心 (International Antarctic Centre) 已刪除**：在機場附近，需專程排半天＋買票 NZ$296，不算「路過」，改為下方的 Willowbank
+- 🌅 **要不要看日出，自行決定**：
+  - 選項A：**New Brighton Pier** 看日出（正東面海，地平線無遮蔽，車程約20-25分鐘，約05:50–06:00，出發前用手機日出App再確認實際時間）——⚠️ 跨年煙火00:00結束後幾乎沒時間睡就要出發，體力消耗大，建議前一晚先決定要不要熬夜挑戰，或派部分人去就好
+  - 選項B：睡到自然醒（原方案，跨年夜熬夜後好好休息）
 - 💡 **假日附加費因應措施**：早餐使用超市食材於 Airbnb/住宿處自理，避開元旦餐廳 15% 附加費
-- 上午：睡到自然醒（跨年夜熬夜），Airbnb 悠閒自煮早餐
-- 11:00 起：**International Antarctic Centre 南極中心**（企鵝、雪地車體驗）　`📌待訂`
-  - 🎟️ [官方預訂 Antarctic Centre](https://www.iceberg.co.nz/)
-  - 💰 成人票 NZ$74／人；4 位成人合計 NZ$296（不使用家庭票）
-  - 📍 地址：38 Orchard Road, Christchurch Airport
-  - 🅿️ 現場免費停車（含露營車／遊覽車車格）
-  - 💡 官方建議開門（09:00）時人潮最少，企鵝餵食與雪地車體驗也較不用等；我們排 11:00 是考量跨年夜熬夜後的睡眠，屬於刻意取捨，不一定要改
-  - ⚠️ 出發前須確認 2027/1/1 元旦當日的開館時間與可預訂入場時段（此為 International Antarctic Centre 遊客中心之營業資訊，非 Antarctica New Zealand 辦公室假期資訊）
-- 🍽️ 午餐：Antarctic Centre 附設咖啡館，或自備三明治
-- 下午：市區散步、Hagley Park 野餐、休息，為隔天 Akaroa 一日遊養精蓄銳
+- 約 11:00 起：**Willowbank Wildlife Reserve**（近距離看紐西蘭國寶奇異鳥＋多種原生動物）
+  - 🎟️ [官網 willowbank.co.nz](https://www.willowbank.co.nz/)
+  - 💰 一般門票 NZ$28／人；4 位成人合計 NZ$112（含奇異鳥夜行館）；想升級導覽版摸得到奇異鳥可加購 NZ$54／人（約 NZ$216/4人）
+  - ⏰ 開放 9:30–17:00，元旦正常營業（僅聖誕節公休）
+- 🍽️ 午餐：園區內或自備三明治
+- 下午：若還有體力，可加碼市區 Avon River 撐篙（NZ$22.90/人，30分鐘，選配不強制）；或直接回市區逛街／Hagley Park 休息，為隔天 Akaroa 一日遊養精蓄銳
 - 🍽️ 晚餐：🛒 超市採買自煮（避開假日附加費）
 - 🏨 住宿：Christchurch（同 Day13）
 
-### Day 15｜1/2（六）｜阿卡羅瓦 (Akaroa) 一日遊 — 賞豚遊船／海豚共游　`📌待選擇`
+### Day 15｜1/2（六）｜阿卡羅瓦 (Akaroa) 一日遊 — 法式小鎮＋Hilltop＋The Giant's House（賞豚遊船 `📌待訂／自由參加`）
+- 🗺️ [開啟本日完整路線（去程，起點為你目前位置，⚠️部分座標為街道位置估算）](https://www.google.com/maps/dir/?api=1&destination=-43.8067,172.9709&waypoints=-43.7492,172.8695%7C-43.8037,172.9483&travelmode=driving)
+- 🗺️ [開啟本日完整路線（回程 Akaroa→Christchurch）](https://www.google.com/maps/dir/?api=1&origin=-43.8067,172.9709&destination=-43.5321,172.6362&travelmode=driving)
 - 08:30 Christchurch → Akaroa（法式殖民風情港灣小鎮，Banks Peninsula 火山口地形）
   - 🚗 約 1h40m（山路較多彎，含緩衝）｜[Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Christchurch&destination=Akaroa&travelmode=driving)
-- ⚠️ **目前尚未選定活動方案，出發前請全家先討論決定**：
+  - 💡 **彈性選項：Hilltop 觀景點／Hilltop Tavern**——就在 SH75 公路上，過了 Hilltop 後可俯瞰整個 Akaroa 港灣全景，完全不繞路，可停下拍照或喝杯咖啡休息，免費
+- 💡 **賞豚遊船已改為自由參加**：Akaroa 鎮上本身（法式小鎮＋Hilltop＋The Giant's House）就是完整一天的行程，不搭船一樣有得玩；若想參加，方案如下，出發前請全家先討論決定：
   - 🎟️ [Black Cat Cruises 官網](https://www.blackcat.co.nz/)
   - 📍 **報到地點異動**：自 2026/5/1 起所有行程改在 **61 Beach Road, Akaroa** 報到，⚠️ 請勿直接前往原本的 Main Wharf（碼頭整修關閉中）
   - 🅿️ 免費停車：Gaiety Hall, Rue Jolie（距報到處步行約3分鐘，可停最長8小時，含露營車）
@@ -298,22 +324,25 @@
 
 - ⚠️ **若選 Nature Cruise（賞豚遊船）**：可保留下方原 10:30-12:30 時段與午餐、散步、15:30 回程的時間軸
 - ⚠️ **若選 Swimming with Dolphins（海豚共游）**：約 14:00 結束，午餐、小鎮散步與回程須改為「**14:00 後彈性安排**」，不可沿用 12:30 結束的時間軸
+- ✅ **若不參加賞豚遊船**：全天完全彈性，可自行安排法式小鎮散步、Hilltop、The Giant's House 的順序與時間，不受任何船班時段限制
 - 🍽️ 午餐：👍 Akaroa 港邊咖啡館（法式甜點、海鮮輕食）——賞豚遊船方案適用原 12:30 後時段；海豚共游方案請改為 14:00 後彈性安排
 - 下午：小鎮法式建築街區散步、Akaroa Lighthouse 燈塔拍照——海豚共游方案請改為 14:00 後彈性安排
+  - 💡 **彈性選項：The Giant's House**（Akaroa 鎮中心，不繞路）——馬賽克雕塑花園，開放 11:00–16:00，NZ$35/人；選 Nature Cruise（12:30結束）下午空檔剛好排得進去，選海豚共游（14:00結束）時間會比較趕
 - 15:30 Akaroa → Christchurch（賞豚遊船方案適用；海豚共游方案請彈性調整回程時間）
   - 🚗 約 1h40m｜[Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Akaroa&destination=Christchurch&travelmode=driving)
 - 🍽️ 晚餐：基督城市區餐廳（最後一晚，可挑一家還沒吃過的口袋名單）
 - 🏨 住宿：Christchurch（同 Day13/14）
 
 ### Day 16｜1/3（日）｜收拾行李 → 還車 → 搭機返台
+- 🗺️ [開啟本日完整路線（多站導航，起點為你目前位置）](https://www.google.com/maps/dir/?api=1&destination=-43.4864,172.5469&travelmode=driving)
 - 上午：早餐後退房、打包行李
 - 10:45–11:00 前：完成加油與還車（記得拍照存證油量與車況）
 - 最晚 11:20：抵達 Christchurch Airport
 - 🍽️ 機場用餐，或自備簡便食物
 - ✈️ **回程航班（國泰航空，經香港轉機）**
   - ⚠️ 國泰航空實際報到截止時間：以訂票確認信為準
-  - 14:20 基督城起飛 → 20:50 抵達香港（轉機 2h05m，免提領行李）
-  - 22:55 香港起飛 → **1/4（一）00:35 抵達台北桃園機場**（總飛行時間 15h15m，經濟艙約 HK$12,049/人）
+  - 14:20 基督城起飛 → 20:50 抵達香港（轉機 2h20m，免提領行李）
+  - 23:10 香港起飛 → **1/4（一）00:50 抵達台北桃園機場**（CX408 班期已更改，總飛行時間 15h15m，經濟艙約 HK$12,049/人）
 
 ---
 
@@ -322,21 +351,20 @@
 > 🕒 最後核對：2026-07-30 ｜ ⚠️ 價格可能變動，2026 年 12 月實際售價以結帳頁或訂單確認信為準
 > 🏷️ 狀態標記：`📌已訂` `📌待訂` `📌待選擇` `以訂單確認信為準`
 
-### 3.1 必要支出（核心活動＋行前必要費用＋租車；採 Akaroa Nature Cruise 方案，不含 Bungy 與 Puzzling World）
+### 3.1 必要支出（核心活動＋行前必要費用＋租車；不含 Bungy、Puzzling World、Akaroa 賞豚遊船等自由參加項目）
 
 | 項目 | 每人 (NZD) | 4 人合計 (NZD) | 狀態／說明 |
 |---|---:|---:|---|
 | Ōamaru 藍企鵝 General Viewing | 47 | 188 | `📌待訂`；現行公開價，Premium 為 63／人 |
 | Te Anau 螢火蟲洞＋Milford Signature Cruise 套票 | 約 285 | 約 1,140 | `📌待訂`；暫估＝螢火蟲洞145＋峽灣船175－套票省35，2026/10 後結帳頁為準 |
-| Walter Peak BBQ 晚餐 | 189 起 | 756 起 | `📌已訂`；最終以訂單金額為準 |
+| Walter Peak BBQ 晚餐 | 189 起 | 756 起 | `📌待訂`；最終以訂單金額為準 |
 | Skyline Gondola＋3 Luge Rides | 99 | 396 | `📌待訂`；現行公開方案，12 月價格為準 |
-| Tasman Glacier Explorers | 209 起 | 836 起 | `📌待訂`；成人公開起價 |
+| Tasman Glacier Heli-Hike | 945 | 3,780 | `📌待訂`；現行價，2026/10 起可能漲至 995/人；備案為 Tasman Glacier Explorers 冰河船（836起） |
 | Dark Sky Summit Experience | 219 | 876 | `📌待訂`；此價格僅公布至 2026/9/30，12 月價格待確認 |
-| International Antarctic Centre（4 位成人） | 74 | 296 | `📌待訂`；不使用家庭票 |
-| Akaroa Nature Cruise | 130 | 520 | `📌待選擇`；二選一方案之一（見 3.3） |
+| Willowbank Wildlife Reserve（4 位成人） | 28 | 112 | `📌待訂`；一般門票，加購導覽奇異鳥摸摸體驗則 54/人（216/4人） |
 | NZeTA＋IVL（官方 App，4 人） | 117 | 468 | 行前必要費用，需及早辦理 |
 | 租車 SUV＋Zero Excess | — | 1,500–1,800 | `📌待訂`；需確認 4 位授權駕駛與行李容量 |
-| **3.1 小計** | — | **約 6,976–7,276** | 不含燃油、停車、餐食 |
+| **3.1 小計** | — | **約 9,216–9,716** | 不含燃油、停車、餐食 |
 
 ### 3.2 加入燃油、停車與全程餐食後
 
@@ -345,14 +373,7 @@
 | 燃油 | 500–700 | 規劃預留 |
 | 停車 | 200–350 | 規劃預留，含 Milford、Queenstown 等地 |
 | 餐食與超市採買 | 3,000–4,500 | 規劃預留；Walter Peak 晚餐已計入 3.1，不重複計算 |
-| **累計總額（3.1＋3.2）** | **約 10,676–12,826** | 不含國際機票、15 晚住宿與旅遊保險 |
-
-### 3.3 二選一活動（擇一，不可同時計入總額）
-
-| 選項 | 4 人合計 (NZD) | 說明 |
-|---|---:|---|
-| Akaroa Nature Cruise（已計入 3.1／3.2 總額） | 520 | 較穩妥選項，已計入上方總額 |
-| Akaroa Swimming with Dolphins（未計入總額） | 1,000 | 若改選此項，總額需在 3.2 基礎上 **+NZ$480**（取代 Nature Cruise 的 520） |
+| **累計總額（3.1＋3.2）** | **約 12,916–15,266** | 不含國際機票、15 晚住宿與旅遊保險 |
 
 ### 3.4 自由參加活動（未計入任何總額，依實際參加人數另計）
 
@@ -360,6 +381,8 @@
 |---|---:|---|
 | Kawarau Bridge Bungy | 320／位參加者 | 選擇性活動，總額需依實際參加人數 **+NZ$320／人** |
 | Puzzling World 全套 Combo | 32.50 | 選擇性活動，不計入核心總額 |
+| Akaroa Nature Cruise 賞豚遊船 | 130／人（4人520） | 已改為自由參加，非必要行程；較穩妥選項，全程待在船上 |
+| Akaroa Swimming with Dolphins 海豚共游 | 250／人（4人1,000） | 已改為自由參加，非必要行程；需下水，與 Nature Cruise 二選一，不會同時參加 |
 
 ### 3.5 不含於以上任何總額之項目（另計參考）
 
@@ -370,7 +393,7 @@
 | 15 晚住宿 | — | 待各城鎮訂房確認 |
 | 旅遊保險 | — | 待自行投保 |
 
-⚠️ 3.1／3.2 的總額**不含**國際機票、15 晚住宿與旅遊保險；請勿將 3.5 項目併入 3.1/3.2 的累計總額中，以免重複計算或誤導。
+⚠️ 3.1／3.2 的總額**不含**國際機票、15 晚住宿與旅遊保險，也**不含** 3.4 的自由參加項目；請勿將 3.5 項目併入 3.1/3.2 的累計總額中，以免重複計算或誤導。
 
 ---
 
@@ -398,7 +421,7 @@
 - **藍企鵝觀賞規範**：嚴禁閃光燈、禁止手機手電筒、禁止觸摸企鵝。
 - **山區洋蔥式穿搭**：南島夏季早晚溫差可達 10°C 以上，建議洋蔥式穿搭 + 防水外套。
 - **紐西蘭海關生物安全檢疫**：入境前務必申報所有食物、蜂蜜、種子；戶外裝備沾泥土需徹底清潔。
-- **旺季預約提醒**：米佛峽灣、螢火蟲洞、Tasman Glacier 船、Bungy、TSS Earnslaw、Akaroa 賞豚建議提前 1-2 個月線上預約。
+- **旺季預約提醒**：米佛峽灣、螢火蟲洞、Tasman Glacier Heli-Hike、Bungy、TSS Earnslaw、Akaroa 賞豚建議提前 1-2 個月線上預約。
 - **超市自煮小提醒**：Mount Cook Village 內幾乎無超市，務必在 Twizel 出發前採買齊全（Haka House Hostel 有共用廚房可利用）。
 
 ### 🍽️ 美食清單總覽
@@ -426,18 +449,19 @@
 | 峽灣「經典套餐」（螢火蟲洞＋米佛峽灣，省$35/人）`📌待訂` | https://www.realnz.com/zh-cn/specials/combo-deals/ |
 | 米佛峽灣巡航遊船（單獨購票用） | https://www.realnz.com/en/experiences/day-cruises/milford-sound-signature-cruise/ |
 | 蒂阿瑙螢火蟲洞（單獨購票用） | https://www.realnz.com/en/experiences/glowworm-caves/te-anau-glowworm-caves/ |
-| TSS Earnslaw＋Walter Peak 高地 BBQ 晚餐 `📌已訂`（價格與時段以訂單確認信為準） | https://www.realnz.com/zh-cn/experiences/dining/walter-peak-bbq-dining/ |
-| 塔斯曼冰河船 (The Hermitage - Glacier Explorers) | https://www.hermitage.co.nz/experience/glacier-explorers/ |
+| TSS Earnslaw＋Walter Peak 高地 BBQ 晚餐 `📌待訂`（價格與時段以訂單確認信為準） | https://www.realnz.com/zh-cn/experiences/dining/walter-peak-bbq-dining/ |
+| 塔斯曼冰河直升機健行 (Alpine Guides - Heli-Hike) | https://alpineguides.co.nz/tasman-glacier-heli-hike |
+| 塔斯曼冰河船 (The Hermitage - Glacier Explorers)　備案用 | https://www.hermitage.co.nz/experience/glacier-explorers/ |
 | Skyline 天際纜車＋Luge | https://www.skyline.co.nz/queenstown/ |
 | 卡瓦勞大橋高空彈跳 (AJ Hackett - Kawarau Bungy Centre) | https://www.bungy.co.nz/queenstown/kawarau-bungy-centre/kawarau-bridge-bungy/ |
 | 奧瑪魯藍企鵝棲息地 | https://www.penguins.co.nz/ |
 | 蒂卡波觀星團 (Dark Sky Project) | https://www.darkskyproject.co.nz |
 | Puzzling World Wanaka | https://www.puzzlingworld.co.nz/ |
-| International Antarctic Centre | https://www.iceberg.co.nz/ |
+| Willowbank Wildlife Reserve | https://www.willowbank.co.nz/ |
 | Fishwife（Moeraki，取代已永久停業的 Fleur's Place）🌟必吃 | https://www.facebook.com/MoerakiFishWife/ |
 | Fergburger 🌟必吃 | https://www.fergburger.com/ |
 
-| Akaroa 賞豚／海豚共游 (Black Cat Cruises) `📌待選擇／待訂` | https://www.blackcat.co.nz/ |
+| Akaroa 賞豚／海豚共游 (Black Cat Cruises) `📌待訂／自由參加，已改為非必要行程` | https://www.blackcat.co.nz/ |
 
 ⚠️ 以上為目前已知官方網域，實際訂票前請點擊確認頁面資訊正確無誤。標示 `📌已訂` 者為已完成付款訂購；其餘連結僅代表網域可正常開啟，**不代表已完成訂票**，請勿將「連結可開啟」誤認為「已訂票」。
 
@@ -454,7 +478,7 @@
 | 8-9 | Wanaka | 待訂（2 晚） |
 | 10 | Mount Cook | **Haka House Hostel Aoraki Mt Cook**（已確認，1 晚） |
 | 11-12 | Lake Tekapo | 待訂（2 晚） |
-| 13-15 | Christchurch | 待訂（**連住 3 晚**，涵蓋跨年夜、元旦南極中心、Akaroa 一日遊） |
+| 13-15 | Christchurch | 待訂（**連住 3 晚**，涵蓋跨年夜、元旦 Willowbank、Akaroa 一日遊） |
 
 ---
 狀態：**行程 V8 除錯與資料一致性最終校正完成**（旅客為 4 位成人）— Day3 車程改為「純駕駛6h15-6h30＋休息」、抵達時間改為16:00-16:30；Day10 明確標示09:00從Wanaka出發；Day11 冰河船後出發時間改為約13:30，避免與船程重疊；Day12 加註Mt John上山通行費約NZ$14/車與季節性開放提醒；Day14 南極中心訂票連結改為官方通用頁面（移除固定09:00時段參數）；峽灣套餐與Black Cat Cruises狀態標記統一改為`📌待訂`／`📌待選擇`，不再使用「已確認」字樣；其餘路線、日期、住宿城市與景點皆維持不變。
@@ -478,3 +502,60 @@
 - 🟡 **Day7 Patagonia Chocolates（聖誕節備案選項）**：僅查到 Wanaka 分店確認聖誕節有營業，皇后鎮本店聖誕節時間未查到官方資料，維持「以當日營業狀況為準」的備案性質不變。
 - ✅ 已逐一確認**沒有公休問題**、可維持原排程：Skyline（聖誕節照常營業）、International Antarctic Centre（元旦照常09:00–16:30）、Black Cat Cruises（僅聖誕節公休，Day15不受影響）、Kawarau Bungy（節禮日Day8正常營業9:30–16:00）、Riverside Market、Whitestone Cheese Café、Kai Whakapai、Arrowtown Bakery、Fairlie Bakehouse、Barker's of Geraldine、High Country Salmon、Astro Café、Fergburger、Oamaru藍企鵝、Te Anau螢火蟲洞、Milford Sound巡航、塔斯曼冰河船、Dark Sky Project、Puzzling World。
 - 其餘路線、日期、住宿城市與已確認預訂皆維持不變。
+
+---
+
+**V11 新增彈性選項景點**（順路可加可不加，依當天心情/時間現場決定，2026-08-31）：
+- 🆕 Day3：**Dunedin Railway Station**（距 Baldwin Street 車程約5-10分鐘，免費，10-15分鐘可拍完）
+- 🆕 Day7：**Glenorchy 一日往返**（聖誕節下午自由活動時段，單程約45-50分鐘，來回連停留約3-4小時，紐西蘭最美短程景觀公路之一）
+- 🆕 Day9：**Rippon Vineyard**（離瓦納卡鎮中心車程約5-10分鐘，一般品酒免費但需提前預約）
+- 🆕 Day15：**Hilltop 觀景點／Hilltop Tavern**（就在前往Akaroa的SH75公路上，不繞路，免費）與 **The Giant's House**（Akaroa鎮中心，馬賽克雕塑花園，NZ$35/人，開放11:00–16:00）
+- 💡 以上皆為「錦上添花」選項，不影響原本已排定的核心行程與時間軸；已評估過 **Clay Cliffs Omarama**（Day10）但因會壓縮胡克谷健行時間，本次不排入。
+- 其餘路線、日期、住宿城市與已確認預訂皆維持不變。
+
+---
+
+**V12 三項核心行程異動正式套用**（2026-09-01）：
+- 🔴 **Day2**：刪除大象石 Elephant Rocks（需特地繞進內陸再繞出，多花約45–70分鐘），改為 Christchurch → Moeraki 直達路線，途經 Timaru / Caroline Bay 免費短停（全程中點，不繞路）。
+- 🔴 **Day11**：塔斯曼冰河船改為 **Tasman Glacier Heli-Hike**（Alpine Guides，直升機＋冰上健行，4人NZ$3,780起）。**原本的 Tasman Glacier Explorers 冰河船保留作為當天天候備案**——若直升機因天候取消，可當天改訂船遊（Nov–Apr全天6個班次），不用整個活動直接放棄或改期。
+- 🔴 **Day14**：南極中心 International Antarctic Centre（NZ$296，需專程前往機場附近半天）改為 **Willowbank Wildlife Reserve** 奇異鳥保護區（4人NZ$112起，元旦正常營業）。
+- 💰 **預算影響**：3.1 小計由約 NZ$6,976–7,276 上升到約 **NZ$9,736–10,236**；累計總額（3.1+3.2）由約 NZ$10,676–12,826 上升到約 **NZ$13,436–15,786**（皆不含國際機票、住宿、保險）。
+- 其餘路線、日期、住宿城市、餐廳與已確認預訂皆維持不變。
+
+---
+
+**V13 跨年夜／元旦活動調整**（2026-09-01）：
+- 🔴 **Day9**：移除 Rippon Vineyard 品酒選項——全程自駕不方便安排品酒活動。
+- 🔴 **Day13**：加入官方已公告的 **North Hagley Park 跨年活動**（免費入場，16:00–19:00親子場，20:00–00:00派對含Kora現場演出，00:00煙火秀，23:45後不再開放入場，全程禁酒）。
+- 🔴 **Day14**：新增「元旦日出」選配方案——⚠️ 查證後確認全球最早日出地點（Chatham Islands、East Cape/Gisborne）皆不在本次南島路線上，本行程無法真正做到「全球最早」，改推薦基督城在地的 **New Brighton Pier**（正東面海，車程約20-25分鐘，日出約05:50–06:00，實際時間請出發前再確認）；因跨年煙火00:00結束後幾乎無法睡覺就要出發，體力消耗大，已同時保留「睡到自然醒」的原方案供選擇。
+- 其餘路線、日期、住宿城市、餐廳與已確認預訂皆維持不變。
+
+---
+
+**V14 訂購狀態校正與 Akaroa 賞豚遊船改為自由參加**（2026-09-02）：
+- 🔴 **修正 Day6 TSS Earnslaw＋Walter Peak 狀態標記錯誤**：先前誤標為 `📌已訂`，經確認**實際尚未訂購**，已全面修正為 `📌待訂`（itinerary.md 行程細節、預估花費表、官方連結表；index.html 同步修正時間軸、預訂卡片的狀態標籤）。
+- 🔴 **Day15 Akaroa 賞豚遊船／海豚共游改為自由參加**：評估後認為 Akaroa 鎮上本身（法式小鎮＋Hilltop＋The Giant's House）已是完整一天的行程，賞豚遊船不再是必要行程；NZ$520（Nature Cruise）已從 3.1 必要支出移至 3.4 自由參加項目，3.1 小計由約 NZ$9,736–10,236 下修為約 **NZ$9,216–9,716**，累計總額（3.1+3.2）下修為約 **NZ$12,916–15,266**。
+- 💡 **船類活動整體評估**：螢火蟲洞、Milford Sound 巡航為南島核心體驗建議保留；TSS Earnslaw 目前尚未付款，是否保留為真正的預算決策點；Tasman Glacier Explorers 現為免費備案不佔預算；Akaroa 賞豚遊船已改為自由參加（見上）。
+- 其餘路線、日期、住宿城市、餐廳與已確認預訂皆維持不變。
+
+---
+
+**V15 跨年活動用詞校正／元旦日出說明簡化**（2026-08-31）：
+- 🔴 **Day13 North Hagley Park 跨年活動，修正「官方已公告」的錯誤描述**：查證後發現先前引用的活動內容（Kora演出、16:00–19:00親子場等）實際是 Christchurch City Council 已舉辦的「NYE25」場次，即2025年12月31日迎接2026年的活動，並非本次行程（2026/12/31迎接2027年）的場次；官方通常要到當年10–11月才會公告次年細節，目前 CCC 官網尚未發布2026年12月場次的正式資訊。已將描述改為「近年固定於此舉辦的免費年度活動，往年模式僅供參考，出發前請上CCC官網再次確認」，避免誤導。
+- 🔵 **是否有更方便／更精彩的官方替代活動**：查證後找到的其他選項——Queenstown Earnslaw Park 跨年活動（免費、有煙火，但本行程跨年當天人在基督城，不在皇后鎮，不適用）；Cardrona 山谷 Rhythm and Alps（跨年音樂節，12/30–1/1連續多日，需另購票＋露營，屬另一種旅行型態，不適合當天往返）；Crowne Plaza 跨年晚宴（付費室內晚餐，無煙火/戶外氣氛）。綜合評估後，**North Hagley Park 免費戶外活動仍是最符合本行程（人在基督城、免費、闔家皆宜、免額外購票）的選擇，維持原計畫**。
+- 🟢 **Day14 元旦日出說明簡化**：移除「全球最早日出」的相關考證文字（Chatham Islands／East Cape等），改為單純的「要不要看日出」二選一選項（New Brighton Pier 或睡到自然醒），內容不變，僅精簡描述。
+- 其餘路線、日期、住宿城市、餐廳與已確認預訂皆維持不變。
+
+---
+
+**V16 新增每日多站導航連結**（2026-08-31）：
+- 🟢 每天標題下方新增一個「🗺️ 開啟本日完整路線（多站導航）」Google Maps 連結，把當天所有停靠站串成一條路線（等同你在 App 裡手動用「新增停靠點」排出的效果），起點留空以自動帶入當下GPS位置。座標皆採用 nz_map_points.csv 中已查證過的經緯度，避免地名搜尋跑到同名錯誤地點；index.html 同步在每天時間軸最上方新增對應按鈕。
+- ⚠️ Devil's Staircase Lookout（Day5）、Lindis Pass Summit（Day10）、The Giant's House（Day15）3個座標當初標記為暫定／估算，已在連結文字加註提醒，建議出發前自行核對。
+- 💡 這些連結目前用暫定的城鎮中心座標當作住宿地終點；等各地住宿實際訂定後，建議自行把連結最後一站換成正確住宿地址，屆時座標可能需要再次校正。
+- 其餘路線、日期、住宿城市、餐廳與已確認預訂皆維持不變。
+
+---
+
+**V17 回程航班 CX408 班期異動**（依國泰航空官方通知，2026-08-31）：
+- 🔴 **Day16 回程 CX408（香港→台北）班期已更改**：出發時間由 22:55 改為 **23:10**，抵達時間由 1/4 00:35 改為 **1/4 00:50**；香港轉機時間相應由 2h05m 延長為 **2h20m**（緩衝時間增加，對行程無不利影響）。基督城→香港航段（CX119去程對應航段）未受影響，仍為 14:20 起飛、20:50 抵港。
+- 其餘路線、日期、住宿城市、餐廳與已確認預訂皆維持不變。
