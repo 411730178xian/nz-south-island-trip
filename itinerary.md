@@ -32,7 +32,7 @@
 | 9 | 12/27（日）| 瓦納卡 | 悠閒日、孤樹 | 瓦納卡湖濱咖啡館 | Kai Whakapai 👍 | Wanaka |
 | 10 | 12/28（一）| 瓦納卡→庫克山 | Lindis Pass 觀景台、胡克谷健行 | High Country Salmon 🌟 | 🛒 超市採買自煮 | Haka House Hostel Aoraki Mt Cook |
 | 11 | 12/29（二）| 庫克山→蒂卡波湖 | 塔斯曼冰河直升機健行（備案：冰河船） | Hermitage Hotel Alpine Restaurant | 🛒 超市採買自煮 | Lake Tekapo |
-| 12 | 12/30（三）| 蒂卡波湖 | 悠閒緩衝日：Mt John 觀景公路、觀星備案（視Day11天候） | 湖畔咖啡館／Astro Café | Kohan Restaurant 👍／超市自煮 | Lake Tekapo |
+| 12 | 12/30（三）| 蒂卡波湖 | 悠閒緩衝日：Mt John 觀景公路、22:45 Silver River觀星團（已訂） | 湖畔咖啡館／Astro Café | Kohan Restaurant 👍／超市自煮 | Lake Tekapo |
 | 13 | 12/31（四）🎉| 蒂卡波湖→基督城 | 沿途 Geraldine，North Hagley Park跨年煙火（官方活動） | Fairlie Bakehouse 🌟 | 基督城跨年晚餐（先訂位） | Christchurch |
 | 14 | 1/1（五）🎊| 基督城 | 元旦日出（選配）、Willowbank Wildlife Reserve | 🛒 自煮 | 🛒 自煮 | Christchurch |
 | 15 | 1/2（六）| 阿卡羅瓦 | Akaroa 一日遊：法式小鎮＋Hilltop＋The Giant's House（賞豚遊船改為自由參加） | Akaroa 港邊咖啡館 👍 | 基督城市區餐廳 | Christchurch |
@@ -238,6 +238,7 @@
   - 🔗 [Hermitage 餐飲介紹](https://www.hermitage.co.nz/dine/)
 - 12:30 出發 → **Mount Cook Airport**（First Floor, Mount Cook Road, Aoraki Mount Cook Village South Canterbury 7999，距 Mt Cook Village 5km，車程約10分鐘，⚠️ 不是 Hermitage Hotel）
 - 13:00 check-in，**Tasman Glacier Heli-Hike**（Alpine Guides）　`📌已訂`
+  - ⏰ 建議提前15分鐘抵達報到
   - 4人合計NZ$3,980（NZ$995/人），Alpine Guides訂單編號**RQQCT97**
   - 🎟️ [官方預訂 Alpine Guides](https://alpineguides.co.nz/tasman-glacier-heli-hike)
   - ⏰ 總時長約 3 小時：2 趟直升機航程＋最多 2 小時冰上健行（配發冰爪、健行杖、保暖衣物），約 16:00 結束
@@ -248,10 +249,6 @@
   - 🚗 約 1h35m｜[Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Aoraki+Mount+Cook+Village&destination=Lake+Tekapo&travelmode=driving)
 - 傍晚：好牧羊人教堂、湖畔散步，抵達後先至超市採買晚餐
 - 🍽️ 晚餐：🛒 超市採買自煮
-- 21:30 起：Dark Sky Project 觀星團（Summit Experience，Mt John 山頂）　`📌待訂`
-  - 🎟️ [官方預訂 Dark Sky Project](https://www.darkskyproject.co.nz)
-  - 📍 報到地點：Dark Sky Project 基地，**1 Motuariki Lane, Lake Tekapo**（湖濱鎮上，⚠️ 不是自行開車上 Mt John；上山是搭乘官方接駁巴士，車程約15分鐘，會提供保暖外套）
-  - ⏰ 建議出發前 15–20 分鐘報到
 - 🏨 住宿：Lake Tekapo（連住 2 晚）　`📌待訂（高優先）`
   - [Booking.com 搜尋](https://www.booking.com/searchresults.html?ss=Lake+Tekapo%2C+New+Zealand) ｜ [Airbnb 搜尋](https://www.airbnb.com/s/Lake-Tekapo--New-Zealand/homes)
 
@@ -262,13 +259,15 @@
   - 🚗 [Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Lake+Tekapo&destination=Mt+John+Observatory&travelmode=driving)
   - 💰 上山道路需支付約 NZ$14／車通行費（可併入停車／雜費預算）
   - ⚠️ 道路與 Astro Café 開放時段可能季節性調整，出發前再確認：[UC Mt John 資訊](https://www.canterbury.ac.nz/research/about-uc-research/enabling-infrastructure/field-stations/mt-john-observatory-field-station/visit-the-observatory)｜[Astro Café 資訊](https://www.mackenzienz.com/visit/astro-cafe/)
-  - 💡 這是白天**自行開車**上山的觀景公路，跟 Day11／本日晚上的 Dark Sky Project 觀星團（由業者接駁巴士上山）是兩件不同的事，請勿混淆
+  - 💡 這是白天**自行開車**上山的觀景公路，跟本日晚上的觀星團（由業者接駁）是兩件不同的事，請勿混淆
 - 🍽️ 午餐：湖畔咖啡館，或 Astro Café 山頂簡餐
 - 下午：自由活動（獨木舟租借、湖濱野餐、採買隔日路上零食）
-- 🍽️ 晚餐：👍 **Kohan Restaurant**（蒂卡波湖畔人氣日式料理，湖景座位需提前訂位），或 🛒 超市採買自煮
-- 21:30 起（若前晚天候不佳）：Dark Sky Project 觀星團補訂　`📌待訂`
-  - 🎟️ [官方預訂 Dark Sky Project](https://www.darkskyproject.co.nz)
-  - 📍 報到地點同 Day11：1 Motuariki Lane, Lake Tekapo，建議提前 15–20 分鐘報到
+- 🍽️ 晚餐：👍 **Kohan Restaurant**（蒂卡波湖畔人氣日式料理，湖景座位需提前訂位，需在22:45觀星團出發前用完餐），或 🛒 超市採買自煮
+- 22:45：**Silver River Stargazing Experience**（蒂卡波湖銀河觀星體驗，透過Klook訂購）　`📌已訂`
+  - 4人合計HK$2,367.4（含Satisfaction Guarantee保障方案），Klook訂單編號**ZPU276679**
+  - 📍 集合地點：**12 Rapuwai Lane, Lake Tekapo**（⚠️與Dark Sky Project的1 Motuariki Lane不同，是不同業者的私人農場觀星點，有免費接駁）
+  - 內容：14吋望遠鏡觀測＋肉眼觀星導覽，小團體（上限10人），附贈保暖外套與個人合照
+  - ⏰ 建議提前15-20分鐘報到
 - 🏨 住宿：Lake Tekapo（同 Day11）
 
 ### Day 13｜12/31（四，跨年夜）｜蒂卡波湖 → 基督城（沿途打卡＋跨年倒數）
@@ -362,11 +361,11 @@
 | Walter Peak BBQ 晚餐 | 189 起 | 756 起 | `📌待訂`；最終以訂單金額為準 |
 | Skyline Gondola＋3 Luge Rides | 99 | 396 | `📌待訂`；現行公開方案，12 月價格為準 |
 | Tasman Glacier Heli-Hike | 995 | 3,980 | `📌已訂`；訂單編號RQQCT97，12/29 13:00場次；備案為 Tasman Glacier Explorers 冰河船（836起） |
-| Dark Sky Summit Experience | 219 | 876 | `📌待訂`；此價格僅公布至 2026/9/30，12 月價格待確認 |
+| Silver River Stargazing（蒂卡波湖銀河觀星體驗） | 約128 | 約514（HK$2,367.4） | `📌已訂`；Klook訂單編號ZPU276679，NZD為約略換算，實際以HKD刷卡金額為準 |
 | Willowbank Wildlife Reserve（4 位成人） | 28 | 112 | `📌待訂`；一般門票，加購導覽奇異鳥摸摸體驗則 54/人（216/4人） |
 | NZeTA＋IVL（官方 App，4 人） | 117 | 468 | 行前必要費用，需及早辦理 |
 | 租車 SUV＋Zero Excess | — | 1,500–1,800 | `📌待訂`；需確認 4 位授權駕駛與行李容量 |
-| **3.1 小計** | — | **約 9,416–9,916** | 不含燃油、停車、餐食；已依Heli-Hike確認價格(NZ$3,980)調整 |
+| **3.1 小計** | — | **約 9,054–9,554** | 不含燃油、停車、餐食；已依Heli-Hike與觀星團確認價格調整 |
 
 ### 3.2 加入燃油、停車與全程餐食後
 
@@ -375,7 +374,7 @@
 | 燃油 | 500–700 | 規劃預留 |
 | 停車 | 200–350 | 規劃預留，含 Milford、Queenstown 等地 |
 | 餐食與超市採買 | 3,000–4,500 | 規劃預留；Walter Peak 晚餐已計入 3.1，不重複計算 |
-| **累計總額（3.1＋3.2）** | **約 13,116–15,466** | 不含國際機票、15 晚住宿與旅遊保險 |
+| **累計總額（3.1＋3.2）** | **約 12,754–15,104** | 不含國際機票、15 晚住宿與旅遊保險 |
 
 ### 3.4 自由參加活動（未計入任何總額，依實際參加人數另計）
 
@@ -452,12 +451,12 @@
 | 米佛峽灣巡航遊船（單獨購票用） | https://www.realnz.com/en/experiences/day-cruises/milford-sound-signature-cruise/ |
 | 蒂阿瑙螢火蟲洞（單獨購票用） | https://www.realnz.com/en/experiences/glowworm-caves/te-anau-glowworm-caves/ |
 | TSS Earnslaw＋Walter Peak 高地 BBQ 晚餐 `📌待訂`（價格與時段以訂單確認信為準） | https://www.realnz.com/zh-cn/experiences/dining/walter-peak-bbq-dining/ |
-| 塔斯曼冰河直升機健行 (Alpine Guides - Heli-Hike) | https://alpineguides.co.nz/tasman-glacier-heli-hike |
+| 塔斯曼冰河直升機健行 (Alpine Guides - Heli-Hike) `📌已訂` | https://alpineguides.co.nz/tasman-glacier-heli-hike |
 | 塔斯曼冰河船 (The Hermitage - Glacier Explorers)　備案用 | https://www.hermitage.co.nz/experience/glacier-explorers/ |
 | Skyline 天際纜車＋Luge | https://www.skyline.co.nz/queenstown/ |
 | 卡瓦勞大橋高空彈跳 (AJ Hackett - Kawarau Bungy Centre) | https://www.bungy.co.nz/queenstown/kawarau-bungy-centre/kawarau-bridge-bungy/ |
 | 奧瑪魯藍企鵝棲息地 | https://www.penguins.co.nz/ |
-| 蒂卡波觀星團 (Dark Sky Project) | https://www.darkskyproject.co.nz |
+| 蒂卡波觀星團 (Silver River Stargazing，透過Klook訂購) `📌已訂` | https://www.klook.com |
 | Puzzling World Wanaka | https://www.puzzlingworld.co.nz/ |
 | Willowbank Wildlife Reserve | https://www.willowbank.co.nz/ |
 | Fishwife（Moeraki，取代已永久停業的 Fleur's Place）🌟必吃 | https://www.facebook.com/MoerakiFishWife/ |
@@ -595,4 +594,13 @@
 **V22 Day11 塔斯曼冰河直升機健行已訂，時段改為下午**（2026-09-07）：
 - 🔴 **Day11 直升機健行已訂**：Tasman Glacier Heli-Hike（Alpine Guides），4人合計NZ$3,980（NZ$995/人，訂單編號RQQCT97）。
 - 🟡 **時段由原訂09:00改為13:00**：因12/29上午場次已無4人共同的名額，選擇下午1點場次（14:00前的其他時段皆售罄或名額不足）。Day11白天行程配合調整：上午改為Mt Cook Village自由活動、午餐提前至11:30-12:30、直升機健行約13:00-16:00結束後再出發前往蒂卡波湖（原路線、餐廳、備案安排不變，僅時間軸整體後移）。
+- 其餘路線、日期、住宿城市、餐廳與已確認預訂皆維持不變。
+
+---
+
+**V23 蒂卡波觀星團已訂（改為Day12晚上，換為Silver River Stargazing）**（2026-09-07）：
+- 🔴 **觀星團已訂**：原規劃的Dark Sky Project（Summit Experience）因故未訂成，改訂**Silver River Stargazing Experience**（透過Klook訂購「蒂卡波湖銀河觀星體驗」），4人合計HK$2,367.4，Klook訂單編號**ZPU276679**，日期**12/30（Day12）22:45**。
+- 🟡 **場次由Day11改為Day12**：原本Day11、Day12皆保留觀星團的彈性（主場/備用），現已確定實際場次落在Day12晚上；Day11晚上不再排觀星行程。
+- 🟡 **業者與集合地點不同**：Silver River為私人農場觀星地點（**12 Rapuwai Lane, Lake Tekapo**），與Dark Sky Project的1 Motuariki Lane不同，內容為14吋望遠鏡觀測＋肉眼觀星導覽（非Mt John山頂），小團體上限10人，附贈保暖外套與個人合照。
+- 🟡 **⚠️ Day12晚上（觀星至凌晨）緊接Day13跨年夜（開車+熬夜看煙火）**，兩晚睡眠都會被壓縮，建議Day12白天盡量不排額外行程、多休息，並考慮放棄Day14的元旦日出選配活動以確保有完整恢復時間。
 - 其餘路線、日期、住宿城市、餐廳與已確認預訂皆維持不變。
