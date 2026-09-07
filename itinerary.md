@@ -141,7 +141,7 @@
 - 下午：皇后鎮鎮中心、瓦卡蒂普湖濱散步，安頓入住（接下來連住 3 晚，不需再搬行李）
 - 🍽️ 晚餐：皇后鎮餐廳
 - 🏨 住宿：**Awa Stunning Riverview Apartment**（Arthurs Point, Queenstown）　`📌已訂`
-  - 連住3晚，HKD$13,196.68（付款排程2026/11/15扣款），Divine Property Management
+  - 連住3晚，HKD$13,196.68（付款排程2026/11/15扣款），Divine Property Management，Airbnb確認碼HMHYH9EF3C
 
 ### Day 6｜12/24（四，平安夜）｜TSS Earnslaw 恩斯洛號＋Walter Peak 高地 BBQ 晚餐（連住第 2 晚）
 - 🗺️ [開啟本日完整路線（多站導航，起點為你目前位置）](https://www.google.com/maps/dir/?api=1&destination=-45.0334,168.6601&travelmode=driving)
@@ -226,7 +226,7 @@
 - 14:15 起：胡克谷步道 (Hooker Valley Track)，安排完整 3-3.5 小時
 - 🍽️ 晚餐：🛒 超市採買自煮（住宿含共用廚房）
 - 🏨 住宿：**Haka House Hostel Aoraki Mt Cook**　`📌已訂`
-  - 評分 9.0（302則評價）、免費泊車、共用廚房，距庫克山國家公園入口僅 570m
+  - 評分 9.0（302則評價）、免費泊車、共用廚房，距庫克山國家公園入口僅 570m，訂單編號1359046509949011
   - [Booking.com 查詢](https://www.booking.com/searchresults.html?ss=Haka+House+Hostel+Aoraki+Mount+Cook)
 
 ### Day 11｜12/29（二）｜塔斯曼冰河直升機健行 → 蒂卡波湖
@@ -286,7 +286,8 @@
   - 往年模式參考：16:00–19:00 親子倒數場，20:00–00:00 主舞台音樂演出，00:00 煙火秀
   - ⚠️ 往年皆為全程禁菸禁電子菸禁酒（24小時酒精管制），入場截止時間以當年公告為準
   - 💡 隔天（Day14）若想追元旦日出，這裡結束後幾乎沒有睡眠時間可以休息，請提前決定要不要熬夜接著去看日出（見 Day14）
-- 🏨 住宿：Christchurch（連住 3 晚，Day13–15）　`📌待訂（高優先，跨年期間搶手）`
+- 🏨 住宿：**Gateway to Hagley Park - 2 Bed w/Carpark**（70 Brockworth Place unit 5, Riccarton）　`📌已訂`
+  - 連住3晚，兩臥室公寓，HK$6,412.18（約NZD1,356.04，Booking.com訂單編號5345513694），2026/12/25 23:59前可免費取消；離Hagley Park步行約5分鐘，避開CBD跨年人潮同時能看煙火
   - [Booking.com 搜尋](https://www.booking.com/searchresults.html?ss=Christchurch%2C+New+Zealand) ｜ [Airbnb 搜尋](https://www.airbnb.com/s/Christchurch--New-Zealand/homes)
 
 ### Day 14｜1/1（五，元旦）｜Willowbank Wildlife Reserve（奇異鳥保護區）
@@ -303,7 +304,7 @@
 - 🍽️ 午餐：園區內或自備三明治
 - 下午：若還有體力，可加碼市區 Avon River 撐篙（NZ$22.90/人，30分鐘，選配不強制）；或直接回市區逛街／Hagley Park 休息，為隔天 Akaroa 一日遊養精蓄銳
 - 🍽️ 晚餐：🛒 超市採買自煮（避開假日附加費）
-- 🏨 住宿：Christchurch（同 Day13）
+- 🏨 住宿：Gateway to Hagley Park（同 Day13）
 
 ### Day 15｜1/2（六）｜阿卡羅瓦 (Akaroa) 一日遊 — 法式小鎮＋Hilltop＋The Giant's House（賞豚遊船 `📌待訂／自由參加`）
 - 🗺️ [開啟本日完整路線（去程，起點為你目前位置，⚠️部分座標為街道位置估算）](https://www.google.com/maps/dir/?api=1&destination=-43.8067,172.9709&waypoints=-43.7492,172.8695%7C-43.8037,172.9483&travelmode=driving)
@@ -331,7 +332,7 @@
 - 15:30 Akaroa → Christchurch（賞豚遊船方案適用；海豚共游方案請彈性調整回程時間）
   - 🚗 約 1h40m｜[Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Akaroa&destination=Christchurch&travelmode=driving)
 - 🍽️ 晚餐：基督城市區餐廳（最後一晚，可挑一家還沒吃過的口袋名單）
-- 🏨 住宿：Christchurch（同 Day13/14）
+- 🏨 住宿：Gateway to Hagley Park（同 Day13/14）
 
 ### Day 16｜1/3（日）｜收拾行李 → 還車 → 搭機返台
 - 🗺️ [開啟本日完整路線（多站導航，起點為你目前位置）](https://www.google.com/maps/dir/?api=1&destination=-43.4864,172.5469&travelmode=driving)
@@ -478,7 +479,7 @@
 | 8-9 | Wanaka | **Archway Motels & Chalets**（已訂，2 晚） |
 | 10 | Mount Cook | **Haka House Hostel Aoraki Mt Cook**（已確認，1 晚） |
 | 11-12 | Lake Tekapo | 待訂（2 晚） |
-| 13-15 | Christchurch | 待訂（**連住 3 晚**，涵蓋跨年夜、元旦 Willowbank、Akaroa 一日遊） |
+| 13-15 | Christchurch | **Gateway to Hagley Park - 2 Bed w/Carpark**（已訂，**連住 3 晚**，涵蓋跨年夜、元旦 Willowbank、Akaroa 一日遊） |
 
 ---
 狀態：**行程 V8 除錯與資料一致性最終校正完成**（旅客為 4 位成人）— Day3 車程改為「純駕駛6h15-6h30＋休息」、抵達時間改為16:00-16:30；Day10 明確標示09:00從Wanaka出發；Day11 冰河船後出發時間改為約13:30，避免與船程重疊；Day12 加註Mt John上山通行費約NZ$14/車與季節性開放提醒；Day14 南極中心訂票連結改為官方通用頁面（移除固定09:00時段參數）；峽灣套餐與Black Cat Cruises狀態標記統一改為`📌待訂`／`📌待選擇`，不再使用「已確認」字樣；其餘路線、日期、住宿城市與景點皆維持不變。
@@ -579,4 +580,11 @@
 **V20 Day1 Christchurch、Day2 Oamaru 住宿已訂**（2026-09-06）：
 - 🔴 **Day1 Christchurch 住宿已訂**：Simply The Best CBD 3 Mins Plus Garage（212 Hereford Street Unit 2），兩臥室公寓，1晚NZD402.09（Booking.com訂單編號6342378756），含免費私人車庫車位。
 - 🔴 **Day2 Oamaru 住宿已訂**：Tyne above Town（Airbnb，房東Jodie，訂單編號B22963430），1晚HKD$1,823.88。
+- 其餘路線、日期、住宿城市、餐廳與已確認預訂皆維持不變。
+
+---
+
+**V21 Day13-15 Christchurch 跨年住宿已訂，補上遺漏的訂單編號**（2026-09-07）：
+- 🔴 **Day13-15 Christchurch 跨年住宿已訂**：Gateway to Hagley Park - 2 Bed w/Carpark（70 Brockworth Place unit 5, Riccarton），連住3晚，HK$6,412.18（約NZD1,356.04，Booking.com訂單編號5345513694）；地點在Riccarton安靜住宅區，步行約5分鐘到Hagley Park，可避開CBD跨年人潮同時看得到跨年煙火。
+- 🟡 補上先前遺漏的訂單編號：Awa Stunning Riverview Apartment（Queenstown，Airbnb確認碼HMHYH9EF3C）、Haka House Hostel Aoraki Mt Cook（訂單編號1359046509949011）。
 - 其餘路線、日期、住宿城市、餐廳與已確認預訂皆維持不變。
