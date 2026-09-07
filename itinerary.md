@@ -32,7 +32,7 @@
 | 9 | 12/27（日）| 瓦納卡 | 悠閒日、孤樹 | 瓦納卡湖濱咖啡館 | Kai Whakapai 👍 | Wanaka |
 | 10 | 12/28（一）| 瓦納卡→庫克山 | Lindis Pass 觀景台、胡克谷健行 | High Country Salmon 🌟 | 🛒 超市採買自煮 | Haka House Hostel Aoraki Mt Cook |
 | 11 | 12/29（二）| 庫克山→蒂卡波湖 | 塔斯曼冰河直升機健行（備案：冰河船） | Hermitage Hotel Alpine Restaurant | 🛒 超市採買自煮 | Lake Tekapo |
-| 12 | 12/30（三）| 蒂卡波湖 | 悠閒緩衝日：Mt John 觀景公路、二訪觀星 | Kohan Restaurant 👍 | 🛒 超市採買自煮 | Lake Tekapo |
+| 12 | 12/30（三）| 蒂卡波湖 | 悠閒緩衝日：Mt John 觀景公路、觀星備案（視Day11天候） | 湖畔咖啡館／Astro Café | Kohan Restaurant 👍／超市自煮 | Lake Tekapo |
 | 13 | 12/31（四）🎉| 蒂卡波湖→基督城 | 沿途 Geraldine，North Hagley Park跨年煙火（官方活動） | Fairlie Bakehouse 🌟 | 基督城跨年晚餐（先訂位） | Christchurch |
 | 14 | 1/1（五）🎊| 基督城 | 元旦日出（選配）、Willowbank Wildlife Reserve | 🛒 自煮 | 🛒 自煮 | Christchurch |
 | 15 | 1/2（六）| 阿卡羅瓦 | Akaroa 一日遊：法式小鎮＋Hilltop＋The Giant's House（賞豚遊船改為自由參加） | Akaroa 港邊咖啡館 👍 | 基督城市區餐廳 | Christchurch |
