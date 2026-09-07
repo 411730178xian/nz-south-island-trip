@@ -231,21 +231,22 @@
 
 ### Day 11｜12/29（二）｜塔斯曼冰河直升機健行 → 蒂卡波湖
 - 🗺️ [開啟本日完整路線（多站導航，起點為你目前位置）](https://www.google.com/maps/dir/?api=1&destination=-44.0034,170.4775&waypoints=-43.7667,170.1334%7C-43.7346,170.0972%7C-44.1667,170.1500&travelmode=driving)
-- 08:20 從 Haka House Hostel 出發 → **Mount Cook Airport**（距 Mt Cook Village 5km，車程約10分鐘，⚠️ 不是 Hermitage Hotel）
-- 09:00 check-in，**Tasman Glacier Heli-Hike**（Alpine Guides，直升機＋冰上健行）　`📌待訂`
-  - 🎟️ [官方預訂 Alpine Guides](https://alpineguides.co.nz/tasman-glacier-heli-hike)
-  - 💰 現行價 NZ$945/人，4人合計 NZ$3,780（2026/10 起可能調漲至 NZ$995/人，實際以結帳頁為準）
-  - ⏰ 總時長約 3 小時：2 趟直升機航程＋最多 2 小時冰上健行（配發冰爪、健行杖、保暖衣物），約 12:00 結束
-  - ⚠️ 高度依賴天氣，可能臨時取消；取消可全額退款或免費改期；24小時前皆可免費取消
-  - 🔴 **備案：Tasman Glacier Explorers 冰河船**——若直升機因天候取消，可當天改訂船遊（Nov–Apr 班次：8:00／9:45／11:30／13:15／15:00／16:45，報到於 The Hermitage Hotel 一樓 Activities Centre，提前30分鐘報到），船隻對天候的容忍度較高，適合當天備案而非改期
-    - 🎟️ [官方預訂 The Hermitage - Glacier Explorers](https://www.hermitage.co.nz/experience/glacier-explorers/)
-- 🍽️ 午餐：**Hermitage Hotel Alpine Restaurant**（飯店一樓自助餐廳，看山景）
-  - ⚠️ 原排的 Old Mountaineers' Café **週一、週二公休**，12/29 剛好是週二，故改到早上報到的同一棟 Hermitage Hotel 內用餐，不需額外移動
+- 上午：Mt Cook Village 自由活動（悠閒早晨，無固定行程）
+- 🍽️ 11:30–12:30 午餐：**Hermitage Hotel Alpine Restaurant**（飯店一樓自助餐廳，看山景）
+  - ⚠️ 原排的 Old Mountaineers' Café **週一、週二公休**，12/29 剛好是週二，故改到此處用餐
   - 💡 飯店內也有 Sir Edmund Hillary Café & Bar 可選（較快速的簡餐/咖啡選項）
   - 🔗 [Hermitage 餐飲介紹](https://www.hermitage.co.nz/dine/)
-- 約 13:30 出發前往 Lake Tekapo（途經 Lake Pukaki 拍照，避免與冰河船行程時間重疊）
+- 12:30 出發 → **Mount Cook Airport**（First Floor, Mount Cook Road, Aoraki Mount Cook Village South Canterbury 7999，距 Mt Cook Village 5km，車程約10分鐘，⚠️ 不是 Hermitage Hotel）
+- 13:00 check-in，**Tasman Glacier Heli-Hike**（Alpine Guides）　`📌已訂`
+  - 4人合計NZ$3,980（NZ$995/人），Alpine Guides訂單編號**RQQCT97**
+  - 🎟️ [官方預訂 Alpine Guides](https://alpineguides.co.nz/tasman-glacier-heli-hike)
+  - ⏰ 總時長約 3 小時：2 趟直升機航程＋最多 2 小時冰上健行（配發冰爪、健行杖、保暖衣物），約 16:00 結束
+  - ⚠️ 高度依賴天氣，可能臨時取消；取消政策：24小時內取消（若天候允許出團）需全額付款；若因天候取消——航班取消全額退款／冰上不到1小時退20%／冰上滿1小時以上不退款
+  - 🔴 **備案：Tasman Glacier Explorers 冰河船**——若直升機因天候取消，可當天改訂船遊（Nov–Apr 班次：8:00／9:45／11:30／13:15／15:00／16:45，報到於 The Hermitage Hotel 一樓 Activities Centre，提前30分鐘報到），船隻對天候的容忍度較高，適合當天備案而非改期
+    - 🎟️ [官方預訂 The Hermitage - Glacier Explorers](https://www.hermitage.co.nz/experience/glacier-explorers/)
+- 約16:00 出發前往 Lake Tekapo（途經 Lake Pukaki 拍照）
   - 🚗 約 1h35m｜[Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Aoraki+Mount+Cook+Village&destination=Lake+Tekapo&travelmode=driving)
-- 下午：好牧羊人教堂、湖畔散步，抵達後先至超市採買晚餐
+- 傍晚：好牧羊人教堂、湖畔散步，抵達後先至超市採買晚餐
 - 🍽️ 晚餐：🛒 超市採買自煮
 - 21:30 起：Dark Sky Project 觀星團（Summit Experience，Mt John 山頂）　`📌待訂`
   - 🎟️ [官方預訂 Dark Sky Project](https://www.darkskyproject.co.nz)
@@ -360,12 +361,12 @@
 | Te Anau 螢火蟲洞＋Milford Signature Cruise 套票 | 約 285 | 約 1,140 | `📌待訂`；暫估＝螢火蟲洞145＋峽灣船175－套票省35，2026/10 後結帳頁為準 |
 | Walter Peak BBQ 晚餐 | 189 起 | 756 起 | `📌待訂`；最終以訂單金額為準 |
 | Skyline Gondola＋3 Luge Rides | 99 | 396 | `📌待訂`；現行公開方案，12 月價格為準 |
-| Tasman Glacier Heli-Hike | 945 | 3,780 | `📌待訂`；現行價，2026/10 起可能漲至 995/人；備案為 Tasman Glacier Explorers 冰河船（836起） |
+| Tasman Glacier Heli-Hike | 995 | 3,980 | `📌已訂`；訂單編號RQQCT97，12/29 13:00場次；備案為 Tasman Glacier Explorers 冰河船（836起） |
 | Dark Sky Summit Experience | 219 | 876 | `📌待訂`；此價格僅公布至 2026/9/30，12 月價格待確認 |
 | Willowbank Wildlife Reserve（4 位成人） | 28 | 112 | `📌待訂`；一般門票，加購導覽奇異鳥摸摸體驗則 54/人（216/4人） |
 | NZeTA＋IVL（官方 App，4 人） | 117 | 468 | 行前必要費用，需及早辦理 |
 | 租車 SUV＋Zero Excess | — | 1,500–1,800 | `📌待訂`；需確認 4 位授權駕駛與行李容量 |
-| **3.1 小計** | — | **約 9,216–9,716** | 不含燃油、停車、餐食 |
+| **3.1 小計** | — | **約 9,416–9,916** | 不含燃油、停車、餐食；已依Heli-Hike確認價格(NZ$3,980)調整 |
 
 ### 3.2 加入燃油、停車與全程餐食後
 
@@ -374,7 +375,7 @@
 | 燃油 | 500–700 | 規劃預留 |
 | 停車 | 200–350 | 規劃預留，含 Milford、Queenstown 等地 |
 | 餐食與超市採買 | 3,000–4,500 | 規劃預留；Walter Peak 晚餐已計入 3.1，不重複計算 |
-| **累計總額（3.1＋3.2）** | **約 12,916–15,266** | 不含國際機票、15 晚住宿與旅遊保險 |
+| **累計總額（3.1＋3.2）** | **約 13,116–15,466** | 不含國際機票、15 晚住宿與旅遊保險 |
 
 ### 3.4 自由參加活動（未計入任何總額，依實際參加人數另計）
 
@@ -587,4 +588,11 @@
 **V21 Day13-15 Christchurch 跨年住宿已訂，補上遺漏的訂單編號**（2026-09-07）：
 - 🔴 **Day13-15 Christchurch 跨年住宿已訂**：Gateway to Hagley Park - 2 Bed w/Carpark（70 Brockworth Place unit 5, Riccarton），連住3晚，HK$6,412.18（約NZD1,356.04，Booking.com訂單編號5345513694）；地點在Riccarton安靜住宅區，步行約5分鐘到Hagley Park，可避開CBD跨年人潮同時看得到跨年煙火。
 - 🟡 補上先前遺漏的訂單編號：Awa Stunning Riverview Apartment（Queenstown，Airbnb確認碼HMHYH9EF3C）、Haka House Hostel Aoraki Mt Cook（訂單編號1359046509949011）。
+- 其餘路線、日期、住宿城市、餐廳與已確認預訂皆維持不變。
+
+---
+
+**V22 Day11 塔斯曼冰河直升機健行已訂，時段改為下午**（2026-09-07）：
+- 🔴 **Day11 直升機健行已訂**：Tasman Glacier Heli-Hike（Alpine Guides），4人合計NZ$3,980（NZ$995/人，訂單編號RQQCT97）。
+- 🟡 **時段由原訂09:00改為13:00**：因12/29上午場次已無4人共同的名額，選擇下午1點場次（14:00前的其他時段皆售罄或名額不足）。Day11白天行程配合調整：上午改為Mt Cook Village自由活動、午餐提前至11:30-12:30、直升機健行約13:00-16:00結束後再出發前往蒂卡波湖（原路線、餐廳、備案安排不變，僅時間軸整體後移）。
 - 其餘路線、日期、住宿城市、餐廳與已確認預訂皆維持不變。
