@@ -61,6 +61,7 @@
 
 ### Day 2｜12/20（日）｜Christchurch → Moeraki → 奧瑪魯藍企鵝
 - 🗺️ [開啟本日完整路線（多站導航，起點為你目前位置）](https://www.google.com/maps/dir/?api=1&destination=-45.1058,170.9751&waypoints=-44.3826,171.2509%7C-45.3548,170.8225%7C-45.3592,170.8555%7C-45.0958,170.9738&travelmode=driving)
+- ⚠️ 本日車程約300公里、純駕駛近4小時（Christchurch→Moeraki 3h30m＋Moeraki→Oamaru），是全程車程第二長的一天，且是抵達後第一個長途駕駛日（時差＋右駕都還在適應），建議中途在Timaru/Caroline Bay充分休息、視情況換手駕駛
 - ⚠️ **原本的大象石 Elephant Rocks（Duntroon）已刪除**：要從沿海 SH1 特地繞進內陸再繞出來，多花約 45–70 分鐘，不算順路，故改走下方直達路線
 - 08:00 出發，Christchurch → Moeraki（直接沿 SH1 走，不再繞去內陸）
   - 🚗 約 3h30m｜[Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Christchurch&destination=Moeraki+Boulders&travelmode=driving)
@@ -603,4 +604,12 @@
 - 🟡 **場次由Day11改為Day12**：原本Day11、Day12皆保留觀星團的彈性（主場/備用），現已確定實際場次落在Day12晚上；Day11晚上不再排觀星行程。
 - 🟡 **業者與集合地點不同**：Silver River為私人農場觀星地點（**12 Rapuwai Lane, Lake Tekapo**），與Dark Sky Project的1 Motuariki Lane不同，內容為14吋望遠鏡觀測＋肉眼觀星導覽（非Mt John山頂），小團體上限10人，附贈保暖外套與個人合照。
 - 🟡 **⚠️ Day12晚上（觀星至凌晨）緊接Day13跨年夜（開車+熬夜看煙火）**，兩晚睡眠都會被壓縮，建議Day12白天盡量不排額外行程、多休息，並考慮放棄Day14的元旦日出選配活動以確保有完整恢復時間。
+- 其餘路線、日期、住宿城市、餐廳與已確認預訂皆維持不變。
+
+---
+
+**V24 Day2車程疲勞警語補齊**（2026-09-09）：
+- 🟡 **Day2新增車程警語**：逐日檢查全程車程後發現，Day2（Christchurch→Moeraki→Oamaru，約300公里、純駕駛近4小時）是全程車程第二長的一天，僅次於已有警語的Day3，但先前完全沒有提醒；且Day2是抵達紐西蘭後第一個長途駕駛日，時差與右駕都還在適應，風險其實不低。已比照Day3的警語格式補上，建議中途在Timaru/Caroline Bay充分休息、視情況換手駕駛。
+- 🟢 **其餘各天車程逐一核對，皆在合理範圍內**：Day4 Milford Sound來回（約240-250公里，中間有峽灣遊船大段休息）、Day10 瓦納卡→庫克山（約215-220公里）皆屬邊緣值但無需特別調整；其餘各天均在250公里以下。
+- 🟢 **Day3的長車程屬南島路線地理限制、非規劃問題**：查證確認Dunedin/Oamaru→Te Anau這段轉場在主流南島公路旅行攻略中普遍被列為最硬的一天，多數攻略建議拆成2天走沿海路線（距離更長），本行程採用的內陸路線（經Gore）已是較短走法；因16天為固定天數，不建議為此犧牲其他天行程來拆分。
 - 其餘路線、日期、住宿城市、餐廳與已確認預訂皆維持不變。
