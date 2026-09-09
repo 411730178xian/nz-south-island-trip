@@ -31,9 +31,9 @@
 | 8 | 12/26（六）| 箭鎮→克倫威爾→瓦納卡 | 淘金小鎮、Kawarau Bridge Bungy（途中）、水果小鎮 | 箭鎮 Bakery 👍 | 瓦納卡湖畔餐廳 | Wanaka |
 | 9 | 12/27（日）| 瓦納卡 | 悠閒日、孤樹 | 瓦納卡湖濱咖啡館 | Kai Whakapai 👍 | Wanaka |
 | 10 | 12/28（一）| 瓦納卡→庫克山 | Lindis Pass 觀景台、胡克谷健行 | High Country Salmon 🌟 | 🛒 超市採買自煮 | Haka House Hostel Aoraki Mt Cook |
-| 11 | 12/29（二）| 庫克山→蒂卡波湖 | 塔斯曼冰河直升機健行（備案：冰河船） | Hermitage Hotel Alpine Restaurant | 🛒 超市採買自煮 | Lake Tekapo |
-| 12 | 12/30（三）| 蒂卡波湖 | 悠閒緩衝日：Mt John 觀景公路、22:45 Silver River觀星團（已訂） | 湖畔咖啡館／Astro Café | Kohan Restaurant 👍／超市自煮 | Lake Tekapo |
-| 13 | 12/31（四）🎉| 蒂卡波湖→基督城 | 沿途 Geraldine，North Hagley Park跨年煙火（官方活動） | Fairlie Bakehouse 🌟 | 基督城跨年晚餐（先訂位） | Christchurch |
+| 11 | 12/29（二）| 庫克山→蒂卡波湖 | 塔斯曼冰河直升機健行（備案：冰河船） | Hermitage Hotel Alpine Restaurant | 🛒 超市採買自煮 | Fairlie |
+| 12 | 12/30（三）| 蒂卡波湖 | 悠閒緩衝日：Mt John 觀景公路、22:45 Silver River觀星團（已訂） | 湖畔咖啡館／Astro Café | Kohan Restaurant 👍／超市自煮 | Fairlie |
+| 13 | 12/31（四）🎉| Fairlie→基督城 | 沿途 Geraldine，North Hagley Park跨年煙火（官方活動） | Fairlie Bakehouse 🌟 | 基督城跨年晚餐（先訂位） | Christchurch |
 | 14 | 1/1（五）🎊| 基督城 | 元旦日出（選配）、Willowbank Wildlife Reserve | 🛒 自煮 | 🛒 自煮 | Christchurch |
 | 15 | 1/2（六）| 阿卡羅瓦 | Akaroa 一日遊：法式小鎮＋Hilltop＋The Giant's House（賞豚遊船改為自由參加） | Akaroa 港邊咖啡館 👍 | 基督城市區餐廳 | Christchurch |
 | 16 | 1/3（日）| 基督城 | 收拾、10:45-11:00還車、11:20前抵機場 | 機場用餐/簡便食物 | 機上 | — |
@@ -250,12 +250,19 @@
   - 🚗 約 1h35m｜[Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Aoraki+Mount+Cook+Village&destination=Lake+Tekapo&travelmode=driving)
 - 傍晚：好牧羊人教堂、湖畔散步，抵達後先至超市採買晚餐
 - 🍽️ 晚餐：🛒 超市採買自煮
-- 🏨 住宿：Lake Tekapo（連住 2 晚）　`📌待訂（高優先）`
-  - [Booking.com 搜尋](https://www.booking.com/searchresults.html?ss=Lake+Tekapo%2C+New+Zealand) ｜ [Airbnb 搜尋](https://www.airbnb.com/s/Lake-Tekapo--New-Zealand/homes)
+- 晚間：Lake Tekapo → Fairlie 住宿（⚠️ 住宿地點在Fairlie不在Tekapo，車程約40分鐘）
+  - 🚗 約 40 分鐘｜[Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Lake+Tekapo&destination=Fairlie&travelmode=driving)
+- 🏨 住宿：**Modern Comfort | Fairlie, Mackenzie Country**（Erica出租，Airbnb，2房2衛＋完整廚房）　`📌已訂`
+  - 地址：**28 Denmark Street, Fairlie 7925, New Zealand**
+  - 2晚（12/29 15:00後入住－12/31 11:00前退房），4人合計**HK$2,439.84**（約NZD529／約NT$9,857，2026/12/16扣款），Airbnb確認碼**HMDRM992C8**
+  - 房東Erica，+64 27 306 5365
 
 ### Day 12｜12/30（三）｜蒂卡波湖悠閒緩衝日
-- 🗺️ [開啟本日完整路線（多站導航，起點為你目前位置）](https://www.google.com/maps/dir/?api=1&destination=-43.986667,170.465000&travelmode=driving)
-- 上午：睡到自然醒，湖畔散步、Church of the Good Shepherd 晨光拍照（早上人潮較少）
+- 🗺️ [開啟本日完整路線（多站導航，起點為你目前位置）](https://www.google.com/maps/dir/?api=1&destination=-43.986667,170.465000&waypoints=-44.0956504,170.8274267&travelmode=driving)
+- ⚠️ 本日住宿在Fairlie，白天活動全在Tekapo，早上先開車過去、晚上觀星結束再開回Fairlie，單趟約40分鐘，來回共約1h20m車程需算入體力評估
+- 上午：Fairlie 住處睡到自然醒，出發前往 Lake Tekapo
+  - 🚗 約 40 分鐘｜[Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Fairlie&destination=Lake+Tekapo&travelmode=driving)
+- 抵達後：湖畔散步、Church of the Good Shepherd 晨光拍照（早上人潮較少）
 - 10:30 起：**Mt John Summit Road** 觀景公路自駕上山（車程約 10 分鐘，山頂咖啡館 Astro Café 可俯瞰整個蒂卡波湖）
   - 🚗 [Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Lake+Tekapo&destination=Mt+John+Observatory&travelmode=driving)
   - 💰 上山道路需支付約 NZ$14／車通行費（可併入停車／雜費預算）
@@ -269,13 +276,15 @@
   - 📍 集合地點：**12 Rapuwai Lane, Lake Tekapo**（⚠️與Dark Sky Project的1 Motuariki Lane不同，是不同業者的私人農場觀星點，有免費接駁）
   - 內容：14吋望遠鏡觀測＋肉眼觀星導覽，小團體（上限10人），附贈保暖外套與個人合照
   - ⏰ 建議提前15-20分鐘報到
-- 🏨 住宿：Lake Tekapo（同 Day11）
-
-### Day 13｜12/31（四，跨年夜）｜蒂卡波湖 → 基督城（沿途打卡＋跨年倒數）
-- 🗺️ [開啟本日完整路線（多站導航，起點為你目前位置）](https://www.google.com/maps/dir/?api=1&destination=-43.5276,172.6203&waypoints=-44.0967,170.8305%7C-44.0958,171.2419&travelmode=driving)
-- 10:00 出發，Tekapo → Fairlie
+- 觀星結束後：Lake Tekapo → Fairlie 住處（⚠️ 深夜駕駛，出發前務必確認清醒程度、必要時換手）
   - 🚗 約 40 分鐘｜[Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Lake+Tekapo&destination=Fairlie&travelmode=driving)
-- 🍽️ 午餐：🌟 **Fairlie Bakehouse**（招牌肉派，必吃推薦）
+- 🏨 住宿：Modern Comfort | Fairlie, Mackenzie Country（同 Day11）
+
+### Day 13｜12/31（四，跨年夜）｜Fairlie → 基督城（沿途打卡＋跨年倒數）
+- 🗺️ [開啟本日完整路線（多站導航，起點為你目前位置）](https://www.google.com/maps/dir/?api=1&destination=-43.5276,172.6203&waypoints=-44.0958,171.2419&travelmode=driving)
+- ✅ **本日已省去前一天版本規劃的Tekapo→Fairlie車程**：因Day11-12住宿本來就在Fairlie，今早直接從住處出發即可，不需要再開回Tekapo，比原規劃多出約40分鐘可以睡晚一點、悠閒收拾行李
+- 上午：Fairlie 住處睡到自然醒、收拾行李，退房前往 Fairlie Bakehouse
+- 🍽️ 午餐：🌟 **Fairlie Bakehouse**（招牌肉派，必吃推薦，步行或短程車距住處）
 - 12:00 Fairlie → Geraldine（在地水果醬、乳酪與復古車輛博物館的可愛小鎮）
   - 🚗 約 55 分鐘｜[Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Fairlie&destination=Geraldine&travelmode=driving)
 - 短停：👍 **Barker's of Geraldine**（果醬/果汁品牌創始店，附設咖啡館）
@@ -479,7 +488,7 @@
 | 5-7 | Queenstown | **Awa Stunning Riverview Apartment**（已訂，**連住 3 晚**） |
 | 8-9 | Wanaka | **Archway Motels & Chalets**（已訂，2 晚） |
 | 10 | Mount Cook | **Haka House Hostel Aoraki Mt Cook**（已確認，1 晚） |
-| 11-12 | Lake Tekapo | 待訂（2 晚） |
+| 11-12 | Fairlie（白天活動在Lake Tekapo） | **Modern Comfort \| Fairlie, Mackenzie Country**（已訂，2 晚） |
 | 13-15 | Christchurch | **Gateway to Hagley Park - 2 Bed w/Carpark**（已訂，**連住 3 晚**，涵蓋跨年夜、元旦 Willowbank、Akaroa 一日遊） |
 
 ---
@@ -612,4 +621,13 @@
 - 🟡 **Day2新增車程警語**：逐日檢查全程車程後發現，Day2（Christchurch→Moeraki→Oamaru，約300公里、純駕駛近4小時）是全程車程第二長的一天，僅次於已有警語的Day3，但先前完全沒有提醒；且Day2是抵達紐西蘭後第一個長途駕駛日，時差與右駕都還在適應，風險其實不低。已比照Day3的警語格式補上，建議中途在Timaru/Caroline Bay充分休息、視情況換手駕駛。
 - 🟢 **其餘各天車程逐一核對，皆在合理範圍內**：Day4 Milford Sound來回（約240-250公里，中間有峽灣遊船大段休息）、Day10 瓦納卡→庫克山（約215-220公里）皆屬邊緣值但無需特別調整；其餘各天均在250公里以下。
 - 🟢 **Day3的長車程屬南島路線地理限制、非規劃問題**：查證確認Dunedin/Oamaru→Te Anau這段轉場在主流南島公路旅行攻略中普遍被列為最硬的一天，多數攻略建議拆成2天走沿海路線（距離更長），本行程採用的內陸路線（經Gore）已是較短走法；因16天為固定天數，不建議為此犧牲其他天行程來拆分。
+- 其餘路線、日期、住宿城市、餐廳與已確認預訂皆維持不變。
+
+---
+
+**V25 Day11-12住宿已訂（Fairlie），並補齊全程各已訂住宿的地圖精確定位**（2026-09-09）：
+- 🔴 **Day11-12住宿已訂**：**Modern Comfort | Fairlie, Mackenzie Country**（Erica出租，Airbnb），地址**28 Denmark Street, Fairlie 7925**，2晚（12/29-31），4人合計**HK$2,439.84**（約NZD529／約NT$9,857），Airbnb確認碼**HMDRM992C8**。
+- 🟡 **住宿地點在Fairlie、不在Tekapo，路線已相應調整**：Day11晚上新增Tekapo→Fairlie車程（約40分鐘）；Day12改為早上先從Fairlie開去Tekapo、觀星結束後深夜再開回Fairlie（來回共約1h20m，已加註深夜駕駛提醒）；**Day13因此省去原規劃的Tekapo→Fairlie車程**，可以睡晚一點、行程更寬鬆，對接續的跨年夜有幫助。
+- 🟢 **全程已訂住宿補上精確地址與地圖座標**：先前`nz_map_points.csv`與地圖中的住宿點多為城鎮層級的Booking.com搜尋連結佔位符，尚未替換為實際入住地點；本次已依itinerary.md中記錄的地址逐一以Nominatim查證座標，更新：Simply The Best CBD（212 Hereford Street, Christchurch）、Tyne above Town（75 Tyne Street, Oamaru，地址經網路查證）、The Village Inn Hotel Te Anau（24 Mokoroa Street）、Archway Motels & Chalets（64 Hedditch Street, Wanaka）、Gateway to Hagley Park（70 Brockworth Place, Riccarton）。
+- 🟡 **Awa Stunning Riverview Apartment（Queenstown）與Haka House Hostel（Mt Cook）僅查到大概位置**：Awa僅知在Arthurs Point，未查到確切門牌號，暫用Arthurs Point地區中心點；Haka House地址（4 Kitchener Drive）在OpenStreetMap查無資料，暫用Mount Cook Village中心點（與既有的Aoraki Mount Cook Village景點座標相近），兩者皆已於CSV備註中標明為近似值。
 - 其餘路線、日期、住宿城市、餐廳與已確認預訂皆維持不變。
