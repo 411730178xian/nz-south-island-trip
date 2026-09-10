@@ -102,28 +102,30 @@
 - 預計 16:00–16:30 抵達 Te Anau，安頓入住
 - 抵達後先至超市採買（Te Anau 為進入米佛峽灣前最後大型超市，採買隔日野餐/零食用，住宿無廚房不需採買晚餐食材）
 - 🍽️ 晚餐：Te Anau 市區餐廳（住宿為飯店房型無廚房，需外食，餐廳選項待現場決定）
-- 19:30 起：Te Anau Glowworm Caves 螢火蟲洞船遊
-  - 🎟️ [官方預訂 RealNZ](https://www.realnz.com/en/experiences/glowworm-caves/te-anau-glowworm-caves/)
+- 19:00–21:15：Te Anau Glowworm Caves 螢火蟲洞船遊　`📌已訂`
+  - 4人合計NZ$616.00（含Fiordland Highlights套票20%折扣），RealNZ訂單編號**378570827**
   - 📍 報到／集合處：RealNZ Visitor Centre, 85 Lakefront Drive, Te Anau（現場免費停車）
-  - ⏰ 建議開船前 20–30 分鐘報到
-  - 💰 **峽灣「經典套餐」**——螢火蟲洞＋Day4 的米爾福德峽灣特色遊船一起買，每人省 NZ$35　`📌待訂（高優先，旺季易額滿）`
-    - [峽灣套餐購買頁](https://www.realnz.com/zh-cn/specials/combo-deals/)
+  - ⏰ 建議開船前**30分鐘**到蒂阿瑙遊客中心辦理登船手續
+  - 🎒 建議攜帶：防滑鞋/靴、防水夾克、保暖抓絨外套、防曬/太陽鏡、驅蟲劑、個人藥品
+  - ⚠️ 洞穴內禁止攝影錄像；進入需稍微彎腰並攀爬部分台階；有一段時間需保持安靜；無預訂午餐選項需自備；現場**不收現金**
 - 🏨 住宿：**The Village Inn Hotel Te Anau**（田園假日酒店，24 Mokoroa Street）　`📌已訂`
   - 高級雙床房，2晚共TWD14,898（Trip.com訂單編號1359047395021619），⚠️飯店房型無廚房，不可自煮
 
 ### Day 4｜12/22（二）｜米佛峽灣一日遊
 - 🗺️ [開啟本日完整路線（多站導航，起點為你目前位置）](https://www.google.com/maps/dir/?api=1&destination=-45.4131,167.7150&waypoints=-44.9930,168.0570%7C-44.7645,168.0004%7C-44.6706,167.9250%7C-44.8912,168.0148&travelmode=driving)
-- 07:30 Te Anau 出發前往 Milford Sound
+- 09:00 Te Anau 出發前往 Milford Sound（班次改13:00後出發時間可以晚一點，比原規劃多睡半小時以上）
 - 去程：**Eglinton Valley** 短停約 5 分鐘（開闊谷地草原景觀，多部電影取景地）
   - 🚗 [Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Te+Anau&destination=Eglinton+Valley&travelmode=driving)
 - **Homer Tunnel**：僅在等待單線通行號誌時短暫觀景，不額外排獨立停留
   - 🚗 [Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Eglinton+Valley&destination=Homer+Tunnel&travelmode=driving)
 - Homer Tunnel → Milford Sound
   - 🚗 [Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Homer+Tunnel&destination=Milford+Sound&travelmode=driving)
-- ⏰ 官方建議請預留 **45 分鐘至 1 小時**停車並步行至 Milford Sound Visitor Terminal（主停車場約步行10分鐘，Deepwater Basin 停車場約步行25分鐘），並於開船前 20 分鐘完成報到
-- 12:00-14:00 峽灣巡航遊船
-  - 🎟️ 船票將包含在 Day3「峽灣經典套餐」內（螢火蟲洞＋米爾福德峽灣特色遊船，省 NZ$35/人）　`📌待訂（高優先，旺季易額滿）`
-    - [套餐購買頁](https://www.realnz.com/zh-cn/specials/combo-deals/) ｜ [單獨購票頁](https://www.realnz.com/en/experiences/day-cruises/milford-sound-signature-cruise/)
+- ⏰ 官方建議：Te Anau→Milford Sound車程約2小時，抵達後再預留**45分鐘至1小時**停車並步行至Milford Sound Visitor Terminal，開船前20分鐘完成報到
+  - 🅿️ 停車資訊：離遊客中心最近的收費停車場步行約5-10分鐘（NZD10/小時）；Deepwater Basin Road有免費停車場，穿過森林步道步行約20分鐘可達
+- 13:00-15:00：米爾福德峽灣特色遊船　`📌已訂`
+  - 4人合計NZ$636.80（Fiordland Highlights套票20%折扣後價格），RealNZ訂單編號**378570829**
+  - 📍 報到處：Milford Sound Visitor Terminal（進入主入口後靠左RealNZ櫃檯）
+  - ⚠️ 船上購買酒精飲品需出示護照正本證明年齡（國際駕照不被接受作為年齡證明）
 - 🍽️ 午餐：建議自備野餐（Te Anau 超市採買），亦可選 Milford 峽灣碼頭咖啡館
 - 回程：依道路、天候、停靠與交通狀況彈性調整，回程順道停靠 **Mirror Lakes**（鏡湖，倒影經典拍照點）
   - 🚗 [Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Milford+Sound&destination=Mirror+Lakes+New+Zealand&travelmode=driving)
@@ -149,16 +151,14 @@
 - 🗺️ [開啟本日完整路線（多站導航，起點為你目前位置）](https://www.google.com/maps/dir/?api=1&destination=-45.0334,168.6601&travelmode=driving)
 - 上午／下午：皇后鎮自由活動
 - 🍽️ 午餐：Queenstown 自由午餐／輕食
-- 傍晚至晚上：搭乘 **TSS Earnslaw 恩斯洛號百年蒸汽船**，橫渡瓦卡蒂普湖前往 Walter Peak 高地農場
-- 🎟️ **TSS Earnslaw＋Walter Peak 高地 BBQ 晚餐**，公開起價 NZ$189 起　`📌待訂`
-  - [官方預訂 RealNZ](https://www.realnz.com/zh-cn/experiences/dining/walter-peak-bbq-dining/)
-  - 📍 報到處：RealNZ 櫃檯，Steamer Wharf, 88 Beach Street, Queenstown（船就停靠在碼頭前）
-  - ⏰ 建議開船前 20 分鐘報到
-  - 🅿️ 碼頭本身**沒有專屬停車場**，需停在皇后鎮市區停車格或步行從住宿處前往，請預留額外找車位的時間
-  - ⚠️ 實際價格與可訂時段以訂票頁及訂單確認信為準（`以訂單確認信為準`）
-  - 實際報到與登船時間：以訂單確認信為準
+- 16:10 建議從Arthurs Point住處出發前往Steamer Wharf（車程約7-10分鐘＋市區找車位緩衝，市中心無專屬停車位，Man Street/Church Street有停車場，Lake Esplanade有限免費車位，建議預留30分鐘找位）
+- 17:00-21:00：搭乘 **TSS Earnslaw 恩斯洛號百年蒸汽船**，橫渡瓦卡蒂普湖前往 Walter Peak 高地農場　`📌已訂`
+  - 4人合計NZ$876.00，RealNZ訂單編號**378570831**
+  - 📍 報到處：Beach Street, Queenstown, Otago 9300（Steamer Wharf碼頭）
+  - ⏰ 建議開船前**20分鐘**到碼頭報到
+  - 🍖 已於訂票備註註記：4人中1人不吃牛肉（無過敏）
+  - ⚠️ 全程**不收現金**，僅接受卡片/電子支付
   - 方案包含往返蒸汽船、Walter Peak 高地 BBQ 晚餐，以及晚餐後的牧羊犬趕羊秀 (farm dog show)
-  - 💡 整段活動含往返船程約 3.5-4 小時，可作為行程提醒
 - 🍽️ 晚餐：Walter Peak 高地 BBQ 晚餐（已含於票價）
 - 💡 提醒：今日採買時，除 Day7 晚餐食材外，也應一併準備 Day7 早餐與午餐備案（聖誕節當天部分店家可能縮短營業或公休）
 - 🏨 住宿：Queenstown（同 Day5）
@@ -368,15 +368,15 @@
 | 項目 | 每人 (NZD) | 4 人合計 (NZD) | 狀態／說明 |
 |---|---:|---:|---|
 | Ōamaru 藍企鵝 General Viewing | 47 | 188 | `📌待訂`；現行公開價，Premium 為 63／人 |
-| Te Anau 螢火蟲洞＋Milford Signature Cruise 套票 | 約 285 | 約 1,140 | `📌待訂`；暫估＝螢火蟲洞145＋峽灣船175－套票省35，2026/10 後結帳頁為準 |
-| Walter Peak BBQ 晚餐 | 189 起 | 756 起 | `📌待訂`；最終以訂單金額為準 |
+| Te Anau 螢火蟲洞＋Milford Signature Cruise 套票 | 約313 | 1,252.80 | `📌已訂`；螢火蟲洞NZ$616.00（訂單378570827）＋Milford峽灣NZ$636.80（訂單378570829，已含20%套票折扣） |
+| Walter Peak BBQ 晚餐 | 219 | 876 | `📌已訂`；RealNZ訂單編號378570831 |
 | Skyline Gondola＋3 Luge Rides | 99 | 396 | `📌待訂`；現行公開方案，12 月價格為準 |
 | Tasman Glacier Heli-Hike | 995 | 3,980 | `📌已訂`；訂單編號RQQCT97，12/29 13:00場次；備案為 Tasman Glacier Explorers 冰河船（836起） |
 | Silver River Stargazing（蒂卡波湖銀河觀星體驗） | 約128 | 約514（HK$2,367.4） | `📌已訂`；Klook訂單編號ZPU276679，NZD為約略換算，實際以HKD刷卡金額為準 |
 | Willowbank Wildlife Reserve（4 位成人） | 28 | 112 | `📌待訂`；一般門票，加購導覽奇異鳥摸摸體驗則 54/人（216/4人） |
 | NZeTA＋IVL（官方 App，4 人） | 117 | 468 | 行前必要費用，需及早辦理 |
 | 租車 SUV＋Zero Excess | — | 1,500–1,800 | `📌待訂`；需確認 4 位授權駕駛與行李容量 |
-| **3.1 小計** | — | **約 9,054–9,554** | 不含燃油、停車、餐食；已依Heli-Hike與觀星團確認價格調整 |
+| **3.1 小計** | — | **約 9,287–9,587** | 不含燃油、停車、餐食；已依螢火蟲洞/Milford套票、TSS Earnslaw確認價格調整 |
 
 ### 3.2 加入燃油、停車與全程餐食後
 
@@ -385,7 +385,7 @@
 | 燃油 | 500–700 | 規劃預留 |
 | 停車 | 200–350 | 規劃預留，含 Milford、Queenstown 等地 |
 | 餐食與超市採買 | 3,000–4,500 | 規劃預留；Walter Peak 晚餐已計入 3.1，不重複計算 |
-| **累計總額（3.1＋3.2）** | **約 12,754–15,104** | 不含國際機票、15 晚住宿與旅遊保險 |
+| **累計總額（3.1＋3.2）** | **約 12,987–15,137** | 不含國際機票、15 晚住宿與旅遊保險 |
 
 ### 3.4 自由參加活動（未計入任何總額，依實際參加人數另計）
 
@@ -458,10 +458,10 @@
 
 | 活動 | 官方網站 |
 |---|---|
-| 峽灣「經典套餐」（螢火蟲洞＋米佛峽灣，省$35/人）`📌待訂` | https://www.realnz.com/zh-cn/specials/combo-deals/ |
+| 峽灣「經典套餐」（螢火蟲洞＋米佛峽灣，訂單378570827/378570829）`📌已訂` | https://www.realnz.com/zh-cn/specials/combo-deals/ |
 | 米佛峽灣巡航遊船（單獨購票用） | https://www.realnz.com/en/experiences/day-cruises/milford-sound-signature-cruise/ |
 | 蒂阿瑙螢火蟲洞（單獨購票用） | https://www.realnz.com/en/experiences/glowworm-caves/te-anau-glowworm-caves/ |
-| TSS Earnslaw＋Walter Peak 高地 BBQ 晚餐 `📌待訂`（價格與時段以訂單確認信為準） | https://www.realnz.com/zh-cn/experiences/dining/walter-peak-bbq-dining/ |
+| TSS Earnslaw＋Walter Peak 高地 BBQ 晚餐（訂單378570831）`📌已訂` | https://www.realnz.com/zh-cn/experiences/dining/walter-peak-bbq-dining/ |
 | 塔斯曼冰河直升機健行 (Alpine Guides - Heli-Hike) `📌已訂` | https://alpineguides.co.nz/tasman-glacier-heli-hike |
 | 塔斯曼冰河船 (The Hermitage - Glacier Explorers)　備案用 | https://www.hermitage.co.nz/experience/glacier-explorers/ |
 | Skyline 天際纜車＋Luge | https://www.skyline.co.nz/queenstown/ |
@@ -631,4 +631,17 @@
 - 🟡 **住宿地點在Fairlie、不在Tekapo，路線已相應調整**：Day11晚上新增Tekapo→Fairlie車程（約40分鐘）；Day12改為早上先從Fairlie開去Tekapo、觀星結束後深夜再開回Fairlie（來回共約1h20m，已加註深夜駕駛提醒）；**Day13因此省去原規劃的Tekapo→Fairlie車程**，可以睡晚一點、行程更寬鬆，對接續的跨年夜有幫助。
 - 🟢 **全程已訂住宿補上精確地址與地圖座標**：先前`nz_map_points.csv`與地圖中的住宿點多為城鎮層級的Booking.com搜尋連結佔位符，尚未替換為實際入住地點；本次已依itinerary.md中記錄的地址逐一以Nominatim查證座標，更新：Simply The Best CBD（212 Hereford Street, Christchurch）、Tyne above Town（75 Tyne Street, Oamaru，地址經網路查證）、The Village Inn Hotel Te Anau（24 Mokoroa Street）、Archway Motels & Chalets（64 Hedditch Street, Wanaka）、Gateway to Hagley Park（70 Brockworth Place, Riccarton）。
 - 🟡 **Awa Stunning Riverview Apartment（Queenstown）與Haka House Hostel（Mt Cook）僅查到大概位置**：Awa僅知在Arthurs Point，未查到確切門牌號，暫用Arthurs Point地區中心點；Haka House地址（4 Kitchener Drive）在OpenStreetMap查無資料，暫用Mount Cook Village中心點（與既有的Aoraki Mount Cook Village景點座標相近），兩者皆已於CSV備註中標明為近似值。
+- 其餘路線、日期、住宿城市、餐廳與已確認預訂皆維持不變。
+
+---
+
+**V26 Day3螢火蟲洞、Day4 Milford峽灣、Day6 TSS Earnslaw三項已訂（合併於RealNZ訂單#GGMTBB）**（2026-09-10）：
+- 🔴 **三項活動皆已付款確認**，4人合計NZ$2,128.80（MasterCard 0751扣款，2026/9/10）：
+  - 蒂阿瑙螢火蟲洞遊船體驗：12/21 19:00-21:15（非原規劃的19:30），NZ$616.00，訂單**378570827**
+  - 米爾福德峽灣特色遊船：12/22 **13:00-15:00**（非原規劃的12:00-14:00），NZ$636.80（已含Fiordland Highlights套票20%折扣），訂單**378570829**
+  - TSS Earnslaw＋Walter Peak BBQ：12/24 **17:00-21:00**，NZ$876.00，訂單**378570831**
+- 🟡 **實際時段與原規劃有落差，已同步調整當日行程**：Day4因遊船時間從12:00延後到13:00，Te Anau出發時間由07:30調整為09:00（可多睡約1.5小時）；Day6新增從Arthurs Point住處出發前往Steamer Wharf的建議時間（16:10）與找車位緩衝提醒。
+- 🟡 **飲食備註已於TSS Earnslaw訂單登記**：4人中1人不吃牛肉（無過敏）。
+- 🟢 **3.1小計因三項確認價格由估計值轉為實際值而調整**：約9,054–9,554 → **約9,287–9,587**；累計總額（3.1+3.2）：約12,754–15,104 → **約12,987–15,137**。
+- 🔴 **安全提醒**：訂單確認信PDF內含信用卡後四碼、全名、實際扣款金額等個資，已另存於本機`訂單確認信/`資料夾並加入`.gitignore`排除，不會被推送到公開的GitHub Pages網站。
 - 其餘路線、日期、住宿城市、餐廳與已確認預訂皆維持不變。
