@@ -228,6 +228,7 @@
 - 14:15 起：胡克谷步道 (Hooker Valley Track)，安排完整 3-3.5 小時
 - 🍽️ 晚餐：🛒 超市採買自煮（住宿含共用廚房）
 - 🏨 住宿：**Haka House Hostel Aoraki Mt Cook**　`📌已訂`
+  - 地址：**4 Kitchener Drive, Aoraki/Mount Cook 7999, New Zealand**（電話 +64 21 193 1150）
   - 評分 9.0（302則評價）、免費泊車、共用廚房，距庫克山國家公園入口僅 570m，訂單編號1359046509949011
   - [Booking.com 查詢](https://www.booking.com/searchresults.html?ss=Haka+House+Hostel+Aoraki+Mount+Cook)
 
@@ -630,7 +631,14 @@
 - 🔴 **Day11-12住宿已訂**：**Modern Comfort | Fairlie, Mackenzie Country**（Erica出租，Airbnb），地址**28 Denmark Street, Fairlie 7925**，2晚（12/29-31），4人合計**HK$2,439.84**（約NZD529／約NT$9,857），Airbnb確認碼**HMDRM992C8**。
 - 🟡 **住宿地點在Fairlie、不在Tekapo，路線已相應調整**：Day11晚上新增Tekapo→Fairlie車程（約40分鐘）；Day12改為早上先從Fairlie開去Tekapo、觀星結束後深夜再開回Fairlie（來回共約1h20m，已加註深夜駕駛提醒）；**Day13因此省去原規劃的Tekapo→Fairlie車程**，可以睡晚一點、行程更寬鬆，對接續的跨年夜有幫助。
 - 🟢 **全程已訂住宿補上精確地址與地圖座標**：先前`nz_map_points.csv`與地圖中的住宿點多為城鎮層級的Booking.com搜尋連結佔位符，尚未替換為實際入住地點；本次已依itinerary.md中記錄的地址逐一以Nominatim查證座標，更新：Simply The Best CBD（212 Hereford Street, Christchurch）、Tyne above Town（75 Tyne Street, Oamaru，地址經網路查證）、The Village Inn Hotel Te Anau（24 Mokoroa Street）、Archway Motels & Chalets（64 Hedditch Street, Wanaka）、Gateway to Hagley Park（70 Brockworth Place, Riccarton）。
-- 🟡 **Awa Stunning Riverview Apartment（Queenstown）與Haka House Hostel（Mt Cook）僅查到大概位置**：Awa僅知在Arthurs Point，未查到確切門牌號，暫用Arthurs Point地區中心點；Haka House地址（4 Kitchener Drive）在OpenStreetMap查無資料，暫用Mount Cook Village中心點（與既有的Aoraki Mount Cook Village景點座標相近），兩者皆已於CSV備註中標明為近似值。
+- 🟡 **Awa Stunning Riverview Apartment（Queenstown）僅查到大概位置**：僅知在Arthurs Point，未查到確切門牌號，暫用Arthurs Point地區中心點，已於CSV備註中標明為近似值。Haka House Hostel（Mt Cook）已於V27更新為確切門牌座標，見下方。
+- 其餘路線、日期、住宿城市、餐廳與已確認預訂皆維持不變。
+
+---
+
+**V27 補上Haka House Hostel（Mt Cook）確切地址與電話，地圖座標由近似值更新為精確門牌定位**（2026-09-10）：
+- 🟢 **Haka House Hostel Aoraki Mt Cook 地址確認**：訂單確認信提供確切地址**4 Kitchener Drive, Aoraki/Mount Cook 7999, New Zealand**、電話**+64 21 193 1150**，已補進Day10住宿資訊。
+- 🟢 **地圖座標由Mount Cook Village中心點近似值，更新為Nominatim查證的門牌精確座標**（-43.7373816, 170.1010899），已同步更新`nz_map_points.csv`與`index.html`的`tripMapPoints`。
 - 其餘路線、日期、住宿城市、餐廳與已確認預訂皆維持不變。
 
 ---
