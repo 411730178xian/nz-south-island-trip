@@ -27,8 +27,8 @@
 | 3 | 12/21（一）| 南下大移動 | Dunedin、Mataura Falls 沿途打卡 | Gore 小鎮咖啡館 | Te Anau 市區餐廳（住宿無廚房） | Te Anau |
 | 4 | 12/22（二）| 米佛峽灣 | Mirror Lakes、Eglinton Valley、Homer Tunnel、峽灣巡航 | 自備野餐/峽灣咖啡館 | Te Anau 市區餐廳（住宿無廚房） | Te Anau |
 | 5 | 12/23（三）| 蒂阿瑙→皇后鎮 | Devil's Staircase 觀景點，皇后鎮連住第 1 晚 | 途中簡餐 | 🌟Fergburger | Queenstown |
-| 6 | 12/24（四）🎄| 皇后鎮 | TSS Earnslaw＋Walter Peak 高地 BBQ 晚餐，第 2 晚 | Queenstown 自由午餐／輕食 | Walter Peak 高地 BBQ 晚餐（已含票價） | Queenstown |
-| 7 | 12/25（五）🎄| 皇后鎮 | 自由活動，第 3 晚（Bungy 因聖誕節公休已改至 Day8） | 皇后鎮湖濱咖啡館 | Skyline Gondola+Luge+Christmas Dinner（已訂） | Queenstown |
+| 6 | 12/24（四）🎄| 皇后鎮 | TSS Earnslaw＋Walter Peak 高地 BBQ 晚餐，第 2 晚 | 👍The Public Kitchen & Bar | Walter Peak 高地 BBQ 晚餐（已含票價） | Queenstown |
+| 7 | 12/25（五）🎄| 皇后鎮 | 自由活動，第 3 晚（Bungy 因聖誕節公休已改至 Day8） | 湖濱咖啡館／👍Erik's Fish and Chips | Skyline Gondola+Luge+Christmas Dinner（已訂） | Queenstown |
 | 8 | 12/26（六）| 箭鎮→克倫威爾→瓦納卡 | 淘金小鎮、Kawarau Bridge Bungy 15:30（已訂）、水果小鎮 | 箭鎮 Bakery 👍 | 瓦納卡湖畔餐廳（較晚） | Wanaka |
 | 9 | 12/27（日）| 瓦納卡 | 悠閒日、孤樹 | 瓦納卡湖濱咖啡館 | Kai Whakapai 👍 | Wanaka |
 | 10 | 12/28（一）| 瓦納卡→庫克山 | Lindis Pass 觀景台、胡克谷健行 | High Country Salmon 🌟 | 🛒 超市採買自煮 | Haka House Hostel Aoraki Mt Cook |
@@ -156,7 +156,11 @@
 ### Day 6｜12/24（四，平安夜）｜TSS Earnslaw 恩斯洛號＋Walter Peak 高地 BBQ 晚餐（連住第 2 晚）
 - 🗺️ [開啟本日完整路線（多站導航，起點為你目前位置）](https://www.google.com/maps/dir/?api=1&destination=-45.0334,168.6601&travelmode=driving)
 - 上午／下午：皇后鎮自由活動
-- 🍽️ 午餐：Queenstown 自由午餐／輕食
+- 🍽️ 午餐：👍 **The Public Kitchen & Bar**（Steamer Wharf 湖景早午餐，Google 4.3★逾1,800則評論）
+  - 📍 地址：Ground Floor, Steamer Wharf, Beach Street, Queenstown（與晚上TSS Earnslaw報到處同一區域，用餐後不用移動）
+  - ⏰ 每日12:00–打烊（不同來源時段略有出入，建議出發前一週再次致電 +64 3 442 5969 確認）
+  - 💰 早午餐約NZD 25-35／人
+  - 💡 窗邊座位可看到皇冠山脈倒映湖面，旺季建議先訂位：[官網 publickitchen.co.nz](https://www.publickitchen.co.nz/)
 - 16:10 建議從Arthurs Point住處出發前往Steamer Wharf（車程約7-10分鐘＋市區找車位緩衝，市中心無專屬停車位，Man Street/Church Street有停車場，Lake Esplanade有限免費車位，建議預留30分鐘找位）
 - 17:00-21:00：搭乘 **TSS Earnslaw 恩斯洛號百年蒸汽船**，橫渡瓦卡蒂普湖前往 Walter Peak 高地農場　`📌已訂`
   - 4人合計NZ$876.00，RealNZ訂單編號**378570831**
@@ -173,7 +177,8 @@
 - 🗺️ [開啟本日完整路線（多站導航，起點為你目前位置）](https://www.google.com/maps/dir/?api=1&destination=-45.0328,168.6615&travelmode=driving)
 - ⚠️ 聖誕節當天部分商店/景點縮短營業，出發前先確認開放時間
 - 上午：皇后鎮自由活動、湖濱散步
-- 🍽️ 午餐：皇后鎮湖濱咖啡館，或 👍 **Patagonia Chocolates**（人氣冰淇淋/巧克力甜點）——以聖誕節當日營業與預訂狀況為準
+- 🍽️ 午餐：皇后鎮湖濱咖啡館、👍 **Patagonia Chocolates**（人氣冰淇淋/巧克力甜點），或 👍 **Erik's Fish and Chips**（在地人推薦炸魚薯條，Google 4.4★逾1,500則評論，紐西蘭藍鱈魚現點現炸，可外帶到湖邊野餐）——三選一，以聖誕節當日營業與預訂狀況為準
+  - Erik's 📍地址：13 Earl Street, Queenstown（訂正：非坊間流傳的「1 Earl St」）；⏰ 一般為11:30–21:00（依季節略有調整，聖誕節當天營業時間請以現場公告為準）；💰 NZD 15-25／人
 - 下午：持續自由活動
   - 💡 Kawarau Bridge Bungy 已改排至 **Day8**（前往箭鎮／克倫威爾途中順路停靠）——因為 Kawarau Bungy Centre 聖誕節當天公休，無法在本日進行
   - 💡 **彈性選項：Glenorchy 一日往返**（沿瓦卡蒂普湖岸單程車程約 45–50 分鐘，來回連同停留約需 3–4 小時）——公認紐西蘭最美短程景觀公路之一，魔戒取景地、雪山湖景無敵；聖誕節當天鎮上店家可能沒開，主要是為了沿途風景，若想去建議這個下午幾乎整段時間都會用在這趟車程上，依心情決定
@@ -710,4 +715,13 @@
 **V32 Day5晚餐排入Fergburger（皇后鎮必吃），已查證地址／營業時間／訂位政策**（2026-09-12）：
 - 🟢 **Fergburger正式排入Day5（12/23）晚餐**：原本僅在食物總表作為彈性必吃選項，現指定為Day5抵達皇后鎮當晚的晚餐。
 - 🟢 **已查證官方資訊**：地址42 Shotover Street, Queenstown 9300（電話03 441 1232），全年無休07:00–02:30；**不接受座位訂位**，現場排隊常需20-60分鐘＋取餐20-30分鐘，建議電話先點餐到店取，或避開中午/晚餐尖峰時段。
+- 其餘路線、日期、住宿城市、餐廳與已確認預訂皆維持不變。
+
+---
+
+**V33 補上媽媽提供的皇后鎮美食：The Public Kitchen & Bar（Day6午餐）、Erik's Fish and Chips（Day7午餐選項）；Amisfield因時間/預算衝突暫不排入**（2026-09-12）：
+- 🟢 **The Public Kitchen & Bar排入Day6午餐**：位於Steamer Wharf，與當晚TSS Earnslaw報到處同一區域，用餐後不用移動。查證發現不同來源營業時間有出入（部分顯示週一至週四僅16:00後營業，官網目前顯示每日12:00起），已採官網較新資訊，仍建議出發前再次致電確認。
+- 🟢 **Erik's Fish and Chips排入Day7午餐選項（三選一）**：查證發現媽媽提供的地址「1 Earl St」有誤，**正確地址為13 Earl Street**（已比對Yelp、Waze、官方菜單頁等多方來源），營業時間約11:30-21:00。
+- 🔴 **Amisfield暫不排入行程**：查證後發現有兩種方案——(1) Bistro／Cellar Door，每週三至週日11:30-15:30，價位較親民；(2) Lunch Tasting Menu，**2.5小時、NZ$395/人（4人合計NZ$1,580）**。原本設想排在Day8前往Arrowtown途中，但Day8下午已鎖定15:15報到的Kawarau Bungy訂位（當日最後場次、無緩衝空間），2.5小時的正式午餐體驗時間上明顯衝突，會壓縮到Arrowtown悠閒時段甚至有錯過Bungy報到的風險；聖誕節（Day7）當天是否營業也未查到官方確認。若仍想去，建議改选Day7白天（需先致電確認聖誕節有無營業）並選擇較短的Bistro方案，而非2.5小時的正式套餐。
+- 🟢 **部落格頁面其餘推薦（Fergburger、Devil Burger、Cookie Time、Taco Medic、Flame Bar & Grill、Bazaar、Rata、Botswana Butchery、The Grille by Eichardt's）已確認內容，暫不加入行程**：現有Queenstown餐飲安排已足夠豐富，加上其餘選項多為晚餐時段（皇后鎮晚餐已被TSS Earnslaw／Skyline／Fergburger占滿），故暫不排入，留待現場依心情彈性選擇。
 - 其餘路線、日期、住宿城市、餐廳與已確認預訂皆維持不變。
