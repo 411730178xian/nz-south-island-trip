@@ -28,7 +28,7 @@
 | 4 | 12/22（二）| 米佛峽灣 | Mirror Lakes、Eglinton Valley、Homer Tunnel、峽灣巡航 | 自備野餐/峽灣咖啡館 | Te Anau 市區餐廳（住宿無廚房） | Te Anau |
 | 5 | 12/23（三）| 蒂阿瑙→皇后鎮 | Devil's Staircase 觀景點，皇后鎮連住第 1 晚 | 途中簡餐 | 皇后鎮餐廳 | Queenstown |
 | 6 | 12/24（四）🎄| 皇后鎮 | TSS Earnslaw＋Walter Peak 高地 BBQ 晚餐，第 2 晚 | Queenstown 自由午餐／輕食 | Walter Peak 高地 BBQ 晚餐（已含票價） | Queenstown |
-| 7 | 12/25（五）🎄| 皇后鎮 | Skyline+Luge，第 3 晚（Bungy 因聖誕節公休已改至 Day8） | 皇后鎮湖濱咖啡館 | 超市自煮／飯店 Christmas Buffet（提前訂位） | Queenstown |
+| 7 | 12/25（五）🎄| 皇后鎮 | 自由活動，第 3 晚（Bungy 因聖誕節公休已改至 Day8） | 皇后鎮湖濱咖啡館 | Skyline Gondola+Luge+Christmas Dinner（已訂） | Queenstown |
 | 8 | 12/26（六）| 箭鎮→克倫威爾→瓦納卡 | 淘金小鎮、Kawarau Bridge Bungy（途中）、水果小鎮 | 箭鎮 Bakery 👍 | 瓦納卡湖畔餐廳 | Wanaka |
 | 9 | 12/27（日）| 瓦納卡 | 悠閒日、孤樹 | 瓦納卡湖濱咖啡館 | Kai Whakapai 👍 | Wanaka |
 | 10 | 12/28（一）| 瓦納卡→庫克山 | Lindis Pass 觀景台、胡克谷健行 | High Country Salmon 🌟 | 🛒 超市採買自煮 | Haka House Hostel Aoraki Mt Cook |
@@ -168,17 +168,20 @@
 ### Day 7｜12/25（五，聖誕節）｜皇后鎮經典體驗（連住第 3 晚）
 - 🗺️ [開啟本日完整路線（多站導航，起點為你目前位置）](https://www.google.com/maps/dir/?api=1&destination=-45.0328,168.6615&travelmode=driving)
 - ⚠️ 聖誕節當天部分商店/景點縮短營業，出發前先確認開放時間
-- 上午：Skyline Gondola 天際纜車 + Luge 溜溜車　`📌待訂`
-  - 🎟️ [官方預訂 Skyline](https://www.skyline.co.nz/queenstown/)
-  - 📍 纜車基地站：Brecon Street, Queenstown
-  - 🅿️ 基地站後方有立體停車場（收費，憑當日纜車票可折抵部分費用）
-  - ⏰ 現場尖峰擁擠時段為 **10:00–14:30**，建議一早或傍晚前往人潮較少；強烈建議先線上訂票，可直接領票免排隊購票
-  - ⚠️ 聖誕節營業與可選時段以各景點訂位頁為準
+- 上午：皇后鎮自由活動、湖濱散步
 - 🍽️ 午餐：皇后鎮湖濱咖啡館，或 👍 **Patagonia Chocolates**（人氣冰淇淋/巧克力甜點）——以聖誕節當日營業與預訂狀況為準
-- 下午：皇后鎮自由活動、湖濱散步
+- 下午：持續自由活動
   - 💡 Kawarau Bridge Bungy 已改排至 **Day8**（前往箭鎮／克倫威爾途中順路停靠）——因為 Kawarau Bungy Centre 聖誕節當天公休，無法在本日進行
   - 💡 **彈性選項：Glenorchy 一日往返**（沿瓦卡蒂普湖岸單程車程約 45–50 分鐘，來回連同停留約需 3–4 小時）——公認紐西蘭最美短程景觀公路之一，魔戒取景地、雪山湖景無敵；聖誕節當天鎮上店家可能沒開，主要是為了沿途風景，若想去建議這個下午幾乎整段時間都會用在這趟車程上，依心情決定
-- 🍽️ 晚餐：強烈建議於 12/24 先至超市採買食材，回住宿點自煮；或於出發前三個月直接預訂高級飯店的 Christmas Buffet
+- **約19:00–19:30 前往 Skyline Gondola 天際纜車**：Gondola + Christmas Dinner 套票　`📌已訂`
+  - 4人合計**NZ$1,036.00**（NZ$259/人），Skyline訂單編號**110591829**
+  - 📍 纜車基地站：Brecon Street, Queenstown 9300（電話 +64 3 441 0101）
+  - 🅿️ 基地站後方有立體停車場，憑當日有效纜車票可折抵20%（結帳前需至繳費機驗證車票）
+  - ⚠️ **套票含3趟Luge，但聖誕節當天規定所有Luge須在21:00前完成**，晚餐訂位是21:30–23:00，故建議提早在19:00–19:30抵達，先悠閒騎完3趟Luge、逛纜車站，再回Stratosfare餐廳用餐，不要卡在官方標準建議的「訂位前45分鐘（20:45）抵達」，那樣會來不及騎Luge
+  - 🍽️ 21:30–23:00　**Christmas Dinner**（Stratosfare餐廳聖誕自助餐，含歡迎飲料、聖誕老人來訪），用餐時間90分鐘
+  - ⚠️ 聖誕節當天法規禁止零售酒類，僅能在訂位用餐時段內於餐桌點購酒水
+  - ⚠️ 取消政策：12/18（含）後取消或改期需付100%費用，未到場（no-show）同樣收取100%費用
+  - 🎟️ [官方預訂 Skyline](https://www.skyline.co.nz/queenstown/)
 - 🏨 住宿：Queenstown（同 Day5/6）
 
 ### Day 8｜12/26（六，Boxing Day）｜箭鎮 → 克倫威爾 → 瓦納卡
@@ -373,13 +376,13 @@
 | Ōamaru 藍企鵝 Premium Entry | 70 | 280 | `📌已訂`；訂單編號340875，Day2（12/20）20:45場次 |
 | Te Anau 螢火蟲洞＋Milford Signature Cruise 套票 | 約313 | 1,252.80 | `📌已訂`；螢火蟲洞NZ$616.00（訂單378570827）＋Milford峽灣NZ$636.80（訂單378570829，已含20%套票折扣） |
 | Walter Peak BBQ 晚餐 | 219 | 876 | `📌已訂`；RealNZ訂單編號378570831 |
-| Skyline Gondola＋3 Luge Rides | 99 | 396 | `📌待訂`；現行公開方案，12 月價格為準 |
+| Skyline Gondola＋3 Luge＋Christmas Dinner | 259 | 1,036 | `📌已訂`；訂單編號110591829，已含聖誕自助晚餐（取代原Day7晚餐預算） |
 | Tasman Glacier Heli-Hike | 995 | 3,980 | `📌已訂`；訂單編號RQQCT97，12/29 13:00場次；備案為 Tasman Glacier Explorers 冰河船（836起） |
 | Silver River Stargazing（蒂卡波湖銀河觀星體驗） | 約128 | 約514（HK$2,367.4） | `📌已訂`；Klook訂單編號ZPU276679，NZD為約略換算，實際以HKD刷卡金額為準 |
 | Willowbank Wildlife Reserve（4 位成人） | 28 | 112 | `📌待訂`；一般門票，加購導覽奇異鳥摸摸體驗則 54/人（216/4人） |
 | NZeTA＋IVL（官方 App，4 人） | 117 | 468 | 行前必要費用，需及早辦理 |
 | 租車 SUV＋Zero Excess | — | 1,500–1,800 | `📌待訂`；需確認 4 位授權駕駛與行李容量 |
-| **3.1 小計** | — | **約 9,379–9,679** | 不含燃油、停車、餐食；已依螢火蟲洞/Milford套票、TSS Earnslaw、藍企鵝確認價格調整 |
+| **3.1 小計** | — | **約 10,019–10,319** | 不含燃油、停車、餐食；已依螢火蟲洞/Milford套票、TSS Earnslaw、藍企鵝、Skyline確認價格調整 |
 
 ### 3.2 加入燃油、停車與全程餐食後
 
@@ -388,7 +391,7 @@
 | 燃油 | 500–700 | 規劃預留 |
 | 停車 | 200–350 | 規劃預留，含 Milford、Queenstown 等地 |
 | 餐食與超市採買 | 3,000–4,500 | 規劃預留；Walter Peak 晚餐已計入 3.1，不重複計算 |
-| **累計總額（3.1＋3.2）** | **約 13,079–15,229** | 不含國際機票、15 晚住宿與旅遊保險 |
+| **累計總額（3.1＋3.2）** | **約 13,719–15,869** | 不含國際機票、15 晚住宿與旅遊保險；Day7晚餐已含於Skyline套票，3.2的餐食預算可視為留有餘裕 |
 
 ### 3.4 自由參加活動（未計入任何總額，依實際參加人數另計）
 
@@ -467,7 +470,7 @@
 | TSS Earnslaw＋Walter Peak 高地 BBQ 晚餐（訂單378570831）`📌已訂` | https://www.realnz.com/zh-cn/experiences/dining/walter-peak-bbq-dining/ |
 | 塔斯曼冰河直升機健行 (Alpine Guides - Heli-Hike) `📌已訂` | https://alpineguides.co.nz/tasman-glacier-heli-hike |
 | 塔斯曼冰河船 (The Hermitage - Glacier Explorers)　備案用 | https://www.hermitage.co.nz/experience/glacier-explorers/ |
-| Skyline 天際纜車＋Luge | https://www.skyline.co.nz/queenstown/ |
+| Skyline 天際纜車＋Luge＋Christmas Dinner（訂單110591829）`📌已訂` | https://www.skyline.co.nz/queenstown/ |
 | 卡瓦勞大橋高空彈跳 (AJ Hackett - Kawarau Bungy Centre) | https://www.bungy.co.nz/queenstown/kawarau-bungy-centre/kawarau-bridge-bungy/ |
 | 奧瑪魯藍企鵝棲息地（訂單340875）`📌已訂` | https://www.penguins.co.nz/ |
 | 蒂卡波觀星團 (Silver River Stargazing，透過Klook訂購) `📌已訂` | https://www.klook.com |
@@ -650,6 +653,16 @@
 - 🟡 **建議報到時段由「開始前15分鐘」更新為「開始前30–60分鐘」**：依訂單確認信說明，此時段可先參觀場館內的Discovery Centre，故建議19:45–20:15間抵達。
 - 🟡 **新增HPAI（禽流感）防疫注意事項**：入園前需使用現場洗腳消毒站，為官方新增的防疫規定。
 - 🟢 **3.1小計因藍企鵝價格由估計值轉為實際值而調整**：約9,287–9,587 → **約9,379–9,679**；累計總額（3.1+3.2）：約12,987–15,137 → **約13,079–15,229**。
+- 其餘路線、日期、住宿城市、餐廳與已確認預訂皆維持不變。
+
+---
+
+**V29 Day7 Skyline Gondola+Luge+Christmas Dinner已訂，Day7行程大幅調整**（2026-09-12）：
+- 🔴 **Skyline套票已訂**：Gondola + Christmas Dinner套票，晚餐時段**21:30–23:00**，4人合計**NZ$1,036.00**（NZ$259/人），Skyline訂單編號**110591829**。
+- 🟡 **Day7原本的「上午Skyline+Luge、晚餐另外處理」行程結構已大幅調整為「白天自由活動、傍晚集中前往Skyline」**：此套票已包含3趟Luge與聖誕自助晚餐（Stratosfare餐廳），原本規劃的上午纜車行程與晚餐（超市自煮／飯店Buffet）皆已被此單一套票取代，故Day7上午、下午改為單純自由活動時段。
+- 🔴 **重要限制：聖誕節當天所有Luge須在21:00前完成**，與21:30的晚餐時段有落差，故不能只依官方標準建議「訂位前45分鐘（20:45）抵達」，已建議提早至**19:00–19:30抵達**，先完成3趟Luge，再進場用餐。
+- 🟡 **其他訂單條款已補進行程**：聖誕節當天禁止零售酒類（僅能於用餐時段在餐桌點購）；12/18後取消或改期、或當日no-show皆收取100%費用。
+- 🟢 **3.1小計因Skyline價格由估計值（含Luge，不含晚餐）轉為實際套票價（含Luge與晚餐）而調整**：約9,379–9,679 → **約10,019–10,319**；累計總額（3.1+3.2）：約13,079–15,229 → **約13,719–15,869**（Day7晚餐已內含於此套票中，3.2的餐食預算可視為留有餘裕）。
 - 其餘路線、日期、住宿城市、餐廳與已確認預訂皆維持不變。
 
 ---
