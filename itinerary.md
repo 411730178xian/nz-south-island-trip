@@ -189,7 +189,9 @@
 - 09:30 Queenstown → Arrowtown
   - 🚗 約 25 分鐘｜[Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Queenstown&destination=Arrowtown&travelmode=driving)
 - 淘金小鎮歷史街區散步，時間較寬裕，可悠閒停留（因下午蹦極訂位時段較晚，見下方）
-- 🍽️ 午餐：👍 **Arrowtown Bakery**（在地人氣烘焙坊）
+- 🍽️ 午餐：👍 **Arrowtown Bakery**（在地人氣烘焙坊，位於 Buckingham Street 入口處）
+- ☕ **Wolf Coffee Roasters**（箭鎮最知名咖啡館，自家烘豆）：44 Buckingham Street, Arrowtown 9302　`⏰ 週六營業 08:00–16:30`（媽媽提供的資訊為「3點半打烊」，經查證官方營業時間實為16:30，仍建議提早前往，人氣店家周末可能排隊）
+- 🍦 **The Shed Ice Cream and Takeaways**（Tip Top 冰淇淋，多種口味）：Buckingham Green 旁
 - 下午：Arrowtown 一帶持續自由活動（悠閒緩衝時段，不用趕）
 - **約14:45–15:00 Arrowtown → Kawarau Bridge Bungy Centre**（沿 SH6 順路，不繞路）
   - 🚗 約 10–15 分鐘｜[Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Arrowtown&destination=Kawarau+Bridge+Bungy+Centre&travelmode=driving)
@@ -676,6 +678,14 @@
 - 🟡 **Day8下午行程大幅調整**：原本規劃中午12:00左右抵達蹦極中心，因訂位時段確認為15:15報到，故Arrowtown改為悠閒停留、延後出發；蹦極結束後（約16:30-17:00）才前往Cromwell（簡短停留）、再到Wanaka（約18:45抵達），晚餐時間隨之延後至19:00-19:30後。
 - 🔴 **重要提醒：每位參加者需在抵達前完成官方線上Online Waiver（免責同意書）**，訂單確認信內有專屬連結，未完成可能延誤跳躍時間。
 - 🟡 **取消政策**：訂位前48小時內可免費更改，48小時內取消或改期不可退款。
+- 其餘路線、日期、住宿城市、餐廳與已確認預訂皆維持不變。
+
+---
+
+**V31 補上Day8箭鎮推薦景點（媽媽提供）：Wolf Coffee Roasters、The Shed冰淇淋**（2026-09-12）：
+- 🟢 **新增Wolf Coffee Roasters**：箭鎮最知名咖啡館，自家烘豆，地址44 Buckingham Street, Arrowtown 9302。媽媽提供的資訊為「下午3點半打烊」，經查證官方資料週六實際營業至16:30，已依查證結果記錄，仍建議提早前往（人氣店家週末可能排隊）。
+- 🟢 **新增The Shed Ice Cream and Takeaways**：供應Tip Top冰淇淋，位於Buckingham Green旁；座標於Nominatim查無資料，暫用Arrowtown中心點座標為近似值。
+- 🟢 兩處皆在Day8已有的Arrowtown悠閒時段內，不影響下午蹦極訂位的時間安排。
 - 其餘路線、日期、住宿城市、餐廳與已確認預訂皆維持不變。
 
 ---
