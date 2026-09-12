@@ -26,7 +26,7 @@
 | 2 | 12/20（日）| 東海岸 | 摩洛奇龍珠石、奧瑪魯藍企鵝（途經Timaru短停） | Fishwife 🌟 | 奧瑪魯市區小酒館或餐廳 | Oamaru |
 | 3 | 12/21（一）| 南下大移動 | Dunedin、Mataura Falls 沿途打卡 | Gore 小鎮咖啡館 | Te Anau 市區餐廳（住宿無廚房） | Te Anau |
 | 4 | 12/22（二）| 米佛峽灣 | Mirror Lakes、Eglinton Valley、Homer Tunnel、峽灣巡航 | 自備野餐/峽灣咖啡館 | Te Anau 市區餐廳（住宿無廚房） | Te Anau |
-| 5 | 12/23（三）| 蒂阿瑙→皇后鎮 | Devil's Staircase 觀景點，皇后鎮連住第 1 晚 | 途中簡餐 | 皇后鎮餐廳 | Queenstown |
+| 5 | 12/23（三）| 蒂阿瑙→皇后鎮 | Devil's Staircase 觀景點，皇后鎮連住第 1 晚 | 途中簡餐 | 🌟Fergburger | Queenstown |
 | 6 | 12/24（四）🎄| 皇后鎮 | TSS Earnslaw＋Walter Peak 高地 BBQ 晚餐，第 2 晚 | Queenstown 自由午餐／輕食 | Walter Peak 高地 BBQ 晚餐（已含票價） | Queenstown |
 | 7 | 12/25（五）🎄| 皇后鎮 | 自由活動，第 3 晚（Bungy 因聖誕節公休已改至 Day8） | 皇后鎮湖濱咖啡館 | Skyline Gondola+Luge+Christmas Dinner（已訂） | Queenstown |
 | 8 | 12/26（六）| 箭鎮→克倫威爾→瓦納卡 | 淘金小鎮、Kawarau Bridge Bungy 15:30（已訂）、水果小鎮 | 箭鎮 Bakery 👍 | 瓦納卡湖畔餐廳（較晚） | Wanaka |
@@ -145,7 +145,11 @@
 - 約 12:15-12:30 抵達 Queenstown
 - 🍽️ 午餐：途中小鎮簡餐（Mossburn 或抵達後於皇后鎮解決）
 - 下午：皇后鎮鎮中心、瓦卡蒂普湖濱散步，安頓入住（接下來連住 3 晚，不需再搬行李）
-- 🍽️ 晚餐：皇后鎮餐廳
+- 🍽️ 晚餐：🌟 **Fergburger**（皇后鎮必吃漢堡店）
+  - 📍 地址：42 Shotover Street, Queenstown 9300（電話 03 441 1232）
+  - ⏰ 全年無休 07:00–02:30
+  - ⚠️ **不接受座位訂位**，現場常需排隊20-60分鐘，取餐再等約20-30分鐘；建議電話先點餐再到店取（可跳過排隊），或避開尖峰（中午/晚餐時段），選下午時段人潮較少
+  - 🔗 [官網 fergburger.com](https://www.fergburger.com/)
 - 🏨 住宿：**Awa Stunning Riverview Apartment**（Arthurs Point, Queenstown）　`📌已訂`
   - 連住3晚，HKD$13,196.68（付款排程2026/11/15扣款），Divine Property Management，Airbnb確認碼HMHYH9EF3C
 
@@ -699,4 +703,11 @@
 - 🟡 **飲食備註已於TSS Earnslaw訂單登記**：4人中1人不吃牛肉（無過敏）。
 - 🟢 **3.1小計因三項確認價格由估計值轉為實際值而調整**：約9,054–9,554 → **約9,287–9,587**；累計總額（3.1+3.2）：約12,754–15,104 → **約12,987–15,137**。
 - 🔴 **安全提醒**：訂單確認信PDF內含信用卡後四碼、全名、實際扣款金額等個資，已另存於本機`訂單確認信/`資料夾並加入`.gitignore`排除，不會被推送到公開的GitHub Pages網站。
+- 其餘路線、日期、住宿城市、餐廳與已確認預訂皆維持不變。
+
+---
+
+**V32 Day5晚餐排入Fergburger（皇后鎮必吃），已查證地址／營業時間／訂位政策**（2026-09-12）：
+- 🟢 **Fergburger正式排入Day5（12/23）晚餐**：原本僅在食物總表作為彈性必吃選項，現指定為Day5抵達皇后鎮當晚的晚餐。
+- 🟢 **已查證官方資訊**：地址42 Shotover Street, Queenstown 9300（電話03 441 1232），全年無休07:00–02:30；**不接受座位訂位**，現場排隊常需20-60分鐘＋取餐20-30分鐘，建議電話先點餐到店取，或避開中午/晚餐尖峰時段。
 - 其餘路線、日期、住宿城市、餐廳與已確認預訂皆維持不變。
