@@ -35,7 +35,7 @@
 | 11 | 12/29（二）| 庫克山→蒂卡波湖 | 塔斯曼冰河直升機健行（備案：冰河船） | Hermitage Hotel Alpine Restaurant | 🛒 超市採買自煮 | Fairlie |
 | 12 | 12/30（三）| 蒂卡波湖 | 悠閒緩衝日：Mt John 觀景公路、22:45 Silver River觀星團（已訂） | 湖畔咖啡館／Astro Café | Kohan Restaurant 👍／超市自煮 | Fairlie |
 | 13 | 12/31（四）🎉| Fairlie→基督城 | 沿途 Geraldine，North Hagley Park跨年煙火（官方活動） | Fairlie Bakehouse 🌟 | 基督城跨年晚餐（先訂位） | Christchurch |
-| 14 | 1/1（五）🎊| 基督城 | 元旦日出（選配）、Willowbank Wildlife Reserve | 🛒 自煮 | 🛒 自煮 | Christchurch |
+| 14 | 1/1（五）🎊| 基督城 | 元旦日出（選配）、Willowbank奇異鳥導覽11:00（已訂） | 🛒 自煮 | 🛒 自煮 | Christchurch |
 | 15 | 1/2（六）| 阿卡羅瓦 | Akaroa 一日遊：法式小鎮＋Hilltop＋The Giant's House（賞豚遊船改為自由參加） | Akaroa 港邊咖啡館 👍 | 基督城市區餐廳 | Christchurch |
 | 16 | 1/3（日）| 基督城 | 收拾、10:45-11:00還車、11:20前抵機場 | 機場用餐/簡便食物 | 機上 | — |
 
@@ -329,10 +329,15 @@
   - 選項A：**New Brighton Pier** 看日出（正東面海，地平線無遮蔽，車程約20-25分鐘，約05:50–06:00，出發前用手機日出App再確認實際時間）——⚠️ 跨年煙火00:00結束後幾乎沒時間睡就要出發，體力消耗大，建議前一晚先決定要不要熬夜挑戰，或派部分人去就好
   - 選項B：睡到自然醒（原方案，跨年夜熬夜後好好休息）
 - 💡 **假日附加費因應措施**：早餐使用超市食材於 Airbnb/住宿處自理，避開元旦餐廳 15% 附加費
-- 約 11:00 起：**Willowbank Wildlife Reserve**（近距離看紐西蘭國寶奇異鳥＋多種原生動物）
+- 約10:00–10:15：抵達 **Willowbank Wildlife Reserve** 入園（園區09:30開門，先熟悉環境、找水獺區位置）
   - 🎟️ [官網 willowbank.co.nz](https://www.willowbank.co.nz/)
-  - 💰 一般門票 NZ$28／人；4 位成人合計 NZ$112（含奇異鳥夜行館）；想升級導覽版摸得到奇異鳥可加購 NZ$54／人（約 NZ$216/4人）
   - ⏰ 開放 9:30–17:00，元旦正常營業（僅聖誕節公休）
+- 10:45：水獺餵食秀（約10-15分鐘，免費含於門票內）
+- **11:00–11:45：Guided Native Tour（奇異鳥導覽，保證看到奇異鳥）**　`📌已訂`
+  - 4人合計**NZ$216.00**（NZ$54/人，已含園區門票，不用再另外買一般門票）
+  - 導覽走原生動物區，包含kea、kiwi、kaka、ruru等鳥類
+  - ⚠️ 全程約45分鐘，行程可能受天候影響
+- 約11:45起：導覽結束，視體力與時間可留下來看鰻魚餵食（11:50）、暹羅吉本斯餵食（12:45）、凱亞餵食（13:00），皆免費含於門票內
 - 🍽️ 午餐：園區內或自備三明治
 - 下午：若還有體力，可加碼市區 Avon River 撐篙（NZ$22.90/人，30分鐘，選配不強制）；或直接回市區逛街／Hagley Park 休息，為隔天 Akaroa 一日遊養精蓄銳
 - 🍽️ 晚餐：🛒 超市採買自煮（避開假日附加費）
@@ -394,10 +399,10 @@
 | Skyline Gondola＋3 Luge＋Christmas Dinner | 259 | 1,036 | `📌已訂`；訂單編號110591829，已含聖誕自助晚餐（取代原Day7晚餐預算） |
 | Tasman Glacier Heli-Hike | 995 | 3,980 | `📌已訂`；訂單編號RQQCT97，12/29 13:00場次；備案為 Tasman Glacier Explorers 冰河船（836起） |
 | Silver River Stargazing（蒂卡波湖銀河觀星體驗） | 約128 | 約514（HK$2,367.4） | `📌已訂`；Klook訂單編號ZPU276679，NZD為約略換算，實際以HKD刷卡金額為準 |
-| Willowbank Wildlife Reserve（4 位成人） | 28 | 112 | `📌待訂`；一般門票，加購導覽奇異鳥摸摸體驗則 54/人（216/4人） |
+| Willowbank Guided Native Tour（4 位成人） | 54 | 216 | `📌已訂`；已含門票，11:00-11:45場次，保證看到奇異鳥 |
 | NZeTA＋IVL（官方 App，4 人） | 117 | 468 | 行前必要費用，需及早辦理 |
 | 租車 SUV＋Zero Excess | — | 1,500–1,800 | `📌待訂`；需確認 4 位授權駕駛與行李容量 |
-| **3.1 小計** | — | **約 10,019–10,319** | 不含燃油、停車、餐食；已依螢火蟲洞/Milford套票、TSS Earnslaw、藍企鵝、Skyline確認價格調整 |
+| **3.1 小計** | — | **約 10,123–10,423** | 不含燃油、停車、餐食；已依螢火蟲洞/Milford套票、TSS Earnslaw、藍企鵝、Skyline、Willowbank確認價格調整 |
 
 ### 3.2 加入燃油、停車與全程餐食後
 
@@ -406,7 +411,7 @@
 | 燃油 | 500–700 | 規劃預留 |
 | 停車 | 200–350 | 規劃預留，含 Milford、Queenstown 等地 |
 | 餐食與超市採買 | 3,000–4,500 | 規劃預留；Walter Peak 晚餐已計入 3.1，不重複計算 |
-| **累計總額（3.1＋3.2）** | **約 13,719–15,869** | 不含國際機票、15 晚住宿與旅遊保險；Day7晚餐已含於Skyline套票，3.2的餐食預算可視為留有餘裕 |
+| **累計總額（3.1＋3.2）** | **約 13,823–15,973** | 不含國際機票、15 晚住宿與旅遊保險；Day7晚餐已含於Skyline套票，3.2的餐食預算可視為留有餘裕 |
 
 ### 3.4 自由參加活動（未計入任何總額，依實際參加人數另計）
 
@@ -490,7 +495,7 @@
 | 奧瑪魯藍企鵝棲息地（訂單340875）`📌已訂` | https://www.penguins.co.nz/ |
 | 蒂卡波觀星團 (Silver River Stargazing，透過Klook訂購) `📌已訂` | https://www.klook.com |
 | Puzzling World Wanaka | https://www.puzzlingworld.co.nz/ |
-| Willowbank Wildlife Reserve | https://www.willowbank.co.nz/ |
+| Willowbank Wildlife Reserve（Guided Native Tour已訂） `📌已訂` | https://www.willowbank.co.nz/ |
 | Fishwife（Moeraki，取代已永久停業的 Fleur's Place）🌟必吃 | https://www.facebook.com/MoerakiFishWife/ |
 | Fergburger 🌟必吃 | https://www.fergburger.com/ |
 
@@ -724,4 +729,12 @@
 - 🟢 **Erik's Fish and Chips排入Day7午餐選項（三選一）**：查證發現媽媽提供的地址「1 Earl St」有誤，**正確地址為13 Earl Street**（已比對Yelp、Waze、官方菜單頁等多方來源），營業時間約11:30-21:00。
 - 🔴 **Amisfield暫不排入行程**：查證後發現有兩種方案——(1) Bistro／Cellar Door，每週三至週日11:30-15:30，價位較親民；(2) Lunch Tasting Menu，**2.5小時、NZ$395/人（4人合計NZ$1,580）**。原本設想排在Day8前往Arrowtown途中，但Day8下午已鎖定15:15報到的Kawarau Bungy訂位（當日最後場次、無緩衝空間），2.5小時的正式午餐體驗時間上明顯衝突，會壓縮到Arrowtown悠閒時段甚至有錯過Bungy報到的風險；聖誕節（Day7）當天是否營業也未查到官方確認。若仍想去，建議改选Day7白天（需先致電確認聖誕節有無營業）並選擇較短的Bistro方案，而非2.5小時的正式套餐。
 - 🟢 **部落格頁面其餘推薦（Fergburger、Devil Burger、Cookie Time、Taco Medic、Flame Bar & Grill、Bazaar、Rata、Botswana Butchery、The Grille by Eichardt's）已確認內容，暫不加入行程**：現有Queenstown餐飲安排已足夠豐富，加上其餘選項多為晚餐時段（皇后鎮晚餐已被TSS Earnslaw／Skyline／Fergburger占滿），故暫不排入，留待現場依心情彈性選擇。
+- 其餘路線、日期、住宿城市、餐廳與已確認預訂皆維持不變。
+
+---
+
+**V34 Day14 Willowbank Guided Native Tour已訂（11:00-11:45場次），補齊入園與餵食秀時間表**（2026-09-12）：
+- 🔴 **Willowbank Guided Native Tour已訂**：4人合計**NZ$216.00**（NZ$54/人，已含園區門票，不需另購一般門票），**11:00-11:45場次**，保證看到奇異鳥，訂單編號待補（訂單確認信送達後更新）。
+- 🟢 **補齊完整入園時間軸**：園區09:30開門，建議10:00-10:15抵達；10:45水獺餵食秀；11:00-11:45奇異鳥導覽；導覽結束後可繼續留下看鰻魚餵食(11:50)、暹羅吉本斯餵食(12:45)、凱亞餵食(13:00)，以上餵食秀皆免費含於門票內、不需另外購票。
+- 🟢 **3.1小計因Willowbank價格由估計值（一般門票112）轉為實際值（含導覽216）而調整**：約10,019–10,319 → **約10,123–10,423**；累計總額（3.1+3.2）：約13,719–15,869 → **約13,823–15,973**。
 - 其餘路線、日期、住宿城市、餐廳與已確認預訂皆維持不變。
