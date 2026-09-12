@@ -29,7 +29,7 @@
 | 5 | 12/23（三）| 蒂阿瑙→皇后鎮 | Devil's Staircase 觀景點，皇后鎮連住第 1 晚 | 途中簡餐 | 皇后鎮餐廳 | Queenstown |
 | 6 | 12/24（四）🎄| 皇后鎮 | TSS Earnslaw＋Walter Peak 高地 BBQ 晚餐，第 2 晚 | Queenstown 自由午餐／輕食 | Walter Peak 高地 BBQ 晚餐（已含票價） | Queenstown |
 | 7 | 12/25（五）🎄| 皇后鎮 | 自由活動，第 3 晚（Bungy 因聖誕節公休已改至 Day8） | 皇后鎮湖濱咖啡館 | Skyline Gondola+Luge+Christmas Dinner（已訂） | Queenstown |
-| 8 | 12/26（六）| 箭鎮→克倫威爾→瓦納卡 | 淘金小鎮、Kawarau Bridge Bungy（途中）、水果小鎮 | 箭鎮 Bakery 👍 | 瓦納卡湖畔餐廳 | Wanaka |
+| 8 | 12/26（六）| 箭鎮→克倫威爾→瓦納卡 | 淘金小鎮、Kawarau Bridge Bungy 15:30（已訂）、水果小鎮 | 箭鎮 Bakery 👍 | 瓦納卡湖畔餐廳（較晚） | Wanaka |
 | 9 | 12/27（日）| 瓦納卡 | 悠閒日、孤樹 | 瓦納卡湖濱咖啡館 | Kai Whakapai 👍 | Wanaka |
 | 10 | 12/28（一）| 瓦納卡→庫克山 | Lindis Pass 觀景台、胡克谷健行 | High Country Salmon 🌟 | 🛒 超市採買自煮 | Haka House Hostel Aoraki Mt Cook |
 | 11 | 12/29（二）| 庫克山→蒂卡波湖 | 塔斯曼冰河直升機健行（備案：冰河船） | Hermitage Hotel Alpine Restaurant | 🛒 超市採買自煮 | Fairlie |
@@ -188,22 +188,26 @@
 - 🗺️ [開啟本日完整路線（多站導航，起點為你目前位置）](https://www.google.com/maps/dir/?api=1&destination=-44.6975,169.1348&waypoints=-44.9391,168.8323%7C-45.1275,168.7508%7C-45.0392,169.1962&travelmode=driving)
 - 09:30 Queenstown → Arrowtown
   - 🚗 約 25 分鐘｜[Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Queenstown&destination=Arrowtown&travelmode=driving)
-- 淘金小鎮歷史街區散步
-- 🍽️ 午餐：👍 **Arrowtown Bakery**（在地人氣烘焙坊）或 Cromwell 水果攤
-- 12:00 Arrowtown → Kawarau Bridge Bungy Centre（沿 SH6 順路，不繞路）
+- 淘金小鎮歷史街區散步，時間較寬裕，可悠閒停留（因下午蹦極訂位時段較晚，見下方）
+- 🍽️ 午餐：👍 **Arrowtown Bakery**（在地人氣烘焙坊）
+- 下午：Arrowtown 一帶持續自由活動（悠閒緩衝時段，不用趕）
+- **約14:45–15:00 Arrowtown → Kawarau Bridge Bungy Centre**（沿 SH6 順路，不繞路）
   - 🚗 約 10–15 分鐘｜[Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Arrowtown&destination=Kawarau+Bridge+Bungy+Centre&travelmode=driving)
-- **Kawarau Bridge Bungy（自由參加）**　`📌待訂／自由參加`（原排 Day7，因聖誕節公休已改至本日）
+- **15:15 報到，15:30 跳躍｜Kawarau Bungy with Media**　`📌已訂`
+  - 2人（成人）參加，合計**NZ$640.00**，AJ Hackett訂單號**3790518**（Booking ID **2552575**）
   - 🎟️ [官方預訂 AJ Hackett - Kawarau Bungy Centre](https://www.bungy.co.nz/queenstown/kawarau-bungy-centre/kawarau-bridge-bungy/)
   - 📍 地址：State Highway 6 (SH6), Gibbston Valley, Queenstown
   - 🅿️ 現場免費停車（含露營車過夜車格）
-  - ⏰ 自行開車者建議提前 15 分鐘報到；若在皇后鎮搭乘官方接駁車則需提前 30 分鐘報到
-  - ⏰ 營業時間 9:30–16:00
-- 12:45 Kawarau Bridge Bungy Centre → Cromwell
+  - ⚠️ **每位參加者需在抵達前完成官方線上Online Waiver（免責同意書）**，訂單確認信有專屬連結，未完成可能延誤跳躍時間，出發前務必確認2位參加者都已填寫
+  - ⚠️ 取消政策：訂位前48小時內可免費更改，48小時內取消或改期不可退款
+  - ⏰ 營業時間 9:30–16:00，本場次為當日最後時段之一，已確認15:15報到、15:30跳躍
+- 約16:30–17:00 結束（含拍照/影片領取）→ Kawarau Bridge Bungy Centre → Cromwell
   - 🚗 約 30 分鐘｜[Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Kawarau+Bridge+Bungy+Centre&destination=Cromwell&travelmode=driving)
-- 水果雕塑拍照、採買新鮮水果
-- 14:00 Cromwell → Wanaka
+- 水果雕塑拍照、採買新鮮水果（時間較短，簡短停留即可）
+- 約17:45 Cromwell → Wanaka
   - 🚗 約 55 分鐘｜[Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=Cromwell&destination=Wanaka&travelmode=driving)
-- 🍽️ 晚餐：瓦納卡湖畔餐廳
+- 約18:45 抵達 Wanaka
+- 🍽️ 晚餐：瓦納卡湖畔餐廳（時間會比原計畫晚，建議約19:00–19:30後）
 - 🏨 住宿：**Archway Motels & Chalets**（64 Hedditch Street, Wanaka）　`📌已訂`
   - 標準家庭兩臥室公寓，2晚共TWD48,660（Trip.com訂單編號1359047394878824），12/24 14:00前可免費取消
 
@@ -397,7 +401,7 @@
 
 | 項目 | 每人 (NZD) | 說明 |
 |---|---:|---|
-| Kawarau Bridge Bungy | 320／位參加者 | 選擇性活動，總額需依實際參加人數 **+NZ$320／人** |
+| Kawarau Bridge Bungy | 320／位參加者 | `📌已訂`；2人參加，合計NZ$640.00，AJ Hackett訂單號3790518（Booking ID 2552575），含照片/影片 |
 | Puzzling World 全套 Combo | 32.50 | 選擇性活動，不計入核心總額 |
 | Akaroa Nature Cruise 賞豚遊船 | 130／人（4人520） | 已改為自由參加，非必要行程；較穩妥選項，全程待在船上 |
 | Akaroa Swimming with Dolphins 海豚共游 | 250／人（4人1,000） | 已改為自由參加，非必要行程；需下水，與 Nature Cruise 二選一，不會同時參加 |
@@ -471,7 +475,7 @@
 | 塔斯曼冰河直升機健行 (Alpine Guides - Heli-Hike) `📌已訂` | https://alpineguides.co.nz/tasman-glacier-heli-hike |
 | 塔斯曼冰河船 (The Hermitage - Glacier Explorers)　備案用 | https://www.hermitage.co.nz/experience/glacier-explorers/ |
 | Skyline 天際纜車＋Luge＋Christmas Dinner（訂單110591829）`📌已訂` | https://www.skyline.co.nz/queenstown/ |
-| 卡瓦勞大橋高空彈跳 (AJ Hackett - Kawarau Bungy Centre) | https://www.bungy.co.nz/queenstown/kawarau-bungy-centre/kawarau-bridge-bungy/ |
+| 卡瓦勞大橋高空彈跳 (AJ Hackett - Kawarau Bungy Centre，訂單3790518) `📌已訂` | https://www.bungy.co.nz/queenstown/kawarau-bungy-centre/kawarau-bridge-bungy/ |
 | 奧瑪魯藍企鵝棲息地（訂單340875）`📌已訂` | https://www.penguins.co.nz/ |
 | 蒂卡波觀星團 (Silver River Stargazing，透過Klook訂購) `📌已訂` | https://www.klook.com |
 | Puzzling World Wanaka | https://www.puzzlingworld.co.nz/ |
@@ -663,6 +667,15 @@
 - 🔴 **重要限制：聖誕節當天所有Luge須在21:00前完成**，與21:30的晚餐時段有落差，故不能只依官方標準建議「訂位前45分鐘（20:45）抵達」，已建議提早至**19:00–19:30抵達**，先完成3趟Luge，再進場用餐。
 - 🟡 **其他訂單條款已補進行程**：聖誕節當天禁止零售酒類（僅能於用餐時段在餐桌點購）；12/18後取消或改期、或當日no-show皆收取100%費用。
 - 🟢 **3.1小計因Skyline價格由估計值（含Luge，不含晚餐）轉為實際套票價（含Luge與晚餐）而調整**：約9,379–9,679 → **約10,019–10,319**；累計總額（3.1+3.2）：約13,079–15,229 → **約13,719–15,869**（Day7晚餐已內含於此套票中，3.2的餐食預算可視為留有餘裕）。
+- 其餘路線、日期、住宿城市、餐廳與已確認預訂皆維持不變。
+
+---
+
+**V30 Day8 Kawarau Bridge Bungy已訂（2人參加），Day8下午時間軸重新調整**（2026-09-12）：
+- 🔴 **Kawarau Bridge Bungy已訂**：2人（成人）參加，合計**NZ$640.00**（NZ$320/人，含照片/影片），**15:15報到、15:30跳躍**，AJ Hackett訂單號**3790518**（Booking ID **2552575**）。
+- 🟡 **Day8下午行程大幅調整**：原本規劃中午12:00左右抵達蹦極中心，因訂位時段確認為15:15報到，故Arrowtown改為悠閒停留、延後出發；蹦極結束後（約16:30-17:00）才前往Cromwell（簡短停留）、再到Wanaka（約18:45抵達），晚餐時間隨之延後至19:00-19:30後。
+- 🔴 **重要提醒：每位參加者需在抵達前完成官方線上Online Waiver（免責同意書）**，訂單確認信內有專屬連結，未完成可能延誤跳躍時間。
+- 🟡 **取消政策**：訂位前48小時內可免費更改，48小時內取消或改期不可退款。
 - 其餘路線、日期、住宿城市、餐廳與已確認預訂皆維持不變。
 
 ---
