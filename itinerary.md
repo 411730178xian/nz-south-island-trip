@@ -78,12 +78,14 @@
 - 下午：奧瑪魯維多利亞古蹟街區散步
 - 下午茶／起司品嚐：👍 **Whitestone Cheese Factory Café**（在地起司品飲＋輕食，適合親子參觀起司製作）
 - 🍽️ 晚餐：奧瑪魯市區小酒館或餐廳
-- 藍企鵝棲息地觀賞：12月屬夏季時段，晚間觀賞約 19:00–21:00 間開始，實際時段依當日官方公布或訂位頁為準　`📌待訂`
+- 藍企鵝棲息地觀賞：**Premium Entry，20:45 開始**　`📌已訂`
+  - 4人合計**NZ$280.00**（NZ$70/人，較公開牌價Premium NZ$63/人略高，以實際扣款為準），訂單編號**340875**（交易編號531270）
   - 🎟️ [官方預訂 penguins.co.nz](https://www.penguins.co.nz/)
   - 📍 地點：17 Waterfront Road, South Hill, Oamaru 9400
   - 🅿️ 現場有兩個免費停車場（一般車輛＋露營車/遊覽車專用大車格）
-  - ⏰ 建議開始前 15 分鐘報到
-  - ⚠️ 全程禁止閃光燈
+  - ⏰ **建議 19:45–20:15 間報到（開始前30–60分鐘）**，可先參觀 Discovery Centre；報到後於前台櫃檯取票
+  - ⚠️ 因HPAI（禽流感）防疫措施，入園前需使用現場洗腳消毒站
+  - ⚠️ 全程禁止閃光燈、禁止手機手電筒、禁止觸摸企鵝
 - 🏨 住宿：**Tyne above Town**（Jodie出租，Airbnb）　`📌已訂`
   - 1晚，HKD$1,823.88（Airbnb訂單編號B22963430），房東Jodie（+64 27 330 0669）
 
@@ -368,7 +370,7 @@
 
 | 項目 | 每人 (NZD) | 4 人合計 (NZD) | 狀態／說明 |
 |---|---:|---:|---|
-| Ōamaru 藍企鵝 General Viewing | 47 | 188 | `📌待訂`；現行公開價，Premium 為 63／人 |
+| Ōamaru 藍企鵝 Premium Entry | 70 | 280 | `📌已訂`；訂單編號340875，Day2（12/20）20:45場次 |
 | Te Anau 螢火蟲洞＋Milford Signature Cruise 套票 | 約313 | 1,252.80 | `📌已訂`；螢火蟲洞NZ$616.00（訂單378570827）＋Milford峽灣NZ$636.80（訂單378570829，已含20%套票折扣） |
 | Walter Peak BBQ 晚餐 | 219 | 876 | `📌已訂`；RealNZ訂單編號378570831 |
 | Skyline Gondola＋3 Luge Rides | 99 | 396 | `📌待訂`；現行公開方案，12 月價格為準 |
@@ -377,7 +379,7 @@
 | Willowbank Wildlife Reserve（4 位成人） | 28 | 112 | `📌待訂`；一般門票，加購導覽奇異鳥摸摸體驗則 54/人（216/4人） |
 | NZeTA＋IVL（官方 App，4 人） | 117 | 468 | 行前必要費用，需及早辦理 |
 | 租車 SUV＋Zero Excess | — | 1,500–1,800 | `📌待訂`；需確認 4 位授權駕駛與行李容量 |
-| **3.1 小計** | — | **約 9,287–9,587** | 不含燃油、停車、餐食；已依螢火蟲洞/Milford套票、TSS Earnslaw確認價格調整 |
+| **3.1 小計** | — | **約 9,379–9,679** | 不含燃油、停車、餐食；已依螢火蟲洞/Milford套票、TSS Earnslaw、藍企鵝確認價格調整 |
 
 ### 3.2 加入燃油、停車與全程餐食後
 
@@ -386,7 +388,7 @@
 | 燃油 | 500–700 | 規劃預留 |
 | 停車 | 200–350 | 規劃預留，含 Milford、Queenstown 等地 |
 | 餐食與超市採買 | 3,000–4,500 | 規劃預留；Walter Peak 晚餐已計入 3.1，不重複計算 |
-| **累計總額（3.1＋3.2）** | **約 12,987–15,137** | 不含國際機票、15 晚住宿與旅遊保險 |
+| **累計總額（3.1＋3.2）** | **約 13,079–15,229** | 不含國際機票、15 晚住宿與旅遊保險 |
 
 ### 3.4 自由參加活動（未計入任何總額，依實際參加人數另計）
 
@@ -467,7 +469,7 @@
 | 塔斯曼冰河船 (The Hermitage - Glacier Explorers)　備案用 | https://www.hermitage.co.nz/experience/glacier-explorers/ |
 | Skyline 天際纜車＋Luge | https://www.skyline.co.nz/queenstown/ |
 | 卡瓦勞大橋高空彈跳 (AJ Hackett - Kawarau Bungy Centre) | https://www.bungy.co.nz/queenstown/kawarau-bungy-centre/kawarau-bridge-bungy/ |
-| 奧瑪魯藍企鵝棲息地 | https://www.penguins.co.nz/ |
+| 奧瑪魯藍企鵝棲息地（訂單340875）`📌已訂` | https://www.penguins.co.nz/ |
 | 蒂卡波觀星團 (Silver River Stargazing，透過Klook訂購) `📌已訂` | https://www.klook.com |
 | Puzzling World Wanaka | https://www.puzzlingworld.co.nz/ |
 | Willowbank Wildlife Reserve | https://www.willowbank.co.nz/ |
@@ -639,6 +641,15 @@
 **V27 補上Haka House Hostel（Mt Cook）確切地址與電話，地圖座標由近似值更新為精確門牌定位**（2026-09-10）：
 - 🟢 **Haka House Hostel Aoraki Mt Cook 地址確認**：訂單確認信提供確切地址**4 Kitchener Drive, Aoraki/Mount Cook 7999, New Zealand**、電話**+64 21 193 1150**，已補進Day10住宿資訊。
 - 🟢 **地圖座標由Mount Cook Village中心點近似值，更新為Nominatim查證的門牌精確座標**（-43.7373816, 170.1010899），已同步更新`nz_map_points.csv`與`index.html`的`tripMapPoints`。
+- 其餘路線、日期、住宿城市、餐廳與已確認預訂皆維持不變。
+
+---
+
+**V28 Day2奧瑪魯藍企鵝已訂**（2026-09-12）：
+- 🔴 **藍企鵝棲息地已訂**：Premium Entry場次，**12/20 20:45開始**，4人合計**NZ$280.00**（NZ$70/人，較公開牌價Premium NZ$63/人略高），Oamaru Penguins訂單編號**340875**（交易編號531270，MasterCard 0751扣款）。
+- 🟡 **建議報到時段由「開始前15分鐘」更新為「開始前30–60分鐘」**：依訂單確認信說明，此時段可先參觀場館內的Discovery Centre，故建議19:45–20:15間抵達。
+- 🟡 **新增HPAI（禽流感）防疫注意事項**：入園前需使用現場洗腳消毒站，為官方新增的防疫規定。
+- 🟢 **3.1小計因藍企鵝價格由估計值轉為實際值而調整**：約9,287–9,587 → **約9,379–9,679**；累計總額（3.1+3.2）：約12,987–15,137 → **約13,079–15,229**。
 - 其餘路線、日期、住宿城市、餐廳與已確認預訂皆維持不變。
 
 ---
